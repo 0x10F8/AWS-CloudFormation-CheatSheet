@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MediaStore::Container",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the container.</p><p>For example:  <code class=\"code\"><span>{</span> \"Ref\": \"myContainer\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Endpoint",
+            "Description": "The DNS endpoint of the container. Use the endpoint to identify the specific container when sending requests to the data plane. The service assigns this value when the container is created. Once the value has been assigned, it does not change."
+        }
+    ]
+}

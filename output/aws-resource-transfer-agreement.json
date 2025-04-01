@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Transfer::Agreement",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AgreementId",
+            "Description": "The unique identifier for the AS2 agreement, returned after the API call succeeds."
+        }
+    ]
+}

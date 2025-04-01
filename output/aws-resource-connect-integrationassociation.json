@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Connect::IntegrationAssociation",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "IntegrationAssociationId",
+            "Description": "Identifier of the association with an Amazon Connect instance."
+        }
+    ]
+}

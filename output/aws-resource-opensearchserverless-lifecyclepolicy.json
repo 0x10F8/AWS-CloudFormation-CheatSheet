@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::OpenSearchServerless::LifecyclePolicy",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the type and name of the lifecycle policy. For more\n         information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p><p>The following example specifies an OpenSearch Serverless lifecycle policy that\n               sets a minimum rollover period for all indexes within\n               <code class=\"code\">my-collection</code>.</p>",
+    "GetAtt": []
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::WorkSpacesWeb::BrowserSettings",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the resource's Amazon Resource Name (ARN).</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AssociatedPortalArns",
+            "Description": "A list of web portal ARNs that the browser settings resource is associated with."
+        },
+        {
+            "Ref": "BrowserSettingsArn",
+            "Description": "The ARN of the browser settings."
+        }
+    ]
+}

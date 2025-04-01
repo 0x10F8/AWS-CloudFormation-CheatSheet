@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::EC2::VerifiedAccessEndpoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the Verified Access endpoint.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The creation time."
+        },
+        {
+            "Ref": "DeviceValidationDomain",
+            "Description": "Use this to construct the redirect URI to add to your OIDC provider's allow list."
+        },
+        {
+            "Ref": "EndpointDomain",
+            "Description": "The DNS name generated for the endpoint."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The last updated time."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The endpoint status."
+        },
+        {
+            "Ref": "VerifiedAccessEndpointId",
+            "Description": "The ID of the Verified Access endpoint."
+        },
+        {
+            "Ref": "VerifiedAccessInstanceId",
+            "Description": "The instance identifier."
+        }
+    ]
+}

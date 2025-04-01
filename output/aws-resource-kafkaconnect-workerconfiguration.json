@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::KafkaConnect::WorkerConfiguration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Revision",
+            "Description": "The revision of the worker configuration."
+        },
+        {
+            "Ref": "WorkerConfigurationArn",
+            "Description": "The Amazon Resource Name (ARN) of the worker configuration."
+        }
+    ]
+}

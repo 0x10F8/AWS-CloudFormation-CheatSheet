@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::LakeFormation::DataLakeSettings",
+    "Ref": "",
+    "GetAtt": []
+}

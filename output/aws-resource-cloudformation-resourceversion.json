@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::CloudFormation::ResourceVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the resource version. For example:</p><p>\n<code class=\"code\">arn:aws:cloudformation:us-west-2:123456789012:type/resource/Sample-CloudFormation-Resource/00000001</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the resource."
+        },
+        {
+            "Ref": "IsDefaultVersion",
+            "Description": "Whether the specified resource version is set as the default version."
+        },
+        {
+            "Ref": "ProvisioningType",
+            "Description": "This applies only to private extensions you have registered in your account, and  extensions published by AWS. For public third-party extensions, whether they  are activated in your account, CloudFormation returns null."
+        },
+        {
+            "Ref": "TypeArn",
+            "Description": "For resource type extensions, the provisioning behavior of the resource type. CloudFormation determines the provisioning type during registration, based on the types of handlers in the schema handler package submitted."
+        },
+        {
+            "Ref": "VersionId",
+            "Description": "Valid values include:"
+        },
+        {
+            "Ref": "Visibility",
+            "Description": "FULLY_MUTABLE: The resource type includes an update handler to process updates to the type during stack update operations."
+        }
+    ]
+}

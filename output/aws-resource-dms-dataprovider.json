@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::DMS::DataProvider",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DataProviderArn",
+            "Description": "The Amazon Resource Name (ARN) string that uniquely identifies the data provider."
+        },
+        {
+            "Ref": "DataProviderCreationTime",
+            "Description": "The time the data provider was created."
+        }
+    ]
+}

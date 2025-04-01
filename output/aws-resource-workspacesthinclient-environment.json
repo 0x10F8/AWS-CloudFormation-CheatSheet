@@ -1,0 +1,42 @@
+{
+    "ResourceName": "AWS::WorkSpacesThinClient::Environment",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ActivationCode",
+            "Description": "The activation code to register a device to the environment."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the environment."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the environment was created."
+        },
+        {
+            "Ref": "DesktopType",
+            "Description": "The type of streaming desktop for the environment."
+        },
+        {
+            "Ref": "PendingSoftwareSetId",
+            "Description": "The ID of the software set that is pending to be installed."
+        },
+        {
+            "Ref": "PendingSoftwareSetVersion",
+            "Description": "The version of the software set that is pending to be installed."
+        },
+        {
+            "Ref": "RegisteredDevicesCount",
+            "Description": "The number of devices registered to the environment."
+        },
+        {
+            "Ref": "SoftwareSetComplianceStatus",
+            "Description": "Describes if the software currently installed on all devices in the environment is a supported version."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp of when the device was updated."
+        }
+    ]
+}

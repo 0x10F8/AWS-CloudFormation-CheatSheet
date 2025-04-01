@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::EC2::SnapshotBlockPublicAccess",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the AWS account.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AccountId",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ID of the AWS account."
+        }
+    ]
+}

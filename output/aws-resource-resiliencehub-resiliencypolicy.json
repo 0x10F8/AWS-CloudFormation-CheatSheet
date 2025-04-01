@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ResilienceHub::ResiliencyPolicy",
+    "Ref": "<p>The returned Amazon Resource Name (ARN) for the resiliency policy.</p>",
+    "GetAtt": [
+        {
+            "Ref": "PolicyArn",
+            "Description": "Amazon Resource Name (ARN) of the resiliency policy."
+        }
+    ]
+}

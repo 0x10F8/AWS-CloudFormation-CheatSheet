@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Connect::ContactFlowVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ContactFlowVersionARN",
+            "Description": "The Amazon Resource Name (ARN) of the flow version."
+        },
+        {
+            "Ref": "FlowContentSha256",
+            "Description": "Indicates the checksum value of the flow content."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The identifier of the flow version."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Neptune::DBInstance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Endpoint",
+            "Description": "The connection endpoint for the database. For example: mystack-mydb-1apw1j4phylrk.cg034hpkmmjt.us-east-2.rds.amazonaws.com."
+        },
+        {
+            "Ref": "Port",
+            "Description": "The port number on which the database accepts connections. For example:  8182."
+        }
+    ]
+}

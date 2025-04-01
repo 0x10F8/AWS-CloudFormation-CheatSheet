@@ -1,0 +1,54 @@
+{
+    "ResourceName": "AWS::NetworkManager::TransitGatewayRouteTableAttachment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the attachment ID of the transit gateway route table. For example: <code class=\"code\">attachment-12367e74104d31234</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AttachmentId",
+            "Description": "The ID of the transit gateway route table attachment."
+        },
+        {
+            "Ref": "AttachmentPolicyRuleNumber",
+            "Description": "The policy rule number associated with the attachment."
+        },
+        {
+            "Ref": "AttachmentType",
+            "Description": "The type of attachment. This will be TRANSIT_GATEWAY_ROUTE_TABLE."
+        },
+        {
+            "Ref": "CoreNetworkArn",
+            "Description": "The ARN of the core network."
+        },
+        {
+            "Ref": "CoreNetworkId",
+            "Description": "The ID of the core network."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp when the transit gateway route table attachment was created."
+        },
+        {
+            "Ref": "EdgeLocation",
+            "Description": "The Region where the core network edge is located."
+        },
+        {
+            "Ref": "OwnerAccountId",
+            "Description": "The ID of the transit gateway route table attachment owner."
+        },
+        {
+            "Ref": "ResourceArn",
+            "Description": "The resource ARN for the transit gateway route table attachment."
+        },
+        {
+            "Ref": "SegmentName",
+            "Description": "The name of the attachment's segment."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the attachment. This can be: REJECTED | PENDING_ATTACHMENT_ACCEPTANCE | CREATING | FAILED | AVAILABLE | UPDATING |PENDING_NETWORK_UPDATE | PENDING_TAG_ACCEPTANCE | DELETING."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp when the transit gateway route table attachment was last updated."
+        }
+    ]
+}

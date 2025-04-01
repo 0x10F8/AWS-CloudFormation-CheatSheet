@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Config::AggregationAuthorization",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the AggregationAuthorization, such as <code class=\"code\">arn:aws:config:us-east-1:123456789012:aggregation-authorization/987654321012/us-west-2</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AggregationAuthorizationArn",
+            "Description": "The Amazon Resource Name (ARN) of the aggregation object."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTSiteWise::Asset",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">AssetId</code> and <code class=\"code\">AssetArn</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AssetArn",
+            "Description": "The ARN of the asset."
+        },
+        {
+            "Ref": "AssetId",
+            "Description": "For more information about using the Ref function, see Ref."
+        }
+    ]
+}

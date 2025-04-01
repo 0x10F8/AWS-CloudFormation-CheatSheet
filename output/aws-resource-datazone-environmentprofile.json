@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::DataZone::EnvironmentProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n         the <code class=\"code\">EnvironmentProfileId</code>, which uniquely identifies the environment profile.\n         For example: <code class=\"code\"><span>{</span> \"Ref\": \"MyEnvironmentProfile\" }</code> for the resource with the\n         logical <code class=\"code\">ID MyEnvironmentProfile</code>, <code class=\"code\">Ref</code> returns\n            <code class=\"code\">DomainId|EnvironmentProfileId</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when an environment profile was created."
+        },
+        {
+            "Ref": "CreatedBy",
+            "Description": "The Amazon DataZone user who created the environment profile."
+        },
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of the Amazon DataZone domain in which the environment profile exists."
+        },
+        {
+            "Ref": "EnvironmentBlueprintId",
+            "Description": "The identifier of a blueprint with which an environment profile is created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the environment profile."
+        },
+        {
+            "Ref": "ProjectId",
+            "Description": "The identifier of a project in which an environment profile exists."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp of when the environment profile was updated."
+        }
+    ]
+}

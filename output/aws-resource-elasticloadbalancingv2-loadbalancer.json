@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the load balancer.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CanonicalHostedZoneID",
+            "Description": "The ID of the Amazon Route 53 hosted zone associated with the load balancer. For  example, Z2P70J7EXAMPLE."
+        },
+        {
+            "Ref": "DNSName",
+            "Description": "The DNS name for the load balancer. For example, my-load-balancer-424835706.us-west-2.elb.amazonaws.com."
+        },
+        {
+            "Ref": "LoadBalancerArn",
+            "Description": "The Amazon Resource Name (ARN) of the load balancer."
+        },
+        {
+            "Ref": "LoadBalancerFullName",
+            "Description": "The full name of the load balancer. For example, app/my-load-balancer/50dc6c495c0c9188."
+        },
+        {
+            "Ref": "LoadBalancerName",
+            "Description": "The name of the load balancer. For example, my-load-balancer."
+        },
+        {
+            "Ref": "SecurityGroups",
+            "Description": "The IDs of the security groups for the load balancer."
+        }
+    ]
+}

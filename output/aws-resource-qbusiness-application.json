@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::QBusiness::Application",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the application ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"ApplicationId\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApplicationArn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon Q Business application."
+        },
+        {
+            "Ref": "ApplicationId",
+            "Description": "The identifier for the Amazon Q Business application."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The Unix timestamp when the Amazon Q Business application was created."
+        },
+        {
+            "Ref": "IdentityCenterApplicationArn",
+            "Description": "The Amazon Resource Name (ARN) of the AWS IAM Identity Center instance attached to your Amazon Q Business application."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the Amazon Q Business application. The application is ready to use when the status is ACTIVE."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The Unix timestamp when the Amazon Q Business application was last updated."
+        }
+    ]
+}

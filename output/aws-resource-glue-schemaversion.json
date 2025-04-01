@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Glue::SchemaVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "VersionId",
+            "Description": "Property description not available."
+        }
+    ]
+}

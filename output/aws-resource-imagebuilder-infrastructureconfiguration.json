@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ImageBuilder::InfrastructureConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ARN, such as\n\t\t\t<code class=\"code\">arn:aws:imagebuilder:us-west-2:123456789012:infrastructure-configuration/my-example-infrastructure</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the infrastructure configuration. The  following pattern is applied: ^arn:aws[^:]*:imagebuilder:[^:]+:(?:\\d{12}|aws):(?:image-recipe|infrastructure-configuration|distribution-configuration|component|image|image-pipeline)/[a-z0-9-_]+(?:/(?:(?:x|\\d+)\\.(?:x|\\d+)\\.(?:x|\\d+))(?:/\\d+)?)?$."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the infrastructure configuration."
+        }
+    ]
+}

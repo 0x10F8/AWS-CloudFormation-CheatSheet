@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::Panorama::Package",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The package's ARN."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "When the package was created."
+        },
+        {
+            "Ref": "PackageId",
+            "Description": "The package's ID."
+        },
+        {
+            "Ref": "StorageLocation.BinaryPrefixLocation",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "StorageLocation.Bucket",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "StorageLocation.GeneratedPrefixLocation",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "StorageLocation.ManifestPrefixLocation",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "StorageLocation.RepoPrefixLocation",
+            "Description": "Property description not available."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Omics::ReferenceStore",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the details of this resource. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"ReferenceStore.Arn\" }</code>\n<code class=\"code\">Ref</code> returns the arn for the reference store. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": ""
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "When the store was created."
+        },
+        {
+            "Ref": "ReferenceStoreId",
+            "Description": "The store's ID."
+        }
+    ]
+}

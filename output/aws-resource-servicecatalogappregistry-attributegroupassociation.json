@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ServiceCatalogAppRegistry::AttributeGroupAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the application Id.\n         </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApplicationArn",
+            "Description": "The Amazon resource name (ARN) of the application that was augmented with attributes."
+        },
+        {
+            "Ref": "AttributeGroupArn",
+            "Description": "The Amazon resource name (ARN) of the attribute group which contains the application's new attributes."
+        }
+    ]
+}

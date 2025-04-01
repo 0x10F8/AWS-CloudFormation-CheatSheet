@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::MediaLive::Multiplex",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The unique arn of the multiplex."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique id of the multiplex."
+        },
+        {
+            "Ref": "PipelinesRunningCount",
+            "Description": "The number of currently healthy pipelines."
+        },
+        {
+            "Ref": "ProgramCount",
+            "Description": "The number of programs in the multiplex."
+        },
+        {
+            "Ref": "State",
+            "Description": "The current state of the multiplex."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SES::MailManagerRelay",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "RelayArn",
+            "Description": "The Amazon Resource Name (ARN) of the relay."
+        },
+        {
+            "Ref": "RelayId",
+            "Description": "The unique relay identifier."
+        }
+    ]
+}

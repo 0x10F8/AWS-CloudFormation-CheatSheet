@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::SageMaker::ModelPackageGroup",
+    "Ref": "<p>\u2028When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the model package group.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The time when the model group was created."
+        },
+        {
+            "Ref": "ModelPackageGroupArn",
+            "Description": "The Amazon Resource Name (ARN) of the model group."
+        },
+        {
+            "Ref": "ModelPackageGroupStatus",
+            "Description": "The status of the model group."
+        }
+    ]
+}

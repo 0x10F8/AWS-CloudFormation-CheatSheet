@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppSync::ApiCache",
+    "Ref": "",
+    "GetAtt": []
+}

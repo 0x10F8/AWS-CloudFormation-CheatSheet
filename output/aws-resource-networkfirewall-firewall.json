@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::NetworkFirewall::Firewall",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the firewall. For example: </p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"arn:aws:network-firewall:us-east-1:012345678901:firewall/myFirewallName\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "EndpointIds",
+            "Description": "The unique IDs of the firewall endpoints for all of the subnets that you attached to the firewall. The subnets are not listed in any particular order. For example: [\"us-west-2c:vpce-111122223333\", \"us-west-2a:vpce-987654321098\", \"us-west-2b:vpce-012345678901\"]."
+        },
+        {
+            "Ref": "FirewallArn",
+            "Description": "The Amazon Resource Name (ARN) of the AWS::NetworkFirewall::Firewall."
+        },
+        {
+            "Ref": "FirewallId",
+            "Description": "The name of the AWS::NetworkFirewall::Firewall resource."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::GameLift::GameServerGroup",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AutoScalingGroupArn",
+            "Description": "A unique identifier for the auto scaling group."
+        },
+        {
+            "Ref": "GameServerGroupArn",
+            "Description": "A unique identifier for the game server group."
+        }
+    ]
+}

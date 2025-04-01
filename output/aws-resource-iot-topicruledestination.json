@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoT::TopicRuleDestination",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the topic rule destination. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"TopicRuleDestination\" }</code>\n</p><p>A value similar to the following is returned:</p><p>\n<code class=\"code\">a1234567b89c012d3e4fg567hij8k9l01mno1p23q45678901rs234567890t1u2</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The topic rule destination URL."
+        },
+        {
+            "Ref": "StatusReason",
+            "Description": "Additional details or reason why the topic rule destination is in the current  status."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::AppFlow::Connector",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ConnectorArn",
+            "Description": "Property description not available."
+        }
+    ]
+}

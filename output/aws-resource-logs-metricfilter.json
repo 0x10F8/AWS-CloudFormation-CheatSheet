@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Logs::MetricFilter",
+    "Ref": "",
+    "GetAtt": []
+}

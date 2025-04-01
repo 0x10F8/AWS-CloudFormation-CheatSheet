@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ApiGateway::DomainNameV2",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the domain name ARN.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DomainNameArn",
+            "Description": "The ARN of the domain name."
+        },
+        {
+            "Ref": "DomainNameId",
+            "Description": "The domain name ID."
+        }
+    ]
+}

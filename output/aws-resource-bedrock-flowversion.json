@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Bedrock::FlowVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Number (ARN) of the flow the version of the flow, separated by a pipe (<code class=\"code\">|</code>).</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myFlowVersion\" }</code> could return the value <code class=\"code\">\"arn:aws:bedrock:us-east-1:123456789012:flow/FLOW12345|1\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time at the version was created."
+        },
+        {
+            "Ref": "CustomerEncryptionKeyArn",
+            "Description": "The Amazon Resource Name (ARN) of the KMS key that the flow version is encrypted with."
+        },
+        {
+            "Ref": "ExecutionRoleArn",
+            "Description": "The Amazon Resource Name (ARN) of the service role with permissions to create a flow.For more information, see Create a service row for flows in the Amazon Bedrock User Guide."
+        },
+        {
+            "Ref": "FlowId",
+            "Description": "The unique identifier of the flow."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the flow."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the flow."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The version of the flow."
+        }
+    ]
+}

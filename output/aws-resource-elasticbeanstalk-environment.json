@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ElasticBeanstalk::Environment",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "EndpointURL",
+            "Description": "For load-balanced, autoscaling environments, the URL to the load balancer.  For single-instance environments, the IP address of the instance."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::RoboMaker::SimulationApplicationVersion",
+    "Ref": "<p>When you pass the logical ID of an\n            <code class=\"code\">AWS::RoboMaker::SimulationApplicationVersion</code> resource to the intrinsic\n            <code class=\"code\">Ref</code> function, the function returns the Amazon Resource Name (ARN) of the\n         simulation application version, such as <code class=\"code\">\n            arn:aws:robomaker:us-west-2:123456789012:simulation-application/MySimulationApplication/1546541201334</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApplicationVersion",
+            "Description": "The simulation application version."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the simulation application version."
+        }
+    ]
+}

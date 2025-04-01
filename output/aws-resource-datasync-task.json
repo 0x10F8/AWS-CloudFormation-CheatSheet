@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::DataSync::Task",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the location resource ARN. For example:</p><p>\n<code class=\"code\">arn:aws:datasync:us-east-2:111222333444:task/task-07db7abfc326c50s3</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DestinationNetworkInterfaceArns",
+            "Description": "The ARNs of the destination elastic network interfaces (ENIs) that were created for your subnet."
+        },
+        {
+            "Ref": "SourceNetworkInterfaceArns",
+            "Description": "The ARNs of the source ENIs that were created for your subnet."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the task that was described."
+        },
+        {
+            "Ref": "TaskArn",
+            "Description": "The ARN of the task."
+        }
+    ]
+}

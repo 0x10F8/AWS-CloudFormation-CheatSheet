@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SageMaker::PartnerApp",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the SageMaker Partner AI App."
+        },
+        {
+            "Ref": "BaseUrl",
+            "Description": "Property description not available."
+        }
+    ]
+}

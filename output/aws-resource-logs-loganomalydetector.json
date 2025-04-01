@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Logs::LogAnomalyDetector",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AnomalyDetectorArn",
+            "Description": "The ARN of the anomaly  detector."
+        },
+        {
+            "Ref": "AnomalyDetectorStatus",
+            "Description": "Specifies whether the anomaly detector is currently active."
+        },
+        {
+            "Ref": "CreationTimeStamp",
+            "Description": "The time that  the anomaly detector was created."
+        },
+        {
+            "Ref": "LastModifiedTimeStamp",
+            "Description": "The time that the anomaly detector was most recently modified."
+        }
+    ]
+}

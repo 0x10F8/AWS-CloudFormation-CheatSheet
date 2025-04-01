@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SES::MailManagerTrafficPolicy",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "TrafficPolicyArn",
+            "Description": "The Amazon Resource Name (ARN) of the traffic policy resource."
+        },
+        {
+            "Ref": "TrafficPolicyId",
+            "Description": "The identifier of the traffic policy resource."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Bedrock::Blueprint",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "BlueprintArn",
+            "Description": "The blueprint's ARN."
+        },
+        {
+            "Ref": "BlueprintStage",
+            "Description": "The blueprint's stage."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "When the blueprint was created."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "When the blueprint was last updated."
+        }
+    ]
+}

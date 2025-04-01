@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ACMPCA::CertificateAuthority",
+    "Ref": "<p>The Amazon Resource Name (ARN) of the certificate authority.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) for the private CA that issued the certificate."
+        },
+        {
+            "Ref": "CertificateSigningRequest",
+            "Description": "The Base64 PEM-encoded certificate signing request (CSR) for your certificate authority certificate."
+        }
+    ]
+}

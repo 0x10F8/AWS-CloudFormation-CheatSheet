@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::PCAConnectorAD::Connector",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ConnectorArn",
+            "Description": "The Amazon Resource Name (ARN) that was returned when you called CreateConnector."
+        }
+    ]
+}

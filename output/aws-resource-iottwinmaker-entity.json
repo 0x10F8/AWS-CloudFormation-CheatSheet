@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IoTTwinMaker::Entity",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the workspace Id and the entity Id.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The entity ARN."
+        },
+        {
+            "Ref": "CreationDateTime",
+            "Description": "The date and time the entity was created."
+        },
+        {
+            "Ref": "HasChildEntities",
+            "Description": "A boolean value that specifies whether the entity has child entities or not."
+        },
+        {
+            "Ref": "UpdateDateTime",
+            "Description": "The date and time when the component type was last updated."
+        }
+    ]
+}

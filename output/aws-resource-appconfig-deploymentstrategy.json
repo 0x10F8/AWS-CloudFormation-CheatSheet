@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::AppConfig::DeploymentStrategy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the deployment strategy ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The deployment strategy ID."
+        }
+    ]
+}

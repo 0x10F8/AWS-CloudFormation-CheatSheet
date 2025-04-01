@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::WorkSpacesWeb::IpAccessSettings",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the resource's Amazon Resource Name (ARN).</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AssociatedPortalArns",
+            "Description": "A list of web portal ARNs that this IP access settings resource is associated with."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The creation date timestamp of the IP access settings."
+        },
+        {
+            "Ref": "IpAccessSettingsArn",
+            "Description": "The ARN of the IP access settings resource."
+        }
+    ]
+}

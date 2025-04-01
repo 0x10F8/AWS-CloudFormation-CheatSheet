@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EC2::RouteServerAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the route server ID and VPC ID separated by the pipe symbol (|).</p>",
+    "GetAtt": []
+}

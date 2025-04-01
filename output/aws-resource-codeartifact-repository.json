@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::CodeArtifact::Repository",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource arn.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "When you pass the logical ID of this resource, the function returns the Amazon Resource Name (ARN) of the repository."
+        },
+        {
+            "Ref": "DomainName",
+            "Description": "When you pass the logical ID of this resource, the function returns the domain name that contains the repository."
+        },
+        {
+            "Ref": "DomainOwner",
+            "Description": "When you pass the logical ID of this resource, the function returns the 12-digit account number of the AWS account that owns the domain that contains the repository."
+        },
+        {
+            "Ref": "Name",
+            "Description": "When you pass the logical ID of this resource, the function returns the name of the repository."
+        }
+    ]
+}

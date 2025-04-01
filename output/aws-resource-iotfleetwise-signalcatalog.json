@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::IoTFleetWise::SignalCatalog",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the signal catalog."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The time the signal catalog was created in seconds since epoch (January 1, 1970 at midnight UTC time)."
+        },
+        {
+            "Ref": "LastModificationTime",
+            "Description": "The time the signal catalog was last updated in seconds since epoch (January 1, 1970 at midnight UTC time)."
+        },
+        {
+            "Ref": "NodeCounts.TotalActuators",
+            "Description": "The total number of nodes in a vehicle network that represent actuators."
+        },
+        {
+            "Ref": "NodeCounts.TotalAttributes",
+            "Description": "The total number of nodes in a vehicle network that represent attributes."
+        },
+        {
+            "Ref": "NodeCounts.TotalBranches",
+            "Description": "The total number of nodes in a vehicle network that represent branches."
+        },
+        {
+            "Ref": "NodeCounts.TotalNodes",
+            "Description": "The total number of nodes in a vehicle network."
+        },
+        {
+            "Ref": "NodeCounts.TotalSensors",
+            "Description": "The total number of nodes in a vehicle network that represent sensors."
+        }
+    ]
+}

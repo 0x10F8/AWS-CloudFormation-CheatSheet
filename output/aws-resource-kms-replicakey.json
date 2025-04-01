@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::KMS::ReplicaKey",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the key ID, such as\n        <code class=\"code\">mrk-1234abcd12ab34cd56ef1234567890ab</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the replica key, such as arn:aws:kms:us-west-2:111122223333:key/mrk-1234abcd12ab34cd56ef1234567890ab."
+        },
+        {
+            "Ref": "KeyId",
+            "Description": "The key ARNs of related multi-Region keys differ only in the Region value. For information about the key ARNs of multi-Region keys, see How multi-Region keys work in the   AWS Key Management Service Developer Guide."
+        }
+    ]
+}

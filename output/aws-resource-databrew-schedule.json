@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::DataBrew::Schedule",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n            function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"mySchedule\" }</code>\n</p><p>For an AWS Glue DataBrew schedule named <code class=\"code\">mySchedule</code>,\n                <code class=\"code\">Ref</code> returns the name of the schedule. </p><p></p><p>The following examples create new DataBrew schedules.</p>",
+    "GetAtt": []
+}

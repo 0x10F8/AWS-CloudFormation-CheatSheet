@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Wisdom::MessageTemplate",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "MessageTemplateArn",
+            "Description": "The Amazon Resource Name (ARN) of the message template."
+        },
+        {
+            "Ref": "MessageTemplateContentSha256",
+            "Description": "The checksum value of the message template content that is referenced by the $LATEST qualifier. It can be returned in MessageTemplateData or ExtendedMessageTemplateData. It\u00e2\u0080\u0099s calculated by content, language, defaultAttributes and Attachments of the message template."
+        },
+        {
+            "Ref": "MessageTemplateId",
+            "Description": "The identifier of the message template."
+        }
+    ]
+}

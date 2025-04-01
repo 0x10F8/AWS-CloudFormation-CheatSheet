@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Neptune::DBCluster",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ClusterResourceId",
+            "Description": "The resource id for the DB cluster. For example: cluster-ABCD1234EFGH5678IJKL90MNOP.  The cluster ID uniquely identifies the cluster and is used in things like IAM authentication policies."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "The connection endpoint for the DB cluster. For example: mystack-mydbcluster-1apw1j4phylrk.cg034hpkmmjt.us-east-2.rds.amazonaws.com"
+        },
+        {
+            "Ref": "Port",
+            "Description": "The port number on which the DB instances in the DB cluster accept connections."
+        },
+        {
+            "Ref": "ReadEndpoint",
+            "Description": "The reader endpoint for the DB cluster. For example: mystack-mydbcluster-ro-1apw1j4phylrk.cg034hpkmmjt.us-east-2.rds.amazonaws.com"
+        }
+    ]
+}

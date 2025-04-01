@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::SES::EmailIdentity",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DkimDNSTokenName1",
+            "Description": "The host name for the first token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "DkimDNSTokenName2",
+            "Description": "The host name for the second token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "DkimDNSTokenName3",
+            "Description": "The host name for the third token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "DkimDNSTokenValue1",
+            "Description": "The record value for the first token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "DkimDNSTokenValue2",
+            "Description": "The record value for the second token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "DkimDNSTokenValue3",
+            "Description": "The record value for the third token that you have to add to the DNS configuration for your domain."
+        }
+    ]
+}

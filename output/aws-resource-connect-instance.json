@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Connect::Instance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the Amazon Connect instance.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the instance."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "When the instance was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the Amazon Connect instance. You can find the instanceId in the  ARN of the instance."
+        },
+        {
+            "Ref": "InstanceStatus",
+            "Description": "The state of the instance."
+        },
+        {
+            "Ref": "ServiceRole",
+            "Description": "The service role of the instance."
+        }
+    ]
+}

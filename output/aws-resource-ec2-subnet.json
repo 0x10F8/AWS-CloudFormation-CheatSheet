@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::EC2::Subnet",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the subnet.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AvailabilityZone",
+            "Description": "The Availability Zone of this subnet. For example, us-east-1a."
+        },
+        {
+            "Ref": "AvailabilityZoneId",
+            "Description": "The Availability Zone ID of this subnet. For example, use1-az1."
+        },
+        {
+            "Ref": "CidrBlock",
+            "Description": "The IPv4 CIDR blocks that are associated with the subnet."
+        },
+        {
+            "Ref": "Ipv6CidrBlocks",
+            "Description": "The IPv6 CIDR blocks that are associated with the subnet."
+        },
+        {
+            "Ref": "NetworkAclAssociationId",
+            "Description": "The ID of the network ACL that is associated with the subnet's VPC, such as  acl-5fb85d36."
+        },
+        {
+            "Ref": "OutpostArn",
+            "Description": "The Amazon Resource Name (ARN) of the Outpost."
+        },
+        {
+            "Ref": "SubnetId",
+            "Description": "The ID of the subnet."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the subnet's VPC, such as vpc-11ad4878."
+        }
+    ]
+}

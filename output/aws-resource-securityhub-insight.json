@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SecurityHub::Insight",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of a Security Hub insight. For example, <code class=\"code\">arn:aws:securityhub:us-west-1:123456789012:insight/123456789012/custom/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "InsightArn",
+            "Description": "The ARN of a Security Hub insight."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Route53Resolver::ResolverRuleAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ResolverRuleAssociationId</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Name",
+            "Description": "The name of an association between a resolver rule and a VPC, such as test.example.com in beta VPC."
+        },
+        {
+            "Ref": "ResolverRuleAssociationId",
+            "Description": "The ID of the resolver rule association that you want to get information about,  \t\t\tsuch as rslvr-rrassoc-97242eaf88example."
+        },
+        {
+            "Ref": "ResolverRuleId",
+            "Description": "The ID of the resolver rule that you associated with the VPC that is specified by VPCId,  \t\t\tsuch as rslvr-rr-5328a0899example."
+        },
+        {
+            "Ref": "VPCId",
+            "Description": "The ID of the VPC that you associated the resolver rule with, such as vpc-03cf94c75cexample."
+        }
+    ]
+}

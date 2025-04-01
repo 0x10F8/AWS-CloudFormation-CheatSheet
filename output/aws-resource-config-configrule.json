@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Config::ConfigRule",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the rule name, such as <code class=\"code\">mystack-MyConfigRule-12ABCFPXHV4OV</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the AWS Config rule, such as arn:aws:config:us-east-1:123456789012:config-rule/config-rule-a1bzhi."
+        },
+        {
+            "Ref": "Compliance.Type",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ConfigRuleId",
+            "Description": "The ID of the AWS Config rule, such as config-rule-a1bzhi."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Logs::DeliveryDestination",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) that uniquely identifies this delivery destination."
+        },
+        {
+            "Ref": "DeliveryDestinationType",
+            "Description": "Displays whether this delivery destination is CloudWatch Logs, Amazon S3, or Firehose."
+        }
+    ]
+}

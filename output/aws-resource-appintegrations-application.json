@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppIntegrations::Application",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ApplicationArn",
+            "Description": "The Amazon Resource Name (ARN) of the Application."
+        },
+        {
+            "Ref": "Id",
+            "Description": "A unique identifier for the Application."
+        }
+    ]
+}

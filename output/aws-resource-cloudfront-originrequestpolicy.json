@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::OriginRequestPolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the origin request policy ID. For example:\n            <code class=\"code\">befd7079-9bbc-4ebf-8ade-498a3694176c</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the origin request policy. For example: befd7079-9bbc-4ebf-8ade-498a3694176c."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The date and time when the origin request policy was last modified."
+        }
+    ]
+}

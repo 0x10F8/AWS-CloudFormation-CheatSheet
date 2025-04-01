@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Transfer::Certificate",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">certificateId</code>, such as\n         <code class=\"code\">cert-1c698edce1654f869</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The unique Amazon Resource Name (ARN) for the certificate."
+        },
+        {
+            "Ref": "CertificateId",
+            "Description": "An array of identifiers for the imported certificates. You use this identifier for working with profiles and partner profiles."
+        },
+        {
+            "Ref": "NotAfterDate",
+            "Description": "The final date that the certificate is valid."
+        },
+        {
+            "Ref": "NotBeforeDate",
+            "Description": "The earliest date that the certificate is valid."
+        },
+        {
+            "Ref": "Serial",
+            "Description": "The serial number for the certificate."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The certificate can be either ACTIVE, PENDING_ROTATION, or INACTIVE. PENDING_ROTATION means that this certificate will replace the current certificate when it expires."
+        },
+        {
+            "Ref": "Type",
+            "Description": "If a private key has been specified for the certificate, its type is CERTIFICATE_WITH_PRIVATE_KEY. If there is no private key, the type is CERTIFICATE."
+        }
+    ]
+}

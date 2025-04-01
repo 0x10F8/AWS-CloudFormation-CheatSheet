@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Backup::Framework",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the framework ARN.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The UTC time when you created your framework."
+        },
+        {
+            "Ref": "DeploymentStatus",
+            "Description": "Depolyment status refers to whether your framework has completed deployment. This status  is usually Completed, but might also be Create in progress or  another status. For a list of statuses, see Framework compliance status in the   AWS Backup; Developer Guide."
+        },
+        {
+            "Ref": "FrameworkArn",
+            "Description": "The Amazon Resource Name (ARN) of your framework."
+        },
+        {
+            "Ref": "FrameworkStatus",
+            "Description": "Framework status refers to whether you have turned on resource tracking for all of your  resources. This status is Active when you turn on all resources the framework  evaluates. For other statuses and steps to correct them, see Framework compliance status in the   AWS Backup; Developer Guide."
+        }
+    ]
+}

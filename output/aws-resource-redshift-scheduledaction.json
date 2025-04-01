@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Redshift::ScheduledAction",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myScheduledActionName\" }</code>\n</p><p>For the Amazon Redshift\n                  <code class=\"code\">ScheduledActionName</code>, Ref returns the name of the scheduled action.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "NextInvocations",
+            "Description": "List of times when the scheduled action will run."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the scheduled action. For example, DISABLED."
+        }
+    ]
+}

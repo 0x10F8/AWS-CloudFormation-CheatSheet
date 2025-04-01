@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::DocDB::EventSubscription",
+    "Ref": "",
+    "GetAtt": []
+}

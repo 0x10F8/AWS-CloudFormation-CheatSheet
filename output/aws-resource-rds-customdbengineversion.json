@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::RDS::CustomDBEngineVersion",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n         returns the resource name, such as <code class=\"code\">mystack-abc1d2efg3h4.</code> For more\n         information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DBEngineVersionArn",
+            "Description": "The ARN of the custom engine version."
+        }
+    ]
+}

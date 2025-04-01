@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppSync::DataSource",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::AppSync::DataSource</code> resource to the intrinsic\n            <code class=\"code\">Ref</code> function, the function returns the ARN of the Data Source, such as <code class=\"code\">\n            arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/datasources/datasourcename</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DataSourceArn",
+            "Description": "The Amazon Resource Name (ARN) of the API key, such as arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/datasources/datasourcename."
+        },
+        {
+            "Ref": "Name",
+            "Description": "Friendly name for you to identify your AWS AppSync data source after creation."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Kendra::Faq",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the FAQ identifier. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"&lt;faq-id&gt;|&lt;index-id&gt;\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "arn:aws:kendra:us-west-2:111122223333:index/335c3741-41df-46a6-b5d3-61f85b787884/faq/f61995a6-cd5c-4e99-9cfc-58816d8bfaa7"
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier for the FAQ. For example:"
+        }
+    ]
+}

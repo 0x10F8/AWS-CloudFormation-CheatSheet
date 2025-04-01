@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Wisdom::AIPromptVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AIPromptArn",
+            "Description": "The ARN of the AI prompt."
+        },
+        {
+            "Ref": "AIPromptVersionId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "AssistantArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "VersionNumber",
+            "Description": "The version number for this AI Prompt version."
+        }
+    ]
+}

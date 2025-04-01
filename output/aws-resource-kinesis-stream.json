@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Kinesis::Stream",
+    "Ref": "<p> When you specify an AWS::Kinesis::Stream resource as an argument to the\n                <code class=\"code\">Ref</code> function, AWS CloudFormation returns the stream\n            name (physical ID).</p><p>For more information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon resource name (ARN) of the Kinesis stream, such as arn:aws:kinesis:us-east-2:123456789012:stream/mystream."
+        }
+    ]
+}

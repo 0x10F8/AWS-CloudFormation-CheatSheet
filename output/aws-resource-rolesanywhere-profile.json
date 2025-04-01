@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::RolesAnywhere::Profile",
+    "Ref": "<p> The name of the Profile</p>",
+    "GetAtt": [
+        {
+            "Ref": "ProfileArn",
+            "Description": "The ARN of the profile."
+        },
+        {
+            "Ref": "ProfileId",
+            "Description": "The unique primary identifier of the Profile"
+        }
+    ]
+}

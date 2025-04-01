@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Cognito::IdentityPoolPrincipalTag",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the principal tag primary ID, like\n                <code class=\"code\">us-east-1:1cf667a2-49a6-454b-9e45-23199EXAMPLE|graph.facebook.com</code>.</p><p></p><p>The following example maps the claim <code class=\"code\">aud</code> to principal tag\n                        <code class=\"code\">app_id</code> and the claim <code class=\"code\">sub</code> to <code class=\"code\">user_id</code>\n                    in the identity pool <code class=\"code\">Example_pool.</code>\n</p>",
+    "GetAtt": []
+}

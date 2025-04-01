@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CustomerProfiles::EventTrigger",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the event trigger was created."
+        },
+        {
+            "Ref": "LastUpdatedAt",
+            "Description": "The timestamp of when the event trigger was most recently updated."
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::CloudWatch::AnomalyDetector",
+    "Ref": "",
+    "GetAtt": []
+}

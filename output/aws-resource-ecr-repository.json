@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ECR::Repository",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name, such as\n            <code class=\"code\">test-repository</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) for the specified AWS::ECR::Repository resource. For example, arn:aws:ecr:eu-west-1:123456789012:repository/test-repository ."
+        },
+        {
+            "Ref": "RepositoryUri",
+            "Description": "Returns the URI for the specified AWS::ECR::Repository resource. For example,  123456789012.dkr.ecr.us-west-2.amazonaws.com/repository."
+        }
+    ]
+}

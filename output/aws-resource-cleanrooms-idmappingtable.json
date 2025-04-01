@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::CleanRooms::IdMappingTable",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example: </p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"MyIdMappingTable\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the ID mapping table."
+        },
+        {
+            "Ref": "CollaborationArn",
+            "Description": "The Amazon Resource Name (ARN) of the collaboration that contains this ID mapping table."
+        },
+        {
+            "Ref": "CollaborationIdentifier",
+            "Description": "The unique identifier of the collaboration that contains this ID mapping table."
+        },
+        {
+            "Ref": "IdMappingTableIdentifier",
+            "Description": "The unique identifier of the ID mapping table identifier that you want to retrieve."
+        },
+        {
+            "Ref": "MembershipArn",
+            "Description": "The Amazon Resource Name (ARN) of the membership resource for the ID mapping table."
+        }
+    ]
+}

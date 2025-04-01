@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::EKS::AccessEntry",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"arn:aws:iam::012345678910:role/my-role\" }</code>\n</p><p>For the access entry <code class=\"code\">arn:aws:iam::012345678910:role/my-role</code>,\n                <code class=\"code\">Ref</code> returns the ARN of the access entry.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AccessEntryArn",
+            "Description": "The ARN of the access entry."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Pipes::Pipe",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the pipe that was created by the\n         request.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the pipe."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The time the pipe was created."
+        },
+        {
+            "Ref": "CurrentState",
+            "Description": "The state the pipe is in."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "When the pipe was last updated, in ISO-8601 format (YYYY-MM-DDThh:mm:ss.sTZD)."
+        },
+        {
+            "Ref": "StateReason",
+            "Description": "The reason the pipe is in its current state."
+        }
+    ]
+}

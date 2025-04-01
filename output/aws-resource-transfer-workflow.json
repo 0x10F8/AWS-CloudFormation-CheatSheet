@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Transfer::Workflow",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "WorkflowId",
+            "Description": "A unique identifier for a workflow."
+        }
+    ]
+}

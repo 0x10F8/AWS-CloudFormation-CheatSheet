@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EC2::EnclaveCertificateIamRoleAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IAM role and ACM certificate association.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CertificateS3BucketName",
+            "Description": "The name of the Amazon S3 bucket to which the certificate was uploaded."
+        },
+        {
+            "Ref": "CertificateS3ObjectKey",
+            "Description": "The Amazon S3 object key where the certificate, certificate chain, and encrypted private  key bundle are stored. The object key is formatted as follows: role_arn/certificate_arn."
+        },
+        {
+            "Ref": "EncryptionKmsKeyId",
+            "Description": "The ID of the AWS KMS key used to encrypt the private key of the  certificate."
+        }
+    ]
+}

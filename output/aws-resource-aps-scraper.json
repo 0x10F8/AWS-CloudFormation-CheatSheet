@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::APS::Scraper",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"Id\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the scraper. For example,  arn:aws:aps:<region>:123456798012:scraper/s-example1-1234-abcd-5678-ef9012abcd34."
+        },
+        {
+            "Ref": "RoleArn",
+            "Description": "The Amazon Resource Name (ARN) of the IAM role that provides  permissions for the scraper to discover and collect metrics on your behalf. For example, arn:aws:iam::123456789012:role/service-role/AmazonGrafanaServiceRole-12example."
+        },
+        {
+            "Ref": "ScraperId",
+            "Description": "The ID of the scraper. For example, s-example1-1234-abcd-5678-ef9012abcd34."
+        }
+    ]
+}

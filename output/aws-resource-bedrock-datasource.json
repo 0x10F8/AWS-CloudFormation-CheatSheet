@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Bedrock::DataSource",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the knowledge base ID and the data source ID, separated by a pipe (<code class=\"code\">|</code>).</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myDataSource\" }</code> could return the value <code class=\"code\">\"KB12345678|DS12345678\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time at which the data source was created."
+        },
+        {
+            "Ref": "DataSourceConfiguration.WebConfiguration.CrawlerConfiguration.UserAgentHeader",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "DataSourceId",
+            "Description": "The unique identifier of the data source."
+        },
+        {
+            "Ref": "DataSourceStatus",
+            "Description": "The status of the data source. The following statuses are possible:"
+        },
+        {
+            "Ref": "FailureReasons",
+            "Description": "Available \u00e2\u0080\u0093 The data source has been created and is ready for ingestion into the knowledge base."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "Deleting \u00e2\u0080\u0093 The data source is being deleted."
+        }
+    ]
+}

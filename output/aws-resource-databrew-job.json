@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::DataBrew::Job",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n            function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myJob\" }</code>\n</p><p>For an AWS Glue DataBrew job named <code class=\"code\">myJob</code>, <code class=\"code\">Ref</code>\n            returns the name of the job. </p><p></p><p>The following examples create new DataBrew profile jobs.</p>",
+    "GetAtt": []
+}

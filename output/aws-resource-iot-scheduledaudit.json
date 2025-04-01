@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::ScheduledAudit",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the scheduled audit name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ScheduledAuditArn",
+            "Description": "The ARN of the scheduled audit."
+        }
+    ]
+}

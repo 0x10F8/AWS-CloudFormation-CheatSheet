@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MediaConnect::FlowEntitlement",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the entitlement ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\":\n            \"arn:aws:mediaconnect:us-west-2:111122223333:entitlement:1-11aa22bb11aa22bb-3333cccc4444:AnyCompany_Entitlement\"\n            }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "EntitlementArn",
+            "Description": "The entitlement ARN."
+        }
+    ]
+}

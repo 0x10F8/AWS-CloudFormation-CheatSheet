@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::EC2::RouteServerEndpoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the endpoint ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN for the endpoint."
+        },
+        {
+            "Ref": "EniAddress",
+            "Description": "The IP address of the Elastic network interface for the endpoint."
+        },
+        {
+            "Ref": "EniId",
+            "Description": "The ID of the Elastic network interface for the endpoint."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the route server endpoint."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the VPC containing the endpoint."
+        }
+    ]
+}

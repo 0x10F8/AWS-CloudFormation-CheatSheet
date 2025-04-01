@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EC2::TrafficMirrorSession",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the Traffic Mirror Session.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p>This is a traffic mirror session that mirrors the first 100 bytes in each\n               packet.</p><p>\n<a href=\"https://docs.aws.amazon.com/vpc/latest/mirroring/traffic-mirroring-sessions.html\">Traffic mirror\n                     sessions</a> in <em>Traffic Mirroring</em>\n</p><p>\n<a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateTrafficMirrorSession.html\">CreateTrafficMirrorSession</a> in the <em>Amazon EC2 API\n                     Reference</em>\n</p><p></p>",
+    "GetAtt": []
+}

@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Bedrock::Flow",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Number (ARN) of the flow.</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myFlow\" }</code> could return the value <code class=\"code\">\"\"arn:aws:bedrock:us-east-1:123456789012:flow/FLOW123456\"\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the flow."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time at which the flow was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the flow."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the flow. The following statuses are possible:"
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "NotPrepared \u00e2\u0080\u0093 The flow has been created or updated, but hasn't been prepared. If you just created the flow, you can't test it. If you updated the flow, the DRAFT version won't contain the latest changes for testing. Send a PrepareFlow request to package the latest changes into the DRAFT version."
+        },
+        {
+            "Ref": "Validations",
+            "Description": "Preparing \u00e2\u0080\u0093 The flow is being prepared so that the DRAFT version contains the latest changes for testing."
+        },
+        {
+            "Ref": "Version",
+            "Description": "Prepared \u00e2\u0080\u0093 The flow is prepared and the DRAFT version contains the latest changes for testing."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Bedrock::GuardrailVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the guardrail ID and version, separated by a pipe\n            (<code class=\"code\">|</code>) in the format (<code class=\"code\">guardrail-id|guardrail-version</code>).</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myGuardrailVersion\" }</code> would return the value\n            <code class=\"code\">\"3mzzryddufkp|2\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "GuardrailArn",
+            "Description": "The ARN of the guardrail."
+        },
+        {
+            "Ref": "GuardrailId",
+            "Description": "The unique identifier of the guardrail."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The version of the guardrail."
+        }
+    ]
+}

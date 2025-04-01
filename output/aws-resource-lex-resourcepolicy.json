@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Lex::ResourcePolicy",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the resource policy."
+        },
+        {
+            "Ref": "RevisionId",
+            "Description": "Specifies the current revision of a resource policy."
+        }
+    ]
+}

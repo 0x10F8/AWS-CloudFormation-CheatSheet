@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::DocDB::DBCluster",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the DBClusterIdentifier, such as <code class=\"code\">mycluster</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ClusterResourceId",
+            "Description": "The resource id for the cluster; for example: cluster-ABCD1234EFGH5678IJKL90MNOP.   The cluster ID uniquely identifies the cluster and is used in things like IAM authentication policies."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "The connection endpoint for the cluster, such as   sample-cluster.cluster-cozrlsfrcjoc.us-east-1.docdb.amazonaws.com."
+        },
+        {
+            "Ref": "Port",
+            "Description": "The port number on which the cluster accepts connections. For example: 27017."
+        },
+        {
+            "Ref": "ReadEndpoint",
+            "Description": "The reader endpoint for the cluster. For example: sample-cluster.cluster-ro-cozrlsfrcjoc.us-east-1.docdb.amazonaws.com."
+        }
+    ]
+}

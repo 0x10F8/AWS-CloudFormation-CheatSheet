@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::CloudFormation::Publisher",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the publisher ID. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"2a33349e7e606a8ad2e30e3c84521f012345678\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IdentityProvider",
+            "Description": "The type of account used as the identity provider when registering this publisher with CloudFormation."
+        },
+        {
+            "Ref": "PublisherId",
+            "Description": "The ID of the extension publisher."
+        },
+        {
+            "Ref": "PublisherProfile",
+            "Description": "The URL to the publisher's profile with the identity provider."
+        },
+        {
+            "Ref": "PublisherStatus",
+            "Description": "Whether the publisher is verified. Currently, all registered publishers are verified."
+        }
+    ]
+}

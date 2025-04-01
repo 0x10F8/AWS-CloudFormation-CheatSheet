@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::ResourceGroups::TagSyncTask",
+    "Ref": "<p>The <code class=\"code\">TaskArn</code>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "GroupArn",
+            "Description": "The Amazon resource name (ARN) of the application group."
+        },
+        {
+            "Ref": "GroupName",
+            "Description": "The name of the application group."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the tag-sync task.  Valid values include:    ACTIVE - The tag-sync task is actively managing resources in  the application by adding or removing the awsApplication tag from resources  when they are tagged or untagged with the specified tag key-value pair.     ERROR - The tag-sync task is not actively managing resources  in the application. Review the ErrorMessage for more information about  resolving the error."
+        },
+        {
+            "Ref": "TaskArn",
+            "Description": "The Amazon resource name (ARN) of the tag-sync task."
+        }
+    ]
+}

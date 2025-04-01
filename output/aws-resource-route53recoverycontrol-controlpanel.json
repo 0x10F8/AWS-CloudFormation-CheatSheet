@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Route53RecoveryControl::ControlPanel",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ControlPanelArn</code> object.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ControlPanelArn",
+            "Description": "The Amazon Resource Name (ARN) of the control panel."
+        },
+        {
+            "Ref": "DefaultControlPanel",
+            "Description": "The boolean flag that is set to true for the default control panel in the cluster."
+        },
+        {
+            "Ref": "RoutingControlCount",
+            "Description": "The number of routing controls in the control panel."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The deployment status of control panel. Status can be one of the following: PENDING, DEPLOYED, PENDING_DELETION."
+        }
+    ]
+}

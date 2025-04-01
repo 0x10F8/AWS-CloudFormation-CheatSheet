@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Cognito::IdentityPool",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">IdentityPoolId</code>, such as\n                <code class=\"code\">us-east-2:0d01f4d7-1305-4408-b437-12345EXAMPLE</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Name",
+            "Description": "The name of the Amazon Cognito identity pool, returned as a string."
+        }
+    ]
+}

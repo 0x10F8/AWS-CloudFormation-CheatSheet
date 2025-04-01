@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ImageBuilder::ContainerRecipe",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ARN, such as\n\t\t\t<code class=\"code\">arn:aws:imagebuilder:us-east-1:123456789012:container-recipe/mybasicrecipe/2020.12.17</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the container recipe. For example, \t\t\tarn:aws:imagebuilder:us-east-1:123456789012:container-recipe/mybasicrecipe/2020.12.17."
+        },
+        {
+            "Ref": "Name",
+            "Description": "Returns the name of the container recipe."
+        }
+    ]
+}

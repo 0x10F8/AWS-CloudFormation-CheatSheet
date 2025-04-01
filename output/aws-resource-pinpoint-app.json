@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Pinpoint::App",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the unique identifier (<code class=\"code\">ApplicationId</code>) for\n            the Amazon Pinpoint application.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the application."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the application. This identifier is displayed as the Project ID on the Amazon Pinpoint console."
+        }
+    ]
+}

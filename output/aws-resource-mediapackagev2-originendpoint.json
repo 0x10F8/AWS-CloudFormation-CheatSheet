@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::MediaPackageV2::OriginEndpoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">arn:aws:mediapackagev2:<em>region</em>:<em>AccountId</em>:ChannelGroup|<em>ChannelGroupName</em>|Channel|<em>ChannelName</em>|OriginEndpoint|<em>OriginEndpointName</em>\n</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the origin endpoint."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of the creation of the origin endpoint."
+        },
+        {
+            "Ref": "DashManifestUrls",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "HlsManifestUrls",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "LowLatencyHlsManifestUrls",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "The timestamp of the modification of the origin endpoint."
+        }
+    ]
+}

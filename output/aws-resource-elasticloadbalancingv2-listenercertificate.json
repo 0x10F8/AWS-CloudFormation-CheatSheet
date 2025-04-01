@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::ElasticLoadBalancingV2::ListenerCertificate",
+    "Ref": "",
+    "GetAtt": []
+}

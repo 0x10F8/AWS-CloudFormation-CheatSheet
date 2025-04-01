@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::WAFv2::WebACLAssociation",
+    "Ref": "<p>The <code class=\"code\">Ref</code> for the resource, containing the resource name, physical ID, and\n         scope, formatted as follows: <code class=\"code\">name|id|scope</code>.</p><p>For example:\n         <code class=\"code\">my-webacl-name|1234a1a-a1b1-12a1-abcd-a123b123456|REGIONAL</code>.</p><p></p><p>The following shows an example web ACL association specification. </p>",
+    "GetAtt": []
+}

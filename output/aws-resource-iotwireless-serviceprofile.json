@@ -1,0 +1,78 @@
+{
+    "ResourceName": "AWS::IoTWireless::ServiceProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the service profile ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the service profile created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the service profile created."
+        },
+        {
+            "Ref": "LoRaWAN.ChannelMask",
+            "Description": "The ChannelMask value."
+        },
+        {
+            "Ref": "LoRaWAN.DevStatusReqFreq",
+            "Description": "The DevStatusReqFreq value."
+        },
+        {
+            "Ref": "LoRaWAN.DlBucketSize",
+            "Description": "The DLBucketSize value."
+        },
+        {
+            "Ref": "LoRaWAN.DlRate",
+            "Description": "The DLRate value."
+        },
+        {
+            "Ref": "LoRaWAN.DlRatePolicy",
+            "Description": "The DLRatePolicy value."
+        },
+        {
+            "Ref": "LoRaWAN.DrMax",
+            "Description": "The DRMax value."
+        },
+        {
+            "Ref": "LoRaWAN.DrMin",
+            "Description": "The DRMin value."
+        },
+        {
+            "Ref": "LoRaWAN.HrAllowed",
+            "Description": "The HRAllowed value that describes whether handover roaming is allowed."
+        },
+        {
+            "Ref": "LoRaWAN.MinGwDiversity",
+            "Description": "The MinGwDiversity value."
+        },
+        {
+            "Ref": "LoRaWAN.NwkGeoLoc",
+            "Description": "The NwkGeoLoc value."
+        },
+        {
+            "Ref": "LoRaWAN.ReportDevStatusBattery",
+            "Description": "The ReportDevStatusBattery value."
+        },
+        {
+            "Ref": "LoRaWAN.ReportDevStatusMargin",
+            "Description": "The ReportDevStatusMargin value."
+        },
+        {
+            "Ref": "LoRaWAN.TargetPer",
+            "Description": "The TargetPer value."
+        },
+        {
+            "Ref": "LoRaWAN.UlBucketSize",
+            "Description": "The UlBucketSize value."
+        },
+        {
+            "Ref": "LoRaWAN.UlRate",
+            "Description": "The ULRate value."
+        },
+        {
+            "Ref": "LoRaWAN.UlRatePolicy",
+            "Description": "The ULRatePolicy value."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::OSIS::Pipeline",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n         returns the resource name, such as <code class=\"code\">mystack-abc1d2efg3h4</code>. For more information\n         about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IngestEndpointUrls",
+            "Description": "A list of the ingestion endpoints for the pipeline that you can send data to. Currently, only a single ingestion endpoint is supported for a pipeline. For example, my-pipeline-123456789012.us-east-1.osis.amazonaws.com."
+        },
+        {
+            "Ref": "PipelineArn",
+            "Description": "The Amazon Resource Name (ARN) of the pipeline."
+        },
+        {
+            "Ref": "VpcEndpoints",
+            "Description": "The VPC interface endpoints that have access to the pipeline."
+        },
+        {
+            "Ref": "VpcEndpointService",
+            "Description": "The VPC endpoint service name for the pipeline."
+        }
+    ]
+}

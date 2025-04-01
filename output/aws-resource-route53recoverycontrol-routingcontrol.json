@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Route53RecoveryControl::RoutingControl",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">RoutingControlArn</code> object.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "RoutingControlArn",
+            "Description": "The Amazon Resource Name (ARN) of the routing control."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The deployment status of the routing control. Status can be one of the following: PENDING, DEPLOYED, PENDING_DELETION."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Transfer::Server",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the server ARN, such as\n            <code class=\"code\">arn:aws:transfer:us-east-1:123456789012:server/s-01234567890abcdef</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Specifies the unique Amazon Resource Name (ARN) of the server."
+        },
+        {
+            "Ref": "As2ServiceManagedEgressIpAddresses",
+            "Description": "The list of egress IP addresses of this server. These IP addresses are only relevant for servers that use the AS2 protocol. They are used for sending asynchronous MDNs. These IP addresses are assigned automatically when you create an AS2 server. Additionally, if you update an existing server and add the AS2 protocol, static IP addresses are assigned as well."
+        },
+        {
+            "Ref": "ServerId",
+            "Description": "Specifies the unique system-assigned identifier for a server that you instantiate."
+        },
+        {
+            "Ref": "State",
+            "Description": "The condition of the server that was described. A value of ONLINE indicates that the server can accept jobs and transfer files. A State value of OFFLINE means that the server cannot perform file transfer operations. The states of STARTING and STOPPING indicate that the server is in an intermediate state, either not fully able to respond, or not fully offline. The values of START_FAILED or STOP_FAILED can indicate an error condition."
+        }
+    ]
+}

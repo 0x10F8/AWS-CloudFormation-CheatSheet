@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Notifications::EventRule",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the configuration created.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the EventRule. AWS CloudFormation stack generates this ARN and then uses this ARN associated with the NotificationConfiguration."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The creation time of the EventRule."
+        },
+        {
+            "Ref": "ManagedRules",
+            "Description": "A list of Amazon EventBridge Managed Rule ARNs associated with this EventRule."
+        }
+    ]
+}

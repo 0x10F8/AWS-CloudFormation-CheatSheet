@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Greengrass::LoggerDefinition",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the logger definition, such as\n            <code class=\"code\">1234a5b6-78cd-901e-2fgh-3i45j6k178l9</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the LoggerDefinition, such as  arn:aws:greengrass:us-east-1:123456789012:/greengrass/definition/loggers/1234a5b6-78cd-901e-2fgh-3i45j6k178l9."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the LoggerDefinition, such as 1234a5b6-78cd-901e-2fgh-3i45j6k178l9."
+        },
+        {
+            "Ref": "LatestVersionArn",
+            "Description": "The ARN of the last LoggerDefinitionVersion that was added to the LoggerDefinition, such as arn:aws:greengrass:us-east-1:123456789012:/greengrass/definition/loggers/1234a5b6-78cd-901e-2fgh-3i45j6k178l9/versions/9876ac30-4bdb-4f9d-95af-b5fdb66be1a2."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the LoggerDefinition, such as MyLoggerDefinition."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Backup::LogicallyAirGappedBackupVault",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "BackupVaultArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "EncryptionKeyArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "VaultState",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "VaultType",
+            "Description": "Property description not available."
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::S3::BucketPolicy",
+    "Ref": "",
+    "GetAtt": []
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EC2::TransitGatewayMulticastDomainAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the transit gateway multicast domain ID. For example:\n         <code class=\"code\">tgw-mcast-domain-000fb24d04EXAMPLE</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ResourceId",
+            "Description": "The ID of the resource."
+        },
+        {
+            "Ref": "ResourceType",
+            "Description": "The type of resource, for example a VPC attachment."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the resource."
+        }
+    ]
+}

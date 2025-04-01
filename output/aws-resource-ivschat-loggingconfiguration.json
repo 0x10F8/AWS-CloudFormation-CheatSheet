@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::IVSChat::LoggingConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the logging-configuration ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myLoggingConfiguration\" }</code>\n</p><p>For the Amazon IVS logging configuration\n        <code class=\"code\">myLoggingConfiguration</code>, <code class=\"code\">Ref</code> returns the logging-configuration\n      ARN.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The logging-configuration ARN. For example: arn:aws:ivschat:us-west-2:123456789012:logging-configuration/abcdABCDefgh"
+        },
+        {
+            "Ref": "Id",
+            "Description": "The logging-configuration ID. For example: abcdABCDefgh"
+        },
+        {
+            "Ref": "State",
+            "Description": "Indicates the current state of the logging configuration. When the state is ACTIVE, the configuration is ready to log a chat session. Valid values: CREATING | CREATE_FAILED | DELETING | DELETE_FAILED | UPDATING | UPDATE_FAILED | ACTIVE."
+        }
+    ]
+}

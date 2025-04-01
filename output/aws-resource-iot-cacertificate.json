@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoT::CACertificate",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the CA certificate ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) for the CA certificate. For example:"
+        },
+        {
+            "Ref": "Id",
+            "Description": "{ \"Fn::GetAtt\": [\"MyCACertificate\", \"Arn\"] }"
+        }
+    ]
+}

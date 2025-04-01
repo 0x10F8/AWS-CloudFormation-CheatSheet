@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Deadline::LicenseEndpoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the license endpoint.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the license endpoint."
+        },
+        {
+            "Ref": "DnsName",
+            "Description": "The DNS name of the license server endpoint."
+        },
+        {
+            "Ref": "LicenseEndpointId",
+            "Description": "The license endpoint ID."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the license endpoint."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "The status message of the license endpoint."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Route53Profiles::Profile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">Profile</code>  ID for the profile, such as <code class=\"code\">rp-9e6daa461example</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the Profile."
+        },
+        {
+            "Ref": "ClientToken",
+            "Description": "The ClientToken value that was assigned when the Profile was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "ID of the Profile."
+        }
+    ]
+}

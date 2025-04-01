@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Amplify::Branch",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "ARN for a branch, part of an Amplify App."
+        },
+        {
+            "Ref": "BranchName",
+            "Description": "Name for a branch, part of an Amplify App."
+        }
+    ]
+}

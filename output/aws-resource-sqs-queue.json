@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::SQS::Queue",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the queue URL. For example: </p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"https://sqs.us-east-2.amazonaws.com/123456789012/ab1-MyQueue-A2BCDEF3GHI4\"\n        }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the queue. For example: arn:aws:sqs:us-east-2:123456789012:mystack-myqueue-15PG5C2FC1CW8."
+        },
+        {
+            "Ref": "QueueName",
+            "Description": "Returns the queue name. For example: mystack-myqueue-1VF9BKQH5BJVI."
+        },
+        {
+            "Ref": "QueueUrl",
+            "Description": "Returns the URLs of the queues from the policy."
+        }
+    ]
+}

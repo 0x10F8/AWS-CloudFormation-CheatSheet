@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::WorkSpacesWeb::IdentityProvider",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the resource's Amazon Resource Name (ARN).</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IdentityProviderArn",
+            "Description": "The ARN of the identity provider."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::ManagedBlockchain::Accessor",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Accessor ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the accessor. For more information about  ARNs and their format, see Amazon Resource  Names (ARNs) in the   AWS General Reference."
+        },
+        {
+            "Ref": "BillingToken",
+            "Description": "The billing token is a property of the accessor. Use this token to make Ethereum API calls to your  Ethereum node. The billing token is used to track your accessor object for billing Ethereum API  requests made to your Ethereum nodes."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The creation date and time of the accessor."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the accessor."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the accessor."
+        }
+    ]
+}

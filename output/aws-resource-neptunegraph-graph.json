@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::NeptuneGraph::Graph",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the GraphId.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Endpoint",
+            "Description": "The connection endpoint for the graph. For example: g-12a3bcdef4.us-east-1.neptune-graph.amazonaws.com"
+        },
+        {
+            "Ref": "GraphArn",
+            "Description": "The ARN of the graph. For example: arn:aws:neptune-graph:us-east-1:111122223333:graph/g-12a3bcdef4"
+        },
+        {
+            "Ref": "GraphId",
+            "Description": "The ID of the graph. For example: g-12a3bcdef4"
+        }
+    ]
+}

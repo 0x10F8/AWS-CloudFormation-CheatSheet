@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ElasticLoadBalancingV2::TrustStoreRevocation",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "RevocationId",
+            "Description": "The revocation ID of the revocation file."
+        },
+        {
+            "Ref": "TrustStoreRevocations",
+            "Description": "Information about the revocation file in the trust store."
+        }
+    ]
+}

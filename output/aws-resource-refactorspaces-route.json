@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::RefactorSpaces::Route",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a composite ID following this format:\n        <code class=\"code\">&lt;EnvironmentId&gt;|&lt;ApplicationId&gt;|&lt;RouteId&gt;</code>, for example,\n        <code class=\"code\">env-1234654123|app-1234654123|rte-1234654123</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the route."
+        },
+        {
+            "Ref": "PathResourceToId",
+            "Description": "A mapping of Amazon API Gateway path resources to resource IDs."
+        },
+        {
+            "Ref": "RouteIdentifier",
+            "Description": "The unique identifier of the route."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::MediaConnect::FlowSource",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the source ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\":\n            \"arn:aws:mediaconnect:us-east-1:111122223333:source:2-3aBC45dEF67hiJ89-c34de5fG678h:AwardsShowSource\"\n            }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IngestIp",
+            "Description": "The IP address that the flow listens on for incoming content."
+        },
+        {
+            "Ref": "SourceArn",
+            "Description": "The ARN of the source."
+        },
+        {
+            "Ref": "SourceIngestPort",
+            "Description": "The port that the flow listens on for incoming content. If the protocol of the source is Zixi, the port must be set to 2088."
+        }
+    ]
+}

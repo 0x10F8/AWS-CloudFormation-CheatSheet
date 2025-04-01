@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::CustomerProfiles::EventStream",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the export was created."
+        },
+        {
+            "Ref": "EventStreamArn",
+            "Description": "A unique identifier for the event stream."
+        },
+        {
+            "Ref": "State",
+            "Description": "The operational state of destination stream for export."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ElastiCache::GlobalReplicationGroup",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "GlobalReplicationGroupId",
+            "Description": "The ID used to associate a secondary cluster to the Global Replication Group."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the Global Datastore. Can be Creating, Modifying,  Available, Deleting or Primary-Only. Primary-only status indicates the global  datastore contains only a primary cluster. Either all secondary clusters are deleted or not successfully  created."
+        }
+    ]
+}

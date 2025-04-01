@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Glue::Job",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the job name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>The following example creates a job with an associated role. The ScriptLocation is an Amazon S3 location. The example\n                provided below is a placeholder for your Amazon S3 location.</p>",
+    "GetAtt": []
+}

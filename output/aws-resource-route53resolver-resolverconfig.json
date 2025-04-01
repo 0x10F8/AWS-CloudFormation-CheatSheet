@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Route53Resolver::ResolverConfig",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ResolverConfiguration</code> ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AutodefinedReverse",
+            "Description": "The status of whether or not the Route\u00c2\u00a053 Resolver will create autodefined rules for reverse DNS lookups. This is enabled by default."
+        },
+        {
+            "Ref": "Id",
+            "Description": "ID for the Route\u00c2\u00a053 Resolver configuration."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The owner account ID of the Amazon Virtual Private Cloud VPC."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Budgets::BudgetsAction",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ActionId",
+            "Description": "A system-generated universally unique identifier (UUID) for the action."
+        }
+    ]
+}

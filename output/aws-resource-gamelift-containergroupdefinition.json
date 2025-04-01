@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::GameLift::ContainerGroupDefinition",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ContainerGroupDefinitionArn",
+            "Description": "The Amazon Resource Name (ARN) that is assigned to an Amazon GameLift Servers ContainerGroupDefinition resource. It uniquely identifies  the resource across all AWS Regions. Format is  arn:aws:gamelift:[region]::containergroupdefinition/[container group definition name]:[version]."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "A time stamp indicating when this data object was created. Format is a number expressed in Unix time as milliseconds (for example \"1469498468.057\")."
+        },
+        {
+            "Ref": "Status",
+            "Description": "Current status of the container group definition resource. Values include:"
+        },
+        {
+            "Ref": "StatusReason",
+            "Description": "COPYING -- Amazon GameLift Servers is in the process of making copies of all container images that are defined in the group. While in this state, the resource can't be used to create a container fleet."
+        },
+        {
+            "Ref": "VersionNumber",
+            "Description": "READY -- Amazon GameLift Servers has copied the registry images for all containers that are defined in the group. You can use a container group definition in this status to create a container fleet."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Omics::AnnotationStore",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the details of this resource. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"AnnotationStore.Id\" }</code>\n<code class=\"code\">Ref</code> returns the id for the annotation store. </p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "When the store was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The store's ID."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The store's status."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "The store's status message."
+        },
+        {
+            "Ref": "StoreArn",
+            "Description": "The store's ARN."
+        },
+        {
+            "Ref": "StoreSizeBytes",
+            "Description": "The store's size in bytes."
+        },
+        {
+            "Ref": "UpdateTime",
+            "Description": "When the store was updated."
+        }
+    ]
+}

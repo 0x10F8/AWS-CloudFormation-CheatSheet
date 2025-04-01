@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Organizations::Organization",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">AccountId</code>. For example:\n                <code class=\"code\">123456789012</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of an organization."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier (ID) of an organization."
+        },
+        {
+            "Ref": "ManagementAccountArn",
+            "Description": "The Amazon Resource Name (ARN) of the account that is designated as the management account for the organization."
+        },
+        {
+            "Ref": "ManagementAccountEmail",
+            "Description": "The email address that is associated with the AWS account that is designated as the management account for the organization."
+        },
+        {
+            "Ref": "ManagementAccountId",
+            "Description": "The unique identifier (ID) of the management account of an organization."
+        },
+        {
+            "Ref": "RootId",
+            "Description": "The unique identifier (ID) for the root."
+        }
+    ]
+}

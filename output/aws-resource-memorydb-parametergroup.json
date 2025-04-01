@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MemoryDB::ParameterGroup",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ARN",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the parameter group,   such as arn:aws:memorydb:us-east-1:123456789012:parametergroup/my-parameter-group"
+        }
+    ]
+}

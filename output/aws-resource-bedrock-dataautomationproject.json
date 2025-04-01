@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Bedrock::DataAutomationProject",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "When the project was created."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "When the project was last updated."
+        },
+        {
+            "Ref": "ProjectArn",
+            "Description": "The project's ARN."
+        },
+        {
+            "Ref": "ProjectStage",
+            "Description": "The project's stage."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The project's status."
+        }
+    ]
+}

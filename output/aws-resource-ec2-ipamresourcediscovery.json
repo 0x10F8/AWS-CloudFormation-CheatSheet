@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::EC2::IPAMResourceDiscovery",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource discovery ID. For example: <code class=\"code\">ipam-res-disco-111122223333</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IpamResourceDiscoveryArn",
+            "Description": "The resource discovery ARN."
+        },
+        {
+            "Ref": "IpamResourceDiscoveryId",
+            "Description": "The resource discovery ID."
+        },
+        {
+            "Ref": "IpamResourceDiscoveryRegion",
+            "Description": "The resource discovery Region."
+        },
+        {
+            "Ref": "IsDefault",
+            "Description": "Defines if the resource discovery is the default. The default resource discovery is the resource discovery automatically created when you create an IPAM."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The owner ID."
+        },
+        {
+            "Ref": "State",
+            "Description": "The resource discovery's state."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppFlow::ConnectorProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the connector profile name. For example:</p><p> \u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0<code class=\"code\"><span>{</span> \"Ref\": \"myConnectorProfile\" }</code> \u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ConnectorProfileArn",
+            "Description": "The Amazon Resource Name (ARN) of the connector profile."
+        },
+        {
+            "Ref": "CredentialsArn",
+            "Description": "The Amazon Resource Name (ARN) of the connector profile credentials."
+        }
+    ]
+}

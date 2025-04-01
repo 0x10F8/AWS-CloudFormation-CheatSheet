@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::IoTFleetHub::Application",
+    "Ref": "<p>\n         When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the application ID.\n      </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApplicationArn",
+            "Description": "The ARN of the web application."
+        },
+        {
+            "Ref": "ApplicationCreationDate",
+            "Description": "The date (in Unix epoch time) when the web application was created."
+        },
+        {
+            "Ref": "ApplicationId",
+            "Description": "The unique Id of the web application."
+        },
+        {
+            "Ref": "ApplicationLastUpdateDate",
+            "Description": "The date (in Unix epoch time) when the web application was last updated."
+        },
+        {
+            "Ref": "ApplicationState",
+            "Description": "The current state of the web application."
+        },
+        {
+            "Ref": "ApplicationUrl",
+            "Description": "The URL of the web application."
+        },
+        {
+            "Ref": "ErrorMessage",
+            "Description": "A message that explains any failures included in the applicationState response field.   This message explains failures in the CreateApplication and DeleteApplication actions."
+        },
+        {
+            "Ref": "SsoClientId",
+            "Description": "The Id of the single sign-on client that you use to authenticate and authorize users on the web application."
+        }
+    ]
+}

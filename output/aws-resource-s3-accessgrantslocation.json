@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::S3::AccessGrantsLocation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns some information about the S3 data location.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AccessGrantsLocationArn",
+            "Description": "The ARN of the location you are registering."
+        },
+        {
+            "Ref": "AccessGrantsLocationId",
+            "Description": "The ID of the registered location to which you are granting access. S3 Access Grants assigns this ID when you register the location. S3 Access Grants assigns the ID default to the default location s3:// and assigns an auto-generated ID to other locations that you register."
+        }
+    ]
+}

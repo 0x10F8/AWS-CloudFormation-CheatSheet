@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::SecurityLake::Subscriber",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">ref</code> function, <code class=\"code\">ref</code> returns the <code class=\"code\">Subscriber</code> name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ResourceShareArn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon Security Lake subscriber."
+        },
+        {
+            "Ref": "ResourceShareName",
+            "Description": "The ARN name of the Amazon Security Lake subscriber."
+        },
+        {
+            "Ref": "S3BucketArn",
+            "Description": "The Amazon Resource Name (ARN) of the S3 bucket."
+        },
+        {
+            "Ref": "SubscriberArn",
+            "Description": "The Amazon Resource Name (ARN) of the Security Lake subscriber."
+        },
+        {
+            "Ref": "SubscriberRoleArn",
+            "Description": "The Amazon Resource Name (ARN) of the role used to create the Security Lake subscriber."
+        }
+    ]
+}

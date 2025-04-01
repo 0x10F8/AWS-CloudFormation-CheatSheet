@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Wisdom::AIGuardrailVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AIGuardrailArn",
+            "Description": "The ARN of the AI guardrail version."
+        },
+        {
+            "Ref": "AIGuardrailVersionId",
+            "Description": "The ID of the AI guardrail version."
+        },
+        {
+            "Ref": "AssistantArn",
+            "Description": "The ARN of the AI guardrail version assistant."
+        },
+        {
+            "Ref": "VersionNumber",
+            "Description": "The version number for this AI Guardrail version."
+        }
+    ]
+}

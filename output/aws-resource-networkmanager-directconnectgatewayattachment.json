@@ -1,0 +1,50 @@
+{
+    "ResourceName": "AWS::NetworkManager::DirectConnectGatewayAttachment",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AttachmentId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "AttachmentPolicyRuleNumber",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "AttachmentType",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "CoreNetworkArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "NetworkFunctionGroupName",
+            "Description": "The name of the network function group."
+        },
+        {
+            "Ref": "OwnerAccountId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ResourceArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "SegmentName",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "State",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "Property description not available."
+        }
+    ]
+}

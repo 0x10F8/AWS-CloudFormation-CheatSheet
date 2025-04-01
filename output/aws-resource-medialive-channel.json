@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::MediaLive::Channel",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the channel.</p><p>For example: <code class=\"code\"><span>{</span> \"Ref\": \"myChannel\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the MediaLive channel. For example: arn:aws:medialive:us-west-1:111122223333:medialive:channel:1234567"
+        },
+        {
+            "Ref": "Id",
+            "Description": "User-specified id. This is used in an output group or an output."
+        },
+        {
+            "Ref": "Inputs",
+            "Description": "The inputs that are attached to this channel. The inputs are identified by their IDs (not by their names or their ARNs)."
+        }
+    ]
+}

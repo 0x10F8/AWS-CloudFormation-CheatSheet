@@ -1,0 +1,50 @@
+{
+    "ResourceName": "AWS::ElastiCache::ReplicationGroup",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref returns the resource\n   name.</p><p> For more information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "ConfigurationEndPoint.Address",
+            "Description": "The DNS hostname of the cache node."
+        },
+        {
+            "Ref": "ConfigurationEndPoint.Port",
+            "Description": "Valkey or Redis OSS (cluster mode disabled) replication groups don't have this attribute. Therefore, Fn::GetAtt returns a value for this attribute only if the replication group is clustered. Otherwise, Fn::GetAtt fails. For Valkey or Redis OSS (cluster mode disabled) replication groups, use the PrimaryEndpoint or ReadEndpoint attributes."
+        },
+        {
+            "Ref": "PrimaryEndPoint.Address",
+            "Description": "The port number that the cache engine is listening on."
+        },
+        {
+            "Ref": "PrimaryEndPoint.Port",
+            "Description": "The DNS address of the primary read-write cache node."
+        },
+        {
+            "Ref": "ReadEndPoint.Addresses",
+            "Description": "The number of the port that the primary read-write cache engine is listening on."
+        },
+        {
+            "Ref": "ReadEndPoint.Addresses.List",
+            "Description": "A string with a list of endpoints for the primary and read-only replicas. The order of the addresses maps to the  order of the ports from the ReadEndPoint.Ports attribute."
+        },
+        {
+            "Ref": "ReadEndPoint.Ports",
+            "Description": "A string with a list of endpoints for the read-only replicas. The order of the addresses maps to the order of  the ports from the ReadEndPoint.Ports attribute."
+        },
+        {
+            "Ref": "ReadEndPoint.Ports.List",
+            "Description": "A string with a list of ports for the read-only replicas. The order of the ports maps to the order of the  addresses from the ReadEndPoint.Addresses attribute."
+        },
+        {
+            "Ref": "ReaderEndPoint.Address",
+            "Description": "A string with a list of ports for the read-only replicas. The order of the ports maps to the order of the  addresses from the ReadEndPoint.Addresses attribute."
+        },
+        {
+            "Ref": "ReaderEndPoint.Port",
+            "Description": "The address of the reader endpoint."
+        },
+        {
+            "Ref": "ReplicationGroupId",
+            "Description": "The port used by the reader endpoint."
+        }
+    ]
+}

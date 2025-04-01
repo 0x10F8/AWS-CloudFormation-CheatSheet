@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::DataSync::Agent",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the agent Amazon Resource Name (ARN). For\n         example:</p><p>\n<code class=\"code\">arn:aws:datasync:us-east-2:111222333444:agent/agent-0b0addbeef44baca3</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AgentArn",
+            "Description": "The Amazon Resource Name (ARN) of the agent. Use the ListAgents operation  to return a list of agents for your account and AWS Region."
+        },
+        {
+            "Ref": "EndpointType",
+            "Description": "The type of endpoint that your agent is connected to. If the endpoint is a VPC endpoint,  the agent is not accessible over the public  internet."
+        }
+    ]
+}

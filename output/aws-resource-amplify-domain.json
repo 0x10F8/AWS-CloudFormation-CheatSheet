@@ -1,0 +1,42 @@
+{
+    "ResourceName": "AWS::Amplify::Domain",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "ARN for the Domain Association."
+        },
+        {
+            "Ref": "AutoSubDomainCreationPatterns",
+            "Description": "Branch patterns for the automatically created subdomain."
+        },
+        {
+            "Ref": "AutoSubDomainIAMRole",
+            "Description": "The IAM service role for the subdomain."
+        },
+        {
+            "Ref": "CertificateRecord",
+            "Description": "DNS Record for certificate verification."
+        },
+        {
+            "Ref": "DomainName",
+            "Description": "Name of the domain."
+        },
+        {
+            "Ref": "DomainStatus",
+            "Description": "Status for the Domain Association."
+        },
+        {
+            "Ref": "EnableAutoSubDomain",
+            "Description": "Specifies whether the automated creation of subdomains for branches is enabled."
+        },
+        {
+            "Ref": "StatusReason",
+            "Description": "Reason for the current status of the domain."
+        },
+        {
+            "Ref": "UpdateStatus",
+            "Description": "The status of the domain update operation that is currently in progress. The following list describes the valid update states.   REQUESTING_CERTIFICATE  The certificate is in the process of being updated.  PENDING_VERIFICATION  Indicates that an Amplify managed certificate is in the process of being verified. This occurs during the creation of a custom domain or when a custom domain is updated to use a managed certificate.  IMPORTING_CUSTOM_CERTIFICATE  Indicates that an Amplify custom certificate is in the process of being imported. This occurs during the creation of a custom domain or when a custom domain is updated to use a custom certificate.  PENDING_DEPLOYMENT  Indicates that the subdomain or certificate changes are being propagated.  AWAITING_APP_CNAME  Amplify is waiting for CNAME records corresponding to subdomains to be propagated. If your custom domain is on Route\u00c2\u00a053, Amplify handles this for you automatically. For more information about custom domains, see Setting up custom domains in the Amplify Hosting User Guide.   UPDATE_COMPLETE  The certificate has been associated with a domain.  UPDATE_FAILED  The certificate has failed to be provisioned or associated, and there is no existing active certificate to roll back to."
+        }
+    ]
+}

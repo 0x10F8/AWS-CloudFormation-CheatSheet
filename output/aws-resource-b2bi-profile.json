@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::B2BI::Profile",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "Returns the timestamp for creation date and time of the profile."
+        },
+        {
+            "Ref": "LogGroupName",
+            "Description": "Returns the name of the logging group."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "Returns the timestamp that identifies the most recent date and time that the profile was modified."
+        },
+        {
+            "Ref": "ProfileArn",
+            "Description": "Returns an Amazon Resource Name (ARN) for the profile."
+        },
+        {
+            "Ref": "ProfileId",
+            "Description": "Property description not available."
+        }
+    ]
+}

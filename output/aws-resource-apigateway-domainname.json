@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::ApiGateway::DomainName",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the domain name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DistributionDomainName",
+            "Description": "The Amazon CloudFront distribution domain name that's mapped to the custom domain name. This is only applicable for endpoints whose type is EDGE. Example: d111111abcdef8.cloudfront.net"
+        },
+        {
+            "Ref": "DistributionHostedZoneId",
+            "Description": "The region-agnostic Amazon Route 53 Hosted Zone ID of the edge-optimized endpoint. The only valid value is Z2FDTNDATAQYW2 for all regions."
+        },
+        {
+            "Ref": "RegionalDomainName",
+            "Description": "The domain name associated with the regional endpoint for this custom domain name. You set up this association by adding a DNS record that points the custom domain name to this regional domain name."
+        },
+        {
+            "Ref": "RegionalHostedZoneId",
+            "Description": "The region-specific Amazon Route 53 Hosted Zone ID of the regional endpoint."
+        }
+    ]
+}

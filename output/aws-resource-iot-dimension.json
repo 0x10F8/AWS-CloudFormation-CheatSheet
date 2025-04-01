@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::Dimension",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the dimension name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the dimension."
+        }
+    ]
+}

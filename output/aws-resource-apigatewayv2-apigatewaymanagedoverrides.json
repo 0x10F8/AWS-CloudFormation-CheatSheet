@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ApiGatewayV2::ApiGatewayManagedOverrides",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The identifier."
+        }
+    ]
+}

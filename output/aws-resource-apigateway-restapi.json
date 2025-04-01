@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ApiGateway::RestApi",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">RestApi</code> ID, such as <code class=\"code\">a1bcdef2gh</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "RestApiId",
+            "Description": "The string identifier of the associated RestApi."
+        },
+        {
+            "Ref": "RootResourceId",
+            "Description": "The root resource ID for a RestApi resource, such as a0bc123d4e."
+        }
+    ]
+}

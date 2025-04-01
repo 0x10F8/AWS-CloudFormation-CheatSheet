@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::CloudTrail::ResourcePolicy",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, \n               <code class=\"code\">Ref</code> returns the resource. The resource is a combination of the resource-based \n               policy document and the channel ARN.</p><p>The following example creates a resource policy that allows AWS\n               account ID <code class=\"code\">111122223333</code> to call <code class=\"code\">PutAuditEvents</code> on the\n               channel defined as the resource ARN in the policy. For information about creating a\n               resource policy, see <a href=\"https://docs.aws.amazon.com/awscloudtrail/latest/userguide/security_iam_resource-based-policy-examples.html\">AWS CloudTrail resource-based policy examples</a> in the\n                     <em>\n                     AWS CloudTrail User Guide</em>.</p>",
+    "GetAtt": []
+}

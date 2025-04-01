@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::SecurityHub::AutomationRule",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">RuleArn</code>. For example, <code class=\"code\">arn:aws:securityhub:us-east-1:123456789012:automation-rule/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "A timestamp that indicates when the rule was created.  Uses the date-time format specified in RFC 3339 section 5.6, Internet Date/Time Format. The value cannot contain spaces. For example, 2020-03-22T13:22:13.933Z."
+        },
+        {
+            "Ref": "CreatedBy",
+            "Description": "The principal that created the rule. For example, arn:aws:sts::123456789012:assumed-role/Developer-Role/JaneDoe."
+        },
+        {
+            "Ref": "RuleArn",
+            "Description": "The Amazon Resource Name (ARN) of the automation rule that you create. For example, arn:aws:securityhub:us-east-1:123456789012:automation-rule/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "A timestamp that indicates when the rule was most recently updated.  Uses the date-time format specified in RFC 3339 section 5.6, Internet Date/Time Format. The value cannot contain spaces. For example, 2020-03-22T13:22:13.933Z."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::FinSpace::Environment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myEnvironment\" }</code>\n</p><p>For the Amazon FinSpace environment group <code class=\"code\">myEnvironment</code>, <code class=\"code\">Ref</code> returns the name of the environment.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AwsAccountId",
+            "Description": "The ID of the AWS account in which the FinSpace environment is created."
+        },
+        {
+            "Ref": "DedicatedServiceAccountId",
+            "Description": "The AWS account ID of the dedicated service account associated with your FinSpace  environment."
+        },
+        {
+            "Ref": "EnvironmentArn",
+            "Description": "The Amazon Resource Name (ARN) of your FinSpace environment."
+        },
+        {
+            "Ref": "EnvironmentId",
+            "Description": "The identifier of the FinSpace environment."
+        },
+        {
+            "Ref": "EnvironmentUrl",
+            "Description": "The sign-in url for the web application of your FinSpace environment."
+        },
+        {
+            "Ref": "SageMakerStudioDomainUrl",
+            "Description": "The url of the integrated FinSpace notebook environment in your web application."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of creation of the FinSpace environment."
+        }
+    ]
+}

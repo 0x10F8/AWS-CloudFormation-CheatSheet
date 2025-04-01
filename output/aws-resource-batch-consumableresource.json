@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Batch::ConsumableResource",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the consumable resource ARN, such as <code class=\"code\">\n                     arn:aws:batch:<em>us-east-1</em>:<em>555555555555</em>:consumable-resource/<em>Resource</em>\n</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AvailableQuantity",
+            "Description": "The amount of the consumable resource that is currently available to use."
+        },
+        {
+            "Ref": "ConsumableResourceArn",
+            "Description": "The Amazon Resource Name (ARN) of the consumable resource."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The Unix timestamp (in milliseconds) for when the consumable resource was created."
+        },
+        {
+            "Ref": "InUseQuantity",
+            "Description": "The amount of the consumable resource that is currently in use."
+        }
+    ]
+}

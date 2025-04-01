@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::InternetMonitor::Monitor",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the monitor, such as \n\t\t\t\t<code class=\"code\">arn:aws:internetmonitor:us-east-1:111122223333:monitor/TestMonitor</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time when the monitor was created."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "The last time that the monitor was modified."
+        },
+        {
+            "Ref": "MonitorArn",
+            "Description": "The Amazon Resource Name (ARN) of the monitor."
+        },
+        {
+            "Ref": "ProcessingStatus",
+            "Description": "The health of data processing for the monitor. For more information, see ProcessingStatus under \t\t\t \t\t\t\tMonitorListMember in the Amazon CloudWatch Internet Monitor API Reference."
+        },
+        {
+            "Ref": "ProcessingStatusInfo",
+            "Description": "Additional information about the health of the data processing for the monitor."
+        }
+    ]
+}

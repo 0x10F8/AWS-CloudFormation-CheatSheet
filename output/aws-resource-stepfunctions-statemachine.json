@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::StepFunctions::StateMachine",
+    "Ref": "<p>When you provide the logical ID of this resource to the Ref intrinsic function, Ref\n         returns the ARN of the created state machine. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyStateMachine\" }</code>\n</p><p>Returns a value similar to the following:</p><p>\n<code class=\"code\">arn:aws:states:us-east-1:111122223333:stateMachine:HelloWorld-StateMachine</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the ARN of the resource."
+        },
+        {
+            "Ref": "Name",
+            "Description": "Returns the name of the state machine. For example:  { \"Fn::GetAtt\": [\"MyStateMachine\", \"Name\"] }  Returns the name of your state machine:  HelloWorld-StateMachine  If you did not specify the name it will be similar to the following:  MyStateMachine-1234abcdefgh  For more information about using Fn::GetAtt, see Fn::GetAtt."
+        },
+        {
+            "Ref": "StateMachineRevisionId",
+            "Description": "Identifier for a state machine revision, which is an immutable, read-only snapshot of a state machine\u00e2\u0080\u0099s definition and configuration."
+        }
+    ]
+}

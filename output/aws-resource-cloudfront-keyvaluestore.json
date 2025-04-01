@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::CloudFront::KeyValueStore",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the key value store."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique Id for the key value store."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the key value store. For more information, see Key value store statuses in the   Amazon CloudFront Developer Guide."
+        }
+    ]
+}

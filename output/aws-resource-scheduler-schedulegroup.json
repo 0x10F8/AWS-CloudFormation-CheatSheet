@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Scheduler::ScheduleGroup",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">Name</code> attribute of the schedule group.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the schedule group."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The date and time at which the schedule group was created."
+        },
+        {
+            "Ref": "LastModificationDate",
+            "Description": "The time at which the schedule group was last modified."
+        },
+        {
+            "Ref": "State",
+            "Description": "Specifies the state of the schedule group."
+        }
+    ]
+}

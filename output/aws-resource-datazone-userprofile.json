@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::DataZone::UserProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n            <code class=\"code\">UserProfileId</code> that uniquely identify the user profile. For example: <code class=\"code\"><span>{</span>\n            \"Ref\": \"MyUserProfile\" }</code> for the resource with the logical ID\n            <code class=\"code\">MyUserProfile</code>, <code class=\"code\">Ref</code> returns\n         <code class=\"code\">DomainId|UserProfileId</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of a Amazon DataZone domain in which a user profile exists."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the user profile."
+        },
+        {
+            "Ref": "Type",
+            "Description": "The type of the user profile."
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppSync::DomainNameApiAssociation",
+    "Ref": "",
+    "GetAtt": []
+}

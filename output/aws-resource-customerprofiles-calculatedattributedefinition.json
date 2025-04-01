@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CustomerProfiles::CalculatedAttributeDefinition",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the calculated attribute definition was created."
+        },
+        {
+            "Ref": "LastUpdatedAt",
+            "Description": "The timestamp of when the calculated attribute definition was most recently  edited."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Wisdom::MessageTemplateVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "MessageTemplateVersionArn",
+            "Description": "The Amazon Resource Name (ARN) of the Message Template Version."
+        },
+        {
+            "Ref": "MessageTemplateVersionNumber",
+            "Description": "The version number for this Message Template Version."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Deadline::Limit",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the unique identifier of the limit.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CurrentCount",
+            "Description": "The number of resources from the limit that are being used by jobs. The result is  delayed and may not be the count at the time that you called the operation."
+        },
+        {
+            "Ref": "LimitId",
+            "Description": "The unique identifier of the limit."
+        }
+    ]
+}

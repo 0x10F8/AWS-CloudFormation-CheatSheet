@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::SSO::Assignment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a generated ID, combined by all fields with the delimiter\n            <code class=\"code\">|</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>The following example creates a custom assignment, assigning the user\n                  <code class=\"code\">\"user_id\"</code> access to account\n                  <code class=\"code\">\"arn:aws:organizations::org_master_id:account/org_id/accountId\"</code> with\n               the permissions <code class=\"code\">\"PermissionSet\"</code>. </p>",
+    "GetAtt": []
+}

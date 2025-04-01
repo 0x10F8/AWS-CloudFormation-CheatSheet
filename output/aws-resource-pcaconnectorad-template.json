@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::PCAConnectorAD::Template",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "TemplateArn",
+            "Description": "The Amazon Resource Name (ARN) that was returned when you called CreateTemplate ."
+        }
+    ]
+}

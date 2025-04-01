@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::ResourceSpecificLogging",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource-specific log ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"MyResourceLog-12345\" }</code>\n</p>",
+    "GetAtt": [
+        {
+            "Ref": "TargetId",
+            "Description": "The target Id."
+        }
+    ]
+}

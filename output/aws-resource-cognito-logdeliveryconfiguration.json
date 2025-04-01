@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Cognito::LogDeliveryConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a resource identifier. A log delivery configuration\n            attached to a user pool returns a user pool ID like\n            <code class=\"code\">us-east-1_EXAMPLE</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "A user pool ID, for example us-east-1_EXAMPLE."
+        }
+    ]
+}

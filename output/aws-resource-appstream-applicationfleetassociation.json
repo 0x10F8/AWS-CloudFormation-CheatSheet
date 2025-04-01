@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppStream::ApplicationFleetAssociation",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns a combination of the <code class=\"code\">FleetName</code> and\n            <code class=\"code\">ApplicationArn</code>, such as\n            <code class=\"code\">aabcdefgFleet|arn:aws:appstream:us-west-2:123456789123:application/abcdefg</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": []
+}

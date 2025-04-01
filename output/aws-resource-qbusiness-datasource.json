@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::QBusiness::DataSource",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the application ID, data source ID, and index ID. For\n         example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"ApplicationId|DataSourceId|IndexId\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The Unix timestamp when the Amazon Q Business data source was created."
+        },
+        {
+            "Ref": "DataSourceArn",
+            "Description": "The Amazon Resource Name (ARN) of a data source in an Amazon Q Business application."
+        },
+        {
+            "Ref": "DataSourceId",
+            "Description": "The identifier of the Amazon Q Business data source."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the Amazon Q Business data source."
+        },
+        {
+            "Ref": "Type",
+            "Description": "The type of the Amazon Q Business data source."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The Unix timestamp when the Amazon Q Business data source was last updated."
+        }
+    ]
+}

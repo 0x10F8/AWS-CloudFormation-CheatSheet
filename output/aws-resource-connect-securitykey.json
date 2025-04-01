@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Connect::SecurityKey",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AssociationId",
+            "Description": "An AssociationId is automatically generated when a storage config is  associated with an instance."
+        }
+    ]
+}

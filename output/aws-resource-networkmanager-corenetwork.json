@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::NetworkManager::CoreNetwork",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the core network. For example, <code class=\"code\"><span>{</span> \"Ref: \"core-network-060ea2740fe60fd38\" }</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CoreNetworkArn",
+            "Description": "The ARN of the core network."
+        },
+        {
+            "Ref": "CoreNetworkId",
+            "Description": "The ID of the core network."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp when the core network was created."
+        },
+        {
+            "Ref": "Edges",
+            "Description": "The edges."
+        },
+        {
+            "Ref": "NetworkFunctionGroups",
+            "Description": "The network function groups associated with a core network."
+        },
+        {
+            "Ref": "OwnerAccount",
+            "Description": "The owner of the core network."
+        },
+        {
+            "Ref": "Segments",
+            "Description": "The segments."
+        },
+        {
+            "Ref": "State",
+            "Description": "The current state of the core network. These states are: CREATING | UPDATING | AVAILABLE | DELETING."
+        }
+    ]
+}

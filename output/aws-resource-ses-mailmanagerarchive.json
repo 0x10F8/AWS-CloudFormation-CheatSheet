@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::SES::MailManagerArchive",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ArchiveArn",
+            "Description": "The Amazon Resource Name (ARN) of the archive."
+        },
+        {
+            "Ref": "ArchiveId",
+            "Description": "The unique identifier of the archive."
+        },
+        {
+            "Ref": "ArchiveState",
+            "Description": "The current state of the archive:    ACTIVE \u00e2\u0080\u0093 The archive is ready and available for use.    PENDING_DELETION \u00e2\u0080\u0093 The archive has been marked for deletion and will be permanently deleted in 30 days. No further modifications can be made in this state."
+        }
+    ]
+}

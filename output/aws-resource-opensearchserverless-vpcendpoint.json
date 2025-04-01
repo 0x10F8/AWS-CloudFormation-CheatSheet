@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::OpenSearchServerless::VpcEndpoint",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the endpoint ID. For more information about using the\n            <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the endpoint. For example,  vpce-050f79086ee71ac05."
+        }
+    ]
+}

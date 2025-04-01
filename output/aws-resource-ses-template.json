@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::SES::Template",
+    "Ref": "",
+    "GetAtt": []
+}

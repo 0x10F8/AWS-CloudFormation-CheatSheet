@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Notifications::NotificationConfiguration",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the configuration created.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the NotificationConfiguration  resource."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The creation time of the NotificationConfiguration."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the NotificationConfiguration."
+        }
+    ]
+}

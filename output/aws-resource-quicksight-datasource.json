@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::QuickSight::DataSource",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the dataset."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time that this data source was created."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The last time that this data source was updated."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The HTTP status of the request."
+        }
+    ]
+}

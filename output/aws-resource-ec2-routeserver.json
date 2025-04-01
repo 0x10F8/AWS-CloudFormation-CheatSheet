@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::EC2::RouteServer",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the route server ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the route server."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the route server."
+        }
+    ]
+}

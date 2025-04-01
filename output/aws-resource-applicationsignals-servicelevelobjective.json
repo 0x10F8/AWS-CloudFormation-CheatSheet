@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::ApplicationSignals::ServiceLevelObjective",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the SLO. For example, <code class=\"code\">arn:aws:cloudwatch:us-west-1:123456789012:slo:my-slo-name</code>\n</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of this SLO."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The date and time that this SLO was created."
+        },
+        {
+            "Ref": "EvaluationType",
+            "Description": "Displays whether this is a period-based SLO or a request-based SLO."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time that this SLO was most recently updated."
+        }
+    ]
+}

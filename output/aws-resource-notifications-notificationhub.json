@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Notifications::NotificationHub",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The date and time the NotificationHubOverview was created."
+        }
+    ]
+}

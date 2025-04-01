@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::CodeArtifact::Domain",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource arn.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "When you pass the logical ID of this resource, the function returns the Amazon Resource Name (ARN) of the domain."
+        },
+        {
+            "Ref": "EncryptionKey",
+            "Description": "When you pass the logical ID of this resource, the function returns the key used to encrypt the domain."
+        },
+        {
+            "Ref": "Name",
+            "Description": "When you pass the logical ID of this resource, the function returns the name of the domain."
+        },
+        {
+            "Ref": "Owner",
+            "Description": "When you pass the logical ID of this resource, the function returns the 12-digit account number of the AWS account that owns the domain."
+        }
+    ]
+}

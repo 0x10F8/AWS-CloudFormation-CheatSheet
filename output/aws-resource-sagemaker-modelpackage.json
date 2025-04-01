@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::SageMaker::ModelPackage",
+    "Ref": "<p>\u2028When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the model package group.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The time that the model package was created."
+        },
+        {
+            "Ref": "ModelPackageArn",
+            "Description": "The Amazon Resource Name (ARN) of the model package."
+        },
+        {
+            "Ref": "ModelPackageStatus",
+            "Description": "The status of the model package. This can be one of the following values.    PENDING - The model package creation is pending.   IN_PROGRESS - The model package is in the process of being created.   COMPLETED - The model package was successfully created.   FAILED - The model package creation failed.   DELETING - The model package is in the process of being deleted."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Events::ApiDestination",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the API destination that was created by the\n      request.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the API destination that was created by the request."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::S3ObjectLambda::AccessPoint",
+    "Ref": "<p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Alias.Status",
+            "Description": "The status of the Object Lambda Access Point alias. Valid Values: PROVISIONING | READY."
+        },
+        {
+            "Ref": "Alias.Value",
+            "Description": "The alias name value of the Object Lambda Access Point. For example: myolap-1a4n8yjrb3kda96f67zwrwiiuse1a--ol-s3."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "Specifies the ARN for the Object Lambda Access Point."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The date and time when the specified Object Lambda Access Point was created."
+        }
+    ]
+}

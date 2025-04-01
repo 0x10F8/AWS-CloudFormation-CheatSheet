@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ApiGateway::Account",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the resource, such as <code class=\"code\">mysta-accou-01234b567890example</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The ID for the account. For example: abc123."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Cassandra::Type",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the type and the keyspace where the type exists (delimited by '|'). For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myKeyspace|myType\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DirectParentTypes",
+            "Description": "A list of user-defined types that use this type."
+        },
+        {
+            "Ref": "DirectReferringTables",
+            "Description": "A list of tables that use this type."
+        },
+        {
+            "Ref": "KeyspaceArn",
+            "Description": "The unique identifier of the keyspace that contains this type in the format of Amazon Resource Name (ARN)"
+        },
+        {
+            "Ref": "LastModifiedTimestamp",
+            "Description": "The last time this type was modified."
+        },
+        {
+            "Ref": "MaxNestingDepth",
+            "Description": "The maximum nesting depth of this type. For more information,  see Amazon Keyspaces UDT quotas and default values in the   Amazon Keyspaces Developer Guide."
+        }
+    ]
+}

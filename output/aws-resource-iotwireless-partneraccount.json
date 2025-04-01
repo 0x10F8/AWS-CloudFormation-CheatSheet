@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTWireless::PartnerAccount",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the partner account.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the resource."
+        },
+        {
+            "Ref": "Fingerprint",
+            "Description": "The fingerprint of the Sidewalk application server private key."
+        }
+    ]
+}

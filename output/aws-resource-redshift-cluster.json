@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Redshift::Cluster",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myCluster\" }</code>\n</p><p>For the Amazon Redshift cluster <code class=\"code\">myCluster</code>, <code class=\"code\">Ref</code> returns the\n            name of the cluster.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ClusterNamespaceArn",
+            "Description": "The namespace Amazon Resource Name (ARN) of the cluster."
+        },
+        {
+            "Ref": "DeferMaintenanceIdentifier",
+            "Description": "A unique identifier for the maintenance window."
+        },
+        {
+            "Ref": "Endpoint.Address",
+            "Description": "The connection endpoint for the Amazon Redshift cluster. For example: examplecluster.cg034hpkmmjt.us-east-1.redshift.amazonaws.com."
+        },
+        {
+            "Ref": "Endpoint.Port",
+            "Description": "The port number on which the Amazon Redshift cluster accepts connections. For example: 5439."
+        },
+        {
+            "Ref": "MasterPasswordSecretArn",
+            "Description": "The Amazon Resource Name (ARN) for the cluster's admin user credentials secret."
+        }
+    ]
+}

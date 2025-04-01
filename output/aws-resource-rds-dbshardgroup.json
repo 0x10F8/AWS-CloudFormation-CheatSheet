@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::RDS::DBShardGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name (<code class=\"code\">DBClusterIdentifier</code>) of the DB cluster.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DBShardGroupResourceId",
+            "Description": "The AWS Region-unique, immutable identifier for the DB shard group."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "This data type represents the information you need to connect to an Amazon RDS DB instance. This data type is used as a response element in the following actions:    CreateDBInstance    DescribeDBInstances    DeleteDBInstance   For the data structure that represents Amazon Aurora DB cluster endpoints, see DBClusterEndpoint."
+        }
+    ]
+}

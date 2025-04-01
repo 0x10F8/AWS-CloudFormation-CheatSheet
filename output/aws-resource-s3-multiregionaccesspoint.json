@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::S3::MultiRegionAccessPoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the Multi-Region Access Point.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Alias",
+            "Description": "The alias for the Multi-Region Access Point. For more information about the distinction between the name and the alias of an Multi-Region Access Point, see Managing Multi-Region Access Points in the Amazon S3 User Guide."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the Multi-Region Access Point is created."
+        }
+    ]
+}

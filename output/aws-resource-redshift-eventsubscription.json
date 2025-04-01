@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Redshift::EventSubscription",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"mySubscriptionName\" }</code>\n</p><p>For the Amazon Redshift\n                  <code class=\"code\">EventSubscription</code>, Ref returns the name of the subscription.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CustomerAwsId",
+            "Description": "The AWS account associated with the Amazon Redshift event notification subscription."
+        },
+        {
+            "Ref": "CustSubscriptionId",
+            "Description": "The name of the Amazon Redshift event notification subscription."
+        },
+        {
+            "Ref": "EventCategoriesList",
+            "Description": "The list of Amazon Redshift event categories specified in the event notification subscription. Values: Configuration, Management, Monitoring, Security, Pending"
+        },
+        {
+            "Ref": "SourceIdsList",
+            "Description": "A list of the sources that publish events to the Amazon Redshift event notification subscription."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the Amazon Redshift event notification subscription. Constraints:   Can be one of the following: active | no-permission | topic-not-exist  The status \"no-permission\" indicates that Amazon Redshift no longer has permission to post to the Amazon SNS topic. The status \"topic-not-exist\" indicates that the topic was deleted after the subscription was created."
+        },
+        {
+            "Ref": "SubscriptionCreationTime",
+            "Description": "The date and time the Amazon Redshift event notification subscription was created."
+        }
+    ]
+}

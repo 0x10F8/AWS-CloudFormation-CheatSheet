@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::EC2::VPC",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the VPC.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CidrBlock",
+            "Description": "The primary IPv4 CIDR block for the VPC. For example, 10.0.0.0/16."
+        },
+        {
+            "Ref": "CidrBlockAssociations",
+            "Description": "The association IDs of the IPv4 CIDR blocks for the VPC. For example,   [ vpc-cidr-assoc-0280ab6b ]."
+        },
+        {
+            "Ref": "DefaultNetworkAcl",
+            "Description": "The ID of the default network ACL for the VPC. For example, acl-814dafe3."
+        },
+        {
+            "Ref": "DefaultSecurityGroup",
+            "Description": "The ID of the default security group for the VPC. For example, sg-b178e0d3."
+        },
+        {
+            "Ref": "Ipv6CidrBlocks",
+            "Description": "The IPv6 CIDR blocks for the VPC. For example, [ 2001:db8:1234:1a00::/56 ]."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the VPC."
+        }
+    ]
+}

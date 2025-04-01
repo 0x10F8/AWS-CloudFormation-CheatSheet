@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Elasticsearch::Domain",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n      returns the resource name, such as <code class=\"code\">mystack-elasticsea-abc1d2efg3h4.</code> For more\n      information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the domain, such as arn:aws:es:us-west-2:123456789012:domain/mystack-elasti-1ab2cdefghij. This returned value is the same as the one returned by AWS::Elasticsearch::Domain.DomainArn."
+        },
+        {
+            "Ref": "DomainArn",
+            "Description": "The Amazon Resource Name (ARN) of the domain, such as arn:aws:es:us-west-2:123456789012:domain/mystack-elasti-1ab2cdefghij. This returned value is the same as the one returned by AWS::Elasticsearch::Domain.Arn."
+        },
+        {
+            "Ref": "DomainEndpoint",
+            "Description": "The domain-specific endpoint that's used for requests to the OpenSearch APIs, such as search-mystack-elasti-1ab2cdefghij-ab1c2deckoyb3hofw7wpqa3cm.us-west-1.es.amazonaws.com."
+        }
+    ]
+}

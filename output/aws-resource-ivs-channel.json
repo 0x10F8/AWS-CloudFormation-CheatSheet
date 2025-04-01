@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::IVS::Channel",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the channel ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myChannel\" }</code>\n</p><p>For the Amazon IVS channel <code class=\"code\">myChannel</code>,\n                <code class=\"code\">Ref</code> returns the channel ARN.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The channel ARN. For example: arn:aws:ivs:us-west-2:123456789012:channel/abcdABCDefgh"
+        },
+        {
+            "Ref": "IngestEndpoint",
+            "Description": "Channel ingest endpoint, part of the definition of an ingest server, used when you set up streaming software."
+        },
+        {
+            "Ref": "PlaybackUrl",
+            "Description": "For example: a1b2c3d4e5f6.global-contribute.live-video.net"
+        }
+    ]
+}

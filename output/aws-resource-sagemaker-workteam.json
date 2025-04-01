@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SageMaker::Workteam",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "WorkteamName",
+            "Description": "The name of the work team."
+        }
+    ]
+}

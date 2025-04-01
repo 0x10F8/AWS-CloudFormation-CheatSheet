@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IAM::Role",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"RootRole\" }</code>\n</p><p>For the <code class=\"code\">AWS::IAM::Role</code> resource with the logical ID <code class=\"code\">RootRole</code>,\n            <code class=\"code\">Ref</code> will return the role name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) for the role. For example:"
+        },
+        {
+            "Ref": "RoleId",
+            "Description": "{\"Fn::GetAtt\" : [\"MyRole\", \"Arn\"] }"
+        }
+    ]
+}

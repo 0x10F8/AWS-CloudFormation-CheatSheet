@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::EC2::IPAMPoolCidr",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IPAM pool ID and IPAM pool CIDR ID in the following format: <code class=\"code\">ipam-pool-01123456|ipam-pool-cidr-0123456</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IpamPoolCidrId",
+            "Description": "The IPAM pool CIDR ID."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the CIDR."
+        }
+    ]
+}

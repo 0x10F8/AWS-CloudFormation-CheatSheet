@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Kendra::Index",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the index ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"index-id\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the index. For example: arn:aws:kendra:us-west-2:111122223333:index/0123456789abcdef."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier for the index. For example: f4aeaa10-8056-4b2c-a343-522ca0f41234."
+        }
+    ]
+}

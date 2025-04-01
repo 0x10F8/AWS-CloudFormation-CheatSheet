@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::S3::AccessPoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the access point name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Alias",
+            "Description": "The alias for this access point."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "This property contains the details of the ARN for the access point."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of this access point."
+        },
+        {
+            "Ref": "NetworkOrigin",
+            "Description": "Indicates whether this access point allows access from the internet. If VpcConfiguration is specified for this access point, then NetworkOrigin is VPC, and the access point doesn't allow access from the internet. Otherwise, NetworkOrigin is Internet, and the access point allows access from the internet, subject to the access point and bucket access policies.  Allowed values: VPC | Internet"
+        }
+    ]
+}

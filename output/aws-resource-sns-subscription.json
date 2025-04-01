@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SNS::Subscription",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the subscription's logical name. This attribute allows you to\n         reference the logical name of the subscription resource within the CloudFormation\n         template.</p><p>For example, if you have a subscription resource named 'MySubscription', you can use\n         '!Ref MySubscription' to refer to its logical name in other parts of the CloudFormation\n         template.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the ARN of the subscription created by the AWS::SNS::Subscription  resource."
+        }
+    ]
+}

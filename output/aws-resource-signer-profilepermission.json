@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Signer::ProfilePermission",
+    "Ref": "<p>The StatementId and ProfileName in the form StatementId|ProfileName</p>",
+    "GetAtt": []
+}

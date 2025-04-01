@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::PinpointEmail::Identity",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myEmailIdentity\" }</code>\n</p><p>For the Amazon Pinpoint identity <code class=\"code\">myEmailIdentity</code>, Ref returns the name of the\n      identity (the email address or domain name).</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IdentityDNSRecordName1",
+            "Description": "The host name for the first token that you have to add to the DNS configuration for your domain. For more information, see Verifying a Domain in the Amazon Pinpoint User Guide."
+        },
+        {
+            "Ref": "IdentityDNSRecordName2",
+            "Description": "The host name for the second token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "IdentityDNSRecordName3",
+            "Description": "The host name for the third token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "IdentityDNSRecordValue1",
+            "Description": "The record value for the first token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "IdentityDNSRecordValue2",
+            "Description": "The record value for the second token that you have to add to the DNS configuration for your domain."
+        },
+        {
+            "Ref": "IdentityDNSRecordValue3",
+            "Description": "The record value for the third token that you have to add to the DNS configuration for your domain."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Deadline::MeteredProduct",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the metered product.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the metered product."
+        },
+        {
+            "Ref": "Family",
+            "Description": "The family to which the metered product belongs."
+        },
+        {
+            "Ref": "Port",
+            "Description": "The port on which the metered product should run."
+        },
+        {
+            "Ref": "Vendor",
+            "Description": "The vendor."
+        }
+    ]
+}

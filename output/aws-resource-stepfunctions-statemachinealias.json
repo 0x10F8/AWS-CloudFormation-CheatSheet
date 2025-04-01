@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::StepFunctions::StateMachineAlias",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic\n         function, <code class=\"code\">Ref</code> returns the ARN of the created state machine alias. For example,</p><p>Returns the ARN of the created state machine alias as shown in the following example.</p><p>\n<code class=\"code\">arn:aws:states:us-east-1:123456789012:stateMachine:myStateMachine:PROD</code>\n</p><p>For more information about using <code class=\"code\">Ref</code>, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the ARN of the state machine alias. For example, arn:aws:states:us-east-1:123456789012:stateMachine:myStateMachine:PROD."
+        }
+    ]
+}

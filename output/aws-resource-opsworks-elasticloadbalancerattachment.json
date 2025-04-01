@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::OpsWorks::ElasticLoadBalancerAttachment",
+    "Ref": "",
+    "GetAtt": []
+}

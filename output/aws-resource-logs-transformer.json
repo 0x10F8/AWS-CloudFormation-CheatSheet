@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Logs::Transformer",
+    "Ref": "",
+    "GetAtt": []
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ApplicationAutoScaling::ScalingPolicy",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic\n      function, <code class=\"code\">Ref</code> returns the Application Auto Scaling scaling policy Amazon Resource\n      Name (ARN). For example:\n        <code class=\"code\">arn:aws:autoscaling:us-east-2:123456789012:scalingPolicy:12ab3c4d-56789-0ef1-2345-6ghi7jk8lm90:resource/ecs/service/ecsStack-MyECSCluster-AB12CDE3F4GH/ecsStack-MyECSService-AB12CDE3F4GH:policyName/MyStepPolicy</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.\n    </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the ARN of a scaling policy."
+        }
+    ]
+}

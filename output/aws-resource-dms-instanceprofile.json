@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::DMS::InstanceProfile",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "InstanceProfileArn",
+            "Description": "The Amazon Resource Name (ARN) string that uniquely identifies the instance profile."
+        },
+        {
+            "Ref": "InstanceProfileCreationTime",
+            "Description": "The time the instance profile was created."
+        }
+    ]
+}

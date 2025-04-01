@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AutoScaling::WarmPool",
+    "Ref": "",
+    "GetAtt": []
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Transfer::Connector",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ConnectorId",
+            "Description": "The service-assigned ID of the connector that is created."
+        },
+        {
+            "Ref": "ServiceManagedEgressIpAddresses",
+            "Description": "The list of egress IP addresses of this connector. These IP addresses are assigned automatically when you create the connector."
+        }
+    ]
+}

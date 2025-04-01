@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::LakeFormation::PrincipalPermissions",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the primary identifier of the resource. The primary identifier of the resource is a combination of <code class=\"code\">ResourceIdentifier</code> and <code class=\"code\">PrincipalIdentifier</code>\n         separated by a pipe.</p><p>For example:\n         <code class=\"code\"><span>{</span>\"DataLakePrincipalIdentifier\":\"arn:aws:iam::123456789012:role/ExampleRole\"}|<span>{</span>\"Catalog\":null,\"Database\":null,\"Table\":null,\"TableWithColumns\":null,\"DataLocation\":null,\"DataCellsFilter\":<span>{</span>\"TableCatalogId\":\"123456789012\",\"DatabaseName\":\"ExampleDatabase\",\"TableName\":\"ExampleTable\",\"Name\":\"ExampleFilter\"},\"LFTag\":null,\"LFTagPolicy\":null}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "PrincipalIdentifier",
+            "Description": "Json encoding of the input principal. For example: {\"DataLakePrincipalIdentifier\":\"arn:aws:iam::123456789012:role/ExampleRole\"}"
+        },
+        {
+            "Ref": "ResourceIdentifier",
+            "Description": "Json encoding of the input resource. For example: {\"Catalog\":null,\"Database\":null,\"Table\":null,\"TableWithColumns\":null,\"DataLocation\":null,\"DataCellsFilter\":{\"TableCatalogId\":\"123456789012\",\"DatabaseName\":\"ExampleDatabase\",\"TableName\":\"ExampleTable\",\"Name\":\"ExampleFilter\"},\"LFTag\":null,\"LFTagPolicy\":null}"
+        }
+    ]
+}

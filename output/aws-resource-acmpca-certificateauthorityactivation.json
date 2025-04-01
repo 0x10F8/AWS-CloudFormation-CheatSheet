@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ACMPCA::CertificateAuthorityActivation",
+    "Ref": "<p>The Amazon Resource Name (ARN) of the certificate authority.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CompleteCertificateChain",
+            "Description": "The complete Base64 PEM-encoded certificate chain, including the certificate authority certificate."
+        }
+    ]
+}

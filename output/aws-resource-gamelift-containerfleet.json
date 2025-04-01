@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::GameLift::ContainerFleet",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "A time stamp indicating when this data object was created. Format is a number expressed in Unix time as milliseconds (for example \"1469498468.057\")."
+        },
+        {
+            "Ref": "FleetArn",
+            "Description": "The Amazon Resource Name (ARN) that is assigned to a Amazon GameLift Servers fleet resource and uniquely identifies it. ARNs are unique across all Regions. Format is arn:aws:gamelift:<region>::fleet/fleet-a1234567-b8c9-0d1e-2fa3-b45c6d7e8912. In a GameLift fleet ARN, the resource ID matches the FleetId value."
+        },
+        {
+            "Ref": "FleetId",
+            "Description": "A unique identifier for the container fleet to retrieve."
+        },
+        {
+            "Ref": "GameServerContainerGroupDefinitionArn",
+            "Description": "The Amazon Resource Name (ARN) that is assigned to the fleet's game server container group. The ARN value also identifies the specific container group definition version in use."
+        },
+        {
+            "Ref": "MaximumGameServerContainerGroupsPerInstance",
+            "Description": "The calculated maximum number of game server container group that can be deployed on each fleet instance. The calculation depends on the resource needs of the container group and the CPU and memory resources of the fleet's instance type."
+        },
+        {
+            "Ref": "PerInstanceContainerGroupDefinitionArn",
+            "Description": "The Amazon Resource Name (ARN) that is assigned to the fleet's per-instance container group. The ARN value also identifies the specific container group definition version in use."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the container fleet."
+        }
+    ]
+}

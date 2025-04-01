@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::ElastiCache::SubnetGroup",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref returns the resource\n   name.</p><p> For more information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p><p></p>",
+    "GetAtt": []
+}

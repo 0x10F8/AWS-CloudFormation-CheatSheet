@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::IoT::ThingPrincipalAttachment",
+    "Ref": "",
+    "GetAtt": []
+}

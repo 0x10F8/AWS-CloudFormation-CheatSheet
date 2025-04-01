@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::QBusiness::WebExperience",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the application and web experience ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"ApplicationId|WebExperienceId\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The Unix timestamp when the Amazon Q Business application was last updated."
+        },
+        {
+            "Ref": "DefaultEndpoint",
+            "Description": "The endpoint URLs for your Amazon Q Business web experience. The URLs are unique and fully hosted by AWS."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of your Amazon Q Business web experience."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The Unix timestamp when your Amazon Q Business web experience was updated."
+        },
+        {
+            "Ref": "WebExperienceArn",
+            "Description": "The Amazon Resource Name (ARN) of an Amazon Q Business web experience."
+        },
+        {
+            "Ref": "WebExperienceId",
+            "Description": "The identifier of your Amazon Q Business web experience."
+        }
+    ]
+}

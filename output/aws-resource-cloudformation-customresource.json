@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::CloudFormation::CustomResource",
+    "Ref": "",
+    "GetAtt": []
+}

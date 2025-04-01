@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Backup::RestoreTestingPlan",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "RestoreTestingPlanArn",
+            "Description": "An Amazon Resource Name (ARN) that uniquely identifies   a restore testing plan."
+        }
+    ]
+}

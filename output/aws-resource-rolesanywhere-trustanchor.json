@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::RolesAnywhere::TrustAnchor",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">TrustAnchorId</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "TrustAnchorArn",
+            "Description": "The ARN of the trust anchor."
+        },
+        {
+            "Ref": "TrustAnchorId",
+            "Description": "The unique identifier of the trust anchor."
+        }
+    ]
+}

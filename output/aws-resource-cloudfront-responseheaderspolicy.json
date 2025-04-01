@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::ResponseHeadersPolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the response headers policy ID. For example:\n\t\t\t<code class=\"code\">57f99797-3b20-4e1b-a728-27972a74082a</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the response headers policy. For example: \t\t\t57f99797-3b20-4e1b-a728-27972a74082a."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The date and time when the response headers policy was last modified."
+        }
+    ]
+}

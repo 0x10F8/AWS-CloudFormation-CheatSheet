@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EC2::SecurityGroupIngress",
+    "Ref": "",
+    "GetAtt": []
+}

@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::ApiGateway::Stage",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the stage, such as <code class=\"code\">MyTestStage</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>The following example creates a stage for the <code class=\"code\">TestDeployment</code> deployment. The stage also specifies method settings for the <code class=\"code\">MyRestApi</code> API.</p><p>\n<a href=\"https://docs.aws.amazon.com/apigateway/latest/api/API_CreateStage.html\">stage:create</a> in the <em>Amazon API Gateway REST API Reference</em>\n</p><p></p>",
+    "GetAtt": []
+}

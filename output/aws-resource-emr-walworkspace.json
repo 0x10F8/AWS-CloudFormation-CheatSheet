@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EMR::WALWorkspace",
+    "Ref": "",
+    "GetAtt": []
+}

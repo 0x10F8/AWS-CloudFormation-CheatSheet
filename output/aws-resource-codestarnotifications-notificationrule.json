@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::CodeStarNotifications::NotificationRule",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, <code class=\"code\">Ref</code> returns the notification rule ARN. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the notification rule."
+        }
+    ]
+}

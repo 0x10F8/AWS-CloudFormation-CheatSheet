@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Lightsail::Bucket",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AbleToUpdateBundle",
+            "Description": "A Boolean value indicating whether the bundle that is currently applied to your  distribution can be changed to another bundle."
+        },
+        {
+            "Ref": "BucketArn",
+            "Description": "The Amazon Resource Name (ARN) of the bucket."
+        },
+        {
+            "Ref": "Url",
+            "Description": "The URL of the bucket."
+        }
+    ]
+}

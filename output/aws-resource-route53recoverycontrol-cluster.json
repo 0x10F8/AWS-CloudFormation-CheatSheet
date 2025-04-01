@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Route53RecoveryControl::Cluster",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ClusterArn</code> object.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ClusterArn",
+            "Description": "The Amazon Resource Name (ARN) of the cluster."
+        },
+        {
+            "Ref": "ClusterEndpoints",
+            "Description": "An array of endpoints for the cluster. You specify one of these endpoints when you want to set or retrieve a routing control state  \t\tin the cluster."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The deployment status of the cluster. Status can be one of the following: PENDING, DEPLOYED, PENDING_DELETION."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::ElasticLoadBalancing::LoadBalancer",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the load balancer.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CanonicalHostedZoneName",
+            "Description": "The name of the Route 53 hosted zone that is associated with the load balancer. Internal-facing load balancers don't use this value,  use DNSName instead."
+        },
+        {
+            "Ref": "CanonicalHostedZoneNameID",
+            "Description": "The ID of the Route 53 hosted zone name that is associated with the load balancer."
+        },
+        {
+            "Ref": "DNSName",
+            "Description": "The DNS name for the load balancer."
+        },
+        {
+            "Ref": "SourceSecurityGroup.GroupName",
+            "Description": "The name of the security group that you can use as part of your inbound rules for your load balancer's back-end instances."
+        },
+        {
+            "Ref": "SourceSecurityGroup.OwnerAlias",
+            "Description": "The owner of the source security group."
+        }
+    ]
+}

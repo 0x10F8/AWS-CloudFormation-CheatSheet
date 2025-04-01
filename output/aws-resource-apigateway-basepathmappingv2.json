@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::ApiGateway::BasePathMappingV2",
+    "Ref": "",
+    "GetAtt": []
+}

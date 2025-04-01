@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Omics::Workflow",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the details of this resource. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"Workflow.Type\" }</code>\n<code class=\"code\">Ref</code> returns the type of workflow. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN for the workflow."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "When the workflow was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The workflow's ID."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The workflow's status."
+        },
+        {
+            "Ref": "Type",
+            "Description": "The workflow's type."
+        }
+    ]
+}

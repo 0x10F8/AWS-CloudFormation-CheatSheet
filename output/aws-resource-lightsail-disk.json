@@ -1,0 +1,50 @@
+{
+    "ResourceName": "AWS::Lightsail::Disk",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AttachedTo",
+            "Description": "The resources to which the disk is attached."
+        },
+        {
+            "Ref": "AttachmentState",
+            "Description": "(Deprecated) The attachment state of the disk."
+        },
+        {
+            "Ref": "DiskArn",
+            "Description": "In releases prior to November 14, 2017, this parameter returned attached for system disks in the API response. It is now deprecated, but still included in the response. Use isAttached instead."
+        },
+        {
+            "Ref": "Iops",
+            "Description": "The Amazon Resource Name (ARN) of the disk."
+        },
+        {
+            "Ref": "IsAttached",
+            "Description": "The input/output operations per second (IOPS) of the disk."
+        },
+        {
+            "Ref": "Location.AvailabilityZone",
+            "Description": "A Boolean value indicating whether the disk is attached."
+        },
+        {
+            "Ref": "Location.RegionName",
+            "Description": "The Availability Zone where the disk is located."
+        },
+        {
+            "Ref": "Path",
+            "Description": "The AWS Region where the disk is located."
+        },
+        {
+            "Ref": "ResourceType",
+            "Description": "The disk path."
+        },
+        {
+            "Ref": "State",
+            "Description": "The resource type of the disk (for example, Disk)."
+        },
+        {
+            "Ref": "SupportCode",
+            "Description": "The state of the disk (for example, in-use)."
+        }
+    ]
+}

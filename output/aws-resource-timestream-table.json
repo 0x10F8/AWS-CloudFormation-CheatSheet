@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Timestream::Table",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the table name <code class=\"code\">TABLE_NAME</code> in the form\n        <code class=\"code\">DATABASE_NAME|TABLE_NAME</code>. <code class=\"code\">DATABASE_NAME</code> is the name of the Timestream database that the table is contained in. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The arn of the table."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the table."
+        }
+    ]
+}

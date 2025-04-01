@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::AppSync::GraphQLApi",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::AppSync::GraphQLApi</code> resource to the intrinsic\n            <code class=\"code\">Ref</code> function, the function returns the ARN of the GraphQL API, such as\n            <code class=\"code\">arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApiId",
+            "Description": "Unique AWS AppSync GraphQL API identifier."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the API key, such as arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid."
+        },
+        {
+            "Ref": "GraphQLDns",
+            "Description": "The fully qualified domain name (FQDN) of the endpoint URL of your GraphQL API."
+        },
+        {
+            "Ref": "GraphQLEndpointArn",
+            "Description": "The GraphQL endpoint ARN."
+        },
+        {
+            "Ref": "GraphQLUrl",
+            "Description": "The Endpoint URL of your GraphQL API."
+        },
+        {
+            "Ref": "RealtimeDns",
+            "Description": "The fully qualified domain name (FQDN) of the real-time endpoint URL of your GraphQL API."
+        },
+        {
+            "Ref": "RealtimeUrl",
+            "Description": "The GraphQL API real-time endpoint URL. For more information, see Discovering the real-time endpoint from the GraphQL endpoint."
+        }
+    ]
+}

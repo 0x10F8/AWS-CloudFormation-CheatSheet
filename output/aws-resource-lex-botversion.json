@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Lex::BotVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "BotVersion",
+            "Description": "The version of the bot."
+        }
+    ]
+}

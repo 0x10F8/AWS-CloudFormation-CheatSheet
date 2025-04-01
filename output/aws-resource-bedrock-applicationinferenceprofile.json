@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::Bedrock::ApplicationInferenceProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the inference profile ID.</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myInferenceProfile\" }</code> could return the value <code class=\"code\">\"IP12345678\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time at which the inference profile was created."
+        },
+        {
+            "Ref": "InferenceProfileArn",
+            "Description": "The Amazon Resource Name (ARN) of the inference profile."
+        },
+        {
+            "Ref": "InferenceProfileId",
+            "Description": "The unique identifier of the inference profile."
+        },
+        {
+            "Ref": "InferenceProfileIdentifier",
+            "Description": "The ID or Amazon Resource Name (ARN) of the inference profile."
+        },
+        {
+            "Ref": "Models",
+            "Description": "A list of information about each model in the inference profile."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the inference profile. ACTIVE means that the inference profile is ready to be used."
+        },
+        {
+            "Ref": "Type",
+            "Description": "The type of the inference profile. The following types are possible:"
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "SYSTEM_DEFINED \u00e2\u0080\u0093 The inference profile is defined by Amazon Bedrock. You can route inference requests across regions with these inference profiles."
+        }
+    ]
+}

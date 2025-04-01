@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::OpsWorks::Instance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"<em>myInstance1</em>\" }</code>\n</p><p>For the AWS OpsWorks instance <em>myInstance1</em>, <code class=\"code\">Ref</code> returns the AWS OpsWorks instance ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AvailabilityZone",
+            "Description": "The Availability Zone of the AWS OpsWorks instance, such as us-east-2a."
+        },
+        {
+            "Ref": "PrivateDnsName",
+            "Description": "The private DNS name of the AWS OpsWorks instance."
+        },
+        {
+            "Ref": "PrivateIp",
+            "Description": "The private IP address of the AWS OpsWorks instance, such as 192.0.2.0."
+        },
+        {
+            "Ref": "PublicDnsName",
+            "Description": "The public DNS name of the AWS OpsWorks instance."
+        },
+        {
+            "Ref": "PublicIp",
+            "Description": "The public IP address of the AWS OpsWorks instance, such as  192.0.2.0. NoteUse this attribute only when the AWS OpsWorks instance is in an AWS OpsWorks layer  that auto-assigns public IP addresses."
+        }
+    ]
+}

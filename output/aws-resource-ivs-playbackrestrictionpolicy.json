@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IVS::PlaybackRestrictionPolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the playback-restriction-policy ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myPlaybackRestrictionPolicy\" }</code>\n</p><p>For the Amazon IVS playback restriction policy\n                <code class=\"code\">\"myPlaybackRestrictionPolicy\"</code>, <code class=\"code\">Ref</code> returns the\n            playback-restriction-policy ARN.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The playback-restriction-policy ARN. For example: arn:aws:ivs:us-west-2:123456789012:playback-restriction-policy/abcdABCDefgh"
+        }
+    ]
+}

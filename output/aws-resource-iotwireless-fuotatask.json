@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IoTWireless::FuotaTask",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the FUOTA task.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of a FUOTA task"
+        },
+        {
+            "Ref": "FuotaTaskStatus",
+            "Description": "The status of a FUOTA task."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of a FUOTA task."
+        },
+        {
+            "Ref": "LoRaWAN.StartTime",
+            "Description": "Start time of a FUOTA task."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MediaTailor::LiveSource",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Property description not available."
+        }
+    ]
+}

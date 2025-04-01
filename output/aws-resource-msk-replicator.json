@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MSK::Replicator",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CurrentVersion",
+            "Description": "The current version number of the replicator."
+        },
+        {
+            "Ref": "ReplicatorArn",
+            "Description": "Amazon Resource Name (ARN) for the created replicator."
+        }
+    ]
+}

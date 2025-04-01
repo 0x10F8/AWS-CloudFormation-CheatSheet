@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EKS::Nodegroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myNodegroup\" }</code>\n</p><p>For the Amazon EKS node group <code class=\"code\">myNodegroup</code>, Ref returns the\n            physical resource ID of the node group. For example,\n                <code class=\"code\">cluster-name/nodegroup_name</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) associated with the managed node group."
+        },
+        {
+            "Ref": "ClusterName",
+            "Description": "The name of your cluster."
+        },
+        {
+            "Ref": "NodegroupName",
+            "Description": "The name associated with an Amazon EKS managed node group."
+        }
+    ]
+}

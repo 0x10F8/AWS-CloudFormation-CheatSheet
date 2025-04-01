@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::ElastiCache::CacheCluster",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code>\n   returns the resource name. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ConfigurationEndpoint.Address",
+            "Description": "The DNS hostname of the cache node."
+        },
+        {
+            "Ref": "ConfigurationEndpoint.Port",
+            "Description": "Valkey and Redis OSS (cluster mode disabled) replication groups don't have this attribute. Therefore, Fn::GetAtt returns a value for this attribute only if the replication group is clustered. Otherwise, Fn::GetAtt fails."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The port number of the configuration endpoint for the Memcached cache cluster."
+        },
+        {
+            "Ref": "RedisEndpoint.Address",
+            "Description": "Valkey and Redis OSS (cluster mode disabled) replication groups don't have this attribute. Therefore, Fn::GetAtt returns a value for this attribute only if the replication group is clustered. Otherwise, Fn::GetAtt fails."
+        },
+        {
+            "Ref": "RedisEndpoint.Port",
+            "Description": "The resource name."
+        }
+    ]
+}

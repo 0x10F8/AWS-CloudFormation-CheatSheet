@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Events::EventBus",
+    "Ref": "<p>The name of the new event bus.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the event bus, such as arn:aws:events:us-east-2:123456789012:event-bus/aws.partner/PartnerName/acct1/repo1."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the event bus, such as PartnerName/acct1/repo1."
+        }
+    ]
+}

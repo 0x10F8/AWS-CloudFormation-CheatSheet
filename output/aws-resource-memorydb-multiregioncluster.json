@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::MemoryDB::MultiRegionCluster",
+    "Ref": "<p></p>",
+    "GetAtt": [
+        {
+            "Ref": "ARN",
+            "Description": "The Amazon Resource Name (ARN) of the multi-Region cluster."
+        },
+        {
+            "Ref": "MultiRegionClusterName",
+            "Description": "The name of the multi-Region cluster."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the multi-Region cluster."
+        }
+    ]
+}

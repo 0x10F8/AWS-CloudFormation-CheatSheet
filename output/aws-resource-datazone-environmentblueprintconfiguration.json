@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::DataZone::EnvironmentBlueprintConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n         the <code class=\"code\">EnvironmentBlueprintId</code>, which uniquely identifies the environment\n         blueprint configuration. For example: <code class=\"code\"><span>{</span> \"Ref\": \"MyBlueprintConfiguration\" }</code>\n         for the resource with the logical ID <code class=\"code\">MyBlueprintConfiguration</code>,\n            <code class=\"code\">Ref</code> returns <code class=\"code\">DomainId|BlueprintConfigurationId</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when an environment blueprint was created."
+        },
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of the Amazon DataZone domain in which an environment blueprint exists."
+        },
+        {
+            "Ref": "EnvironmentBlueprintId",
+            "Description": "The identifier of the environment blueprint. This identifier should be used when  creating environment profiles."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp of when the environment blueprint was updated."
+        }
+    ]
+}

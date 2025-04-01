@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SageMaker::StudioLifecycleConfig",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "StudioLifecycleConfigArn",
+            "Description": "The Amazon Resource Name (ARN) of the Lifecycle Configuration."
+        }
+    ]
+}

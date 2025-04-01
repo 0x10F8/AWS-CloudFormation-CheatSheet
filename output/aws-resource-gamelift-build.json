@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::GameLift::Build",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the build ID, such as\n            <code class=\"code\">build-1111aaaa-22bb-33cc-44dd-5555eeee66ff</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "BuildId",
+            "Description": "A unique identifier for the build."
+        }
+    ]
+}

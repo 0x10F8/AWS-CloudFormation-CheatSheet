@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::AppConfig::Deployment",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DeploymentNumber",
+            "Description": "The sequence number of the deployment."
+        }
+    ]
+}

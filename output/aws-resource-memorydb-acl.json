@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MemoryDB::ACL",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the Access Control List,   such as arn:aws:memorydb:us-east-1:123456789012:acl/my-acl"
+        },
+        {
+            "Ref": "Status",
+            "Description": "Indicates ACL status."
+        }
+    ]
+}

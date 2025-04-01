@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::VpcLattice::ServiceNetworkVpcAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the association.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the association between the service network and the VPC."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The date and time that the association was created, specified in ISO-8601 format."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the specified association between the service network and the VPC."
+        },
+        {
+            "Ref": "ServiceNetworkArn",
+            "Description": "The Amazon Resource Name (ARN) of the service network."
+        },
+        {
+            "Ref": "ServiceNetworkId",
+            "Description": "The ID of the service network."
+        },
+        {
+            "Ref": "ServiceNetworkName",
+            "Description": "The name of the service network."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the association."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the VPC."
+        }
+    ]
+}

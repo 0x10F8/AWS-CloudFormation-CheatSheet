@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::QuickSight::DataSet",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the dataset."
+        },
+        {
+            "Ref": "ConsumedSpiceCapacityInBytes",
+            "Description": ""
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time this dataset version was created."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time this dataset version was last updated."
+        },
+        {
+            "Ref": "OutputColumns",
+            "Description": ""
+        }
+    ]
+}

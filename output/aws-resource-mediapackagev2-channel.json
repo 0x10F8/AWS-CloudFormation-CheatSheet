@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::MediaPackageV2::Channel",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">arn:aws:mediapackagev2:region:AccountId:ChannelGroup/ChannelGroupName/Channel/ChannelName</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the channel."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of the ccreation of the channel."
+        },
+        {
+            "Ref": "IngestEndpoints",
+            "Description": "The ingest endpoints associated with the channel."
+        },
+        {
+            "Ref": "IngestEndpointUrls",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "The timestamp of the modification of the channel."
+        }
+    ]
+}

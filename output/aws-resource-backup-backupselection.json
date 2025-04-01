@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Backup::BackupSelection",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">BackupSelectionId</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "BackupPlanId",
+            "Description": "Uniquely identifies a backup plan."
+        },
+        {
+            "Ref": "Id",
+            "Description": "Uniquely identifies the backup selection."
+        },
+        {
+            "Ref": "SelectionId",
+            "Description": "Uniquely identifies a request to assign a set of resources  to a backup plan."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::CleanRooms::PrivacyBudgetTemplate",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myPrivacyBudgetTemplate\" }</code>\n</p><p>For the Clean Rooms privacy budget template, <code class=\"code\">Ref</code> returns the ARN of the privacy budget template.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the privacy budget template."
+        },
+        {
+            "Ref": "CollaborationArn",
+            "Description": "The ARN of the collaboration that contains this privacy budget template."
+        },
+        {
+            "Ref": "CollaborationIdentifier",
+            "Description": "The unique ID of the collaboration that contains this privacy budget template."
+        },
+        {
+            "Ref": "MembershipArn",
+            "Description": "The Amazon Resource Name (ARN) of the member who created the privacy budget template."
+        },
+        {
+            "Ref": "PrivacyBudgetTemplateIdentifier",
+            "Description": "A unique identifier for one of your memberships for a collaboration. The privacy budget template is created in the collaboration that this membership belongs to. Accepts a membership ID."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::DataZone::SubscriptionTarget",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code>,\n            <code class=\"code\">EnvironmentId</code> and the <code class=\"code\">SubscriptionTargetId</code> that uniquely\n         identify the subscription target. For example: <code class=\"code\"><span>{</span> \"Ref\": \"MySubscriptionTarget\"\n            }</code> for the resource with the logical ID <code class=\"code\">MySubscriptionTarget</code>,\n            <code class=\"code\">Ref</code> returns <code class=\"code\">DomainId|EnvironmentId|SubscriptionTargetId</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the subscription target was created."
+        },
+        {
+            "Ref": "CreatedBy",
+            "Description": "The Amazon DataZone user who created the subscription target."
+        },
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of the Amazon DataZone domain in which the subscription target exists."
+        },
+        {
+            "Ref": "EnvironmentId",
+            "Description": "The identifier of the environment of the subscription target."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the subscription target."
+        },
+        {
+            "Ref": "ProjectId",
+            "Description": "The identifier of the project specified in the subscription target."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp of when the subscription target was updated."
+        },
+        {
+            "Ref": "UpdatedBy",
+            "Description": "The Amazon DataZone user who updated the subscription target."
+        }
+    ]
+}

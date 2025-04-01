@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::InspectorV2::Filter",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the filter. For example:</p><p>\n<code class=\"code\">arn:aws:inspector2:us-east-1:012345678901:owner/012345678901/filter/c1c0fe5d28e39baa</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Number (ARN) associated with this filter."
+        }
+    ]
+}

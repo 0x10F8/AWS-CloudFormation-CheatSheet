@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::LakeFormation::Tag",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Tag\u00e2\u0080\u0099s <code class=\"code\">TagKey</code> property value.</p><p>For example: <code class=\"code\">tagKeyName</code>\n</p><p>\n<em>Note the following:</em>\n</p><p>\n            Only data lake administrators can create LF-tags.</p><p>An <code class=\"code\">LF-tag</code> can be assigned to Data Catalog resources (databases, tables, and columns) via <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-tagassociation.html\">AWS::LakeFormation::TagAssociation</a> to implement tag-based access control.</p><p>The following example demonstrates how to define a tag resource in a template.</p><p>\n<a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lakeformation-tagassociation-resource.html\">Assign an <code class=\"code\">LF-tag</code> to a Data Catalog resource - AWS::LakeFormation::TagAssociation</a>.</p>",
+    "GetAtt": []
+}

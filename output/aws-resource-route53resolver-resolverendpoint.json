@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Route53Resolver::ResolverEndpoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ResolverEndpoint</code> object.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the resolver endpoint, such as  \t\t\tarn:aws:route53resolver:us-east-1:123456789012:resolver-endpoint/resolver-endpoint-a1bzhi."
+        },
+        {
+            "Ref": "Direction",
+            "Description": "Indicates whether the resolver endpoint allows inbound or outbound DNS queries."
+        },
+        {
+            "Ref": "HostVPCId",
+            "Description": "The ID of the VPC that you want to create the resolver endpoint in."
+        },
+        {
+            "Ref": "IpAddressCount",
+            "Description": "The number of IP addresses that the resolver endpoint can use for DNS queries."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name that you assigned to the resolver endpoint when you created the endpoint."
+        },
+        {
+            "Ref": "ResolverEndpointId",
+            "Description": "The ID of the resolver endpoint."
+        }
+    ]
+}

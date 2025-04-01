@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::FSx::StorageVirtualMachine",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ID, such as <code class=\"code\">svm-01234567890123456</code>. \n            For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"svm_logical_id\"}</code> returns </p><p>\n<code class=\"code\">svm-01234567890123456</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ResourceARN",
+            "Description": "Returns the storage virtual machine's Amazon Resource Name (ARN)."
+        },
+        {
+            "Ref": "StorageVirtualMachineId",
+            "Description": "Example: arn:aws:fsx:us-east-2:111111111111:storage-virtual-machine/fs-0123456789abcdef1/svm-01234567890123456"
+        },
+        {
+            "Ref": "UUID",
+            "Description": "Returns the storgage virtual machine's system generated ID."
+        }
+    ]
+}

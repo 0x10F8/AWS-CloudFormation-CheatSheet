@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::SES::ContactList",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic Ref function, Ref\n            returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\" : \"ContactListName\" }</code>\n</p><p>For the Amazon SES ContactList, <code class=\"code\">Ref</code> returns the name of the contact\n            list.</p>",
+    "GetAtt": []
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Connect::ContactFlowModule",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the flow module. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myFlowModuleArn\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ContactFlowModuleArn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the Amazon Resource Name (ARN) of the flow module."
+        },
+        {
+            "Ref": "Status",
+            "Description": "For more information about using the Ref function, see Ref."
+        }
+    ]
+}

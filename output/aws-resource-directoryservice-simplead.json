@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::DirectoryService::SimpleAD",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic\n      function, <code class=\"code\">Ref</code> returns the resource ID.</p><p>In the following sample, the <code class=\"code\">Ref</code> function returns the ID of the\n        <code class=\"code\">myDirectory</code> directory, such as <code class=\"code\">d-1a2b3c4d5e</code>.</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myDirectory\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Alias",
+            "Description": "The alias for a directory. For example: alias4-mydirectory-12345abcgmzsk (if you have the CreateAlias property set to true)."
+        },
+        {
+            "Ref": "DirectoryId",
+            "Description": "The directory ID. For example: d-12373a053a."
+        },
+        {
+            "Ref": "DnsIpAddresses",
+            "Description": "The IP addresses of the DNS servers for the directory, such as [ \"172.31.3.154\", \"172.31.63.203\" ]."
+        }
+    ]
+}

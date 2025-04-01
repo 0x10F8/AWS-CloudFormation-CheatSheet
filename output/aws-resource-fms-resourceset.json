@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::FMS::ResourceSet",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "A unique identifier for the resource set. This ID is returned in the responses to create and list commands. You provide it to operations like update and delete."
+        }
+    ]
+}

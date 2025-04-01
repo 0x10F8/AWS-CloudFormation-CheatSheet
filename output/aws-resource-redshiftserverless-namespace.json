@@ -1,0 +1,50 @@
+{
+    "ResourceName": "AWS::RedshiftServerless::Namespace",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n   returns the NamespaceName, such as <code class=\"code\">sample-namespace.</code> For more\n   information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Namespace.AdminUsername",
+            "Description": "The username of the administrator for the first database created in the namespace."
+        },
+        {
+            "Ref": "Namespace.CreationDate",
+            "Description": "The date of when the namespace was created."
+        },
+        {
+            "Ref": "Namespace.DbName",
+            "Description": "The name of the first database created in the namespace."
+        },
+        {
+            "Ref": "Namespace.DefaultIamRoleArn",
+            "Description": "The Amazon Resource Name (ARN) of the IAM role to set as a default in the namespace."
+        },
+        {
+            "Ref": "Namespace.IamRoles",
+            "Description": "A list of IAM roles to associate with the namespace."
+        },
+        {
+            "Ref": "Namespace.KmsKeyId",
+            "Description": "The ID of the AWS Key Management Service key used to encrypt your data."
+        },
+        {
+            "Ref": "Namespace.LogExports",
+            "Description": "The types of logs the namespace can export. Available export types are User log, Connection log, and User activity log."
+        },
+        {
+            "Ref": "Namespace.NamespaceArn",
+            "Description": "The Amazon Resource Name (ARN) associated with a namespace."
+        },
+        {
+            "Ref": "Namespace.NamespaceId",
+            "Description": "The unique identifier of a namespace."
+        },
+        {
+            "Ref": "Namespace.NamespaceName",
+            "Description": "The name of the namespace. Must be between 3-64 alphanumeric characters in lowercase, and it cannot be a reserved word. A list of reserved words can be found in Reserved Words in the Amazon Redshift Database Developer Guide."
+        },
+        {
+            "Ref": "Namespace.Status",
+            "Description": "The status of the namespace."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Signer::SigningProfile",
+    "Ref": "<p>The signing profile ARN.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the signing profile created."
+        },
+        {
+            "Ref": "ProfileName",
+            "Description": "The name of the signing profile created."
+        },
+        {
+            "Ref": "ProfileVersion",
+            "Description": "The version of the signing profile created."
+        },
+        {
+            "Ref": "ProfileVersionArn",
+            "Description": "The signing profile ARN, including the profile version."
+        }
+    ]
+}

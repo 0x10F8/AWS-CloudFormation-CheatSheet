@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::NetworkManager::Link",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IDs of the global network and link. For example: <code class=\"code\">global-network-01231231231231231|link-11112222aaaabbbb1</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The date and time that the link was created."
+        },
+        {
+            "Ref": "LinkArn",
+            "Description": "The ARN of the link. For example, arn:aws:networkmanager::123456789012:link/global-network-01231231231231231/link-11112222aaaabbbb1."
+        },
+        {
+            "Ref": "LinkId",
+            "Description": "The ID of the link. For example, link-11112222aaaabbbb1."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the link."
+        }
+    ]
+}

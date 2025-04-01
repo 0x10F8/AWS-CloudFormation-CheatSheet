@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::MediaConnect::Flow",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the flow ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\":\n            \"arn:aws:mediaconnect:us-east-1:111122223333:flow:1-23aBC45dEF67hiJ8-12AbC34DE5fG:BasketballGame\"\n            }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "EgressIp",
+            "Description": "The IP address from which video will be sent to output destinations."
+        },
+        {
+            "Ref": "FlowArn",
+            "Description": "The Amazon Resource Name (ARN) of the flow."
+        },
+        {
+            "Ref": "FlowAvailabilityZone",
+            "Description": "The Availability Zone that the flow was created in. These options are limited to the  Availability Zones within the current AWS Region."
+        },
+        {
+            "Ref": "FlowNdiMachineName",
+            "Description": "This read-only value represents the automatically-generated NDI machine name that MediaConnect generated for this flow. These NDI machine names are only generated when you don't specify your own custom name."
+        },
+        {
+            "Ref": "Source.IngestIp",
+            "Description": "The IP address that the flow listens on for incoming content."
+        },
+        {
+            "Ref": "Source.SourceArn",
+            "Description": "The ARN of the source."
+        },
+        {
+            "Ref": "Source.SourceIngestPort",
+            "Description": "The port that the flow listens on for incoming content. If the protocol of the source is Zixi, the port must  be set to 2088."
+        }
+    ]
+}

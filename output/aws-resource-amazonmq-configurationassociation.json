@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AmazonMQ::ConfigurationAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon MQ configurationassociation ID. For example: </p><p>\n<code class=\"code\">c-1234a5b6-78cd-901e-2fgh-3i45j6k178l9</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": []
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::CodeGuruReviewer::RepositoryAssociation",
+    "Ref": "<p>\n         When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, \n         <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the AWS CodeGuru Reviewer \n         <a href=\"https://docs.aws.amazon.com/codeguru/latest/reviewer-api/API_RepositoryAssociation.html\"><code class=\"code\">RepositoryAssociation</code></a>, \n         such as <code class=\"code\">arn:aws:codeguru-reviewer:region:123456789012:association/universally-unique-identifier</code>.\n      </p><p>\n         For more information about using the <code class=\"code\">Ref</code> function, see \n         <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.\n      </p>",
+    "GetAtt": [
+        {
+            "Ref": "AssociationArn",
+            "Description": "The Amazon Resource Name (ARN) of the  RepositoryAssociation object.   You can retrieve this ARN by calling ListRepositories."
+        }
+    ]
+}

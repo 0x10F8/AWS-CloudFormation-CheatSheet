@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::DataZone::ProjectMembership",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code>,\n            <code class=\"code\">MemberId</code>, <code class=\"code\">MemberType</code>, and <code class=\"code\">ProjectId</code> that uniquely\n         identify the project membership. For example: <code class=\"code\"><span>{</span> \"Ref\": \"MyProjectMembership\" }</code>\n         for the resource with the logical ID <code class=\"code\">MyProjectMembership</code>, <code class=\"code\">Ref</code>\n         returns <code class=\"code\">DomainId|MemberId|MemberType|ProjectId</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": []
+}

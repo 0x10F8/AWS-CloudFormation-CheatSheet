@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::WorkSpacesWeb::DataProtectionSettings",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AssociatedPortalArns",
+            "Description": "A list of web portal ARNs that this data protection settings resource is associated  with."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The creation date timestamp of the data protection settings."
+        },
+        {
+            "Ref": "DataProtectionSettingsArn",
+            "Description": "The ARN of the data protection settings resource."
+        }
+    ]
+}

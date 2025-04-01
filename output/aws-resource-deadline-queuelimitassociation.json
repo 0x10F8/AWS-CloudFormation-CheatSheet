@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Deadline::QueueLimitAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the unique identifier for the queue-limit association.</p>",
+    "GetAtt": []
+}

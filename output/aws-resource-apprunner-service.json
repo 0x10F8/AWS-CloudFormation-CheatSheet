@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::AppRunner::Service",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the ARN of the App Runner service.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ServiceArn",
+            "Description": "The Amazon Resource Name (ARN) of this service."
+        },
+        {
+            "Ref": "ServiceId",
+            "Description": "An ID that App Runner generated for this service. It's unique within the AWS Region."
+        },
+        {
+            "Ref": "ServiceUrl",
+            "Description": "A subdomain URL that App Runner generated for this service. You can use this URL to access your service web application."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current state of the App Runner service. These particular values mean the following."
+        }
+    ]
+}

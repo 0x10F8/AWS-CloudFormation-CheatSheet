@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::MediaLive::SdiSource",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Inputs",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "State",
+            "Description": "Property description not available."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::FSx::FileSystem",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the file system resource ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\":\"file_system_logical_id\"}</code>\n</p><p>Returns <code class=\"code\">fs-0123456789abcdef6</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DNSName",
+            "Description": "Returns the FSx for Windows file system's DNSName."
+        },
+        {
+            "Ref": "LustreMountName",
+            "Description": "Example: amznfsxp1honlek.corp.example.com"
+        },
+        {
+            "Ref": "ResourceARN",
+            "Description": "Returns the Lustre file system's LustreMountName."
+        },
+        {
+            "Ref": "RootVolumeId",
+            "Description": "Example for SCRATCH_1 deployment types: This value is always fsx."
+        }
+    ]
+}

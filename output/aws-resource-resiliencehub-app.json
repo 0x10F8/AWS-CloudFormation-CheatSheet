@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ResilienceHub::App",
+    "Ref": "<p>The returned Amazon Resource Name (ARN) for the applcation.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AppArn",
+            "Description": "The Amazon Resource Name (ARN) of the applcation."
+        },
+        {
+            "Ref": "DriftStatus",
+            "Description": "Indicates if compliance drifts (deviations) were detected while running an assessment for your application."
+        }
+    ]
+}

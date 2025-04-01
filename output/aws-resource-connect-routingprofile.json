@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Connect::RoutingProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the routing profile name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myRoutingProfileName\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "RoutingProfileArn",
+            "Description": "The Amazon Resource Name (ARN) of the routing profile."
+        }
+    ]
+}

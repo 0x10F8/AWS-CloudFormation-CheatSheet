@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IdentityStore::Group",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the <code class=\"code\">Physical ID</code> of the resource created\n         which is the format <code class=\"code\">GroupID|IdentityStoreId</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "GroupId",
+            "Description": "The identifier of the newly created group in the identity store."
+        }
+    ]
+}

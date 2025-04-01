@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Config::StoredQuery",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "QueryArn",
+            "Description": "Amazon Resource Name (ARN) of the query. For example, arn:partition:service:region:account-id:resource-type/resource-name/resource-id."
+        },
+        {
+            "Ref": "QueryId",
+            "Description": "The ID of the query."
+        }
+    ]
+}

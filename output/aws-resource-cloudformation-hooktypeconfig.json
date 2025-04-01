@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::CloudFormation::HookTypeConfig",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the resource version. For example:</p><p>\n<code class=\"code\">arn:aws:cloudformation:us-west-2:123456789012:type-configuration/hook/My-Sample-Hook/default</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ConfigurationArn",
+            "Description": "The Amazon Resource Number (ARN) of the activated Hook type configuration, in this  account and Region."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Wisdom::AIPrompt",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AIPromptArn",
+            "Description": "The Amazon Resource Name (ARN) of the AI Prompt."
+        },
+        {
+            "Ref": "AIPromptId",
+            "Description": "The identifier of the Amazon Q in Connect AI prompt."
+        },
+        {
+            "Ref": "AssistantArn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon Q in Connect assistant."
+        },
+        {
+            "Ref": "ModifiedTimeSeconds",
+            "Description": "Property description not available."
+        }
+    ]
+}

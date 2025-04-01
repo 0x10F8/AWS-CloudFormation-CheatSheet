@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::QuickSight::Theme",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the theme."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time the theme was created."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time the theme was last updated."
+        },
+        {
+            "Ref": "Type",
+            "Description": "Theme type."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoT::MitigationAction",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the mitigation action name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "MitigationActionArn",
+            "Description": "The Amazon Resource Name (ARN) of the mitigation action."
+        },
+        {
+            "Ref": "MitigationActionId",
+            "Description": "The ID of the mitigation action."
+        }
+    ]
+}

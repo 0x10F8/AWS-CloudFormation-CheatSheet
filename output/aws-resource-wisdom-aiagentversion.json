@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Wisdom::AIAgentVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AIAgentArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "AIAgentVersionId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "AssistantArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "VersionNumber",
+            "Description": "The version number for this AI Agent version."
+        }
+    ]
+}

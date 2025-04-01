@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Deadline::Monitor",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the monitor."
+        },
+        {
+            "Ref": "IdentityCenterApplicationArn",
+            "Description": "The Amazon Resource Name (ARN) that the IAM Identity Center assigned to the monitor when it was created."
+        },
+        {
+            "Ref": "MonitorId",
+            "Description": "The unique identifier for the monitor."
+        },
+        {
+            "Ref": "Url",
+            "Description": "The complete URL of the monitor. The full URL of the monitor is  subdomain.Region.deadlinecloud.amazonaws.com."
+        }
+    ]
+}

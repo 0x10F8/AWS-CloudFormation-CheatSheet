@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::ServiceCatalog::CloudFormationProduct",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the provisioning artifact, such as\n         <code class=\"code\">pa-3mc34fbybfmgp</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ProductName",
+            "Description": "The name of the product."
+        },
+        {
+            "Ref": "ProvisioningArtifactIds",
+            "Description": "The IDs of the provisioning artifacts."
+        },
+        {
+            "Ref": "ProvisioningArtifactNames",
+            "Description": "The names of the provisioning artifacts."
+        }
+    ]
+}

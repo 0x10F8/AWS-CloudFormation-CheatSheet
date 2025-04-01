@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::IoTAnalytics::Channel",
+    "Ref": "",
+    "GetAtt": []
+}

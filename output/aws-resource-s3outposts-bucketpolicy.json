@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::S3Outposts::BucketPolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the S3 on Outposts bucket Amazon Resource Name (ARN).</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p>The following example creates an Amazon S3 on Outposts bucket and adds a bucket policy to that bucket.</p><p>To add a bucket policy to a bucket, you must create your Outposts bucket before or\n            at the same time as you add your bucket policy.</p>",
+    "GetAtt": []
+}

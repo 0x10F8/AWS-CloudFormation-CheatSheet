@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::EC2::Instance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the instance ID. For example:\n            <code class=\"code\">i-1234567890abcdef0</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "InstanceId",
+            "Description": "The ID of the instance."
+        },
+        {
+            "Ref": "PrivateDnsName",
+            "Description": "The private DNS name of the specified instance. For example: ip-10-24-34-0.ec2.internal."
+        },
+        {
+            "Ref": "PrivateIp",
+            "Description": "The private IP address of the specified instance. For example:  10.24.34.0."
+        },
+        {
+            "Ref": "PublicDnsName",
+            "Description": "The public DNS name of the specified instance. For example: ec2-107-20-50-45.compute-1.amazonaws.com."
+        },
+        {
+            "Ref": "PublicIp",
+            "Description": "The public IP address of the specified instance. For example:  192.0.2.0."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the VPC in which the instance is running."
+        }
+    ]
+}

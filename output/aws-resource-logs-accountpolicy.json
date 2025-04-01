@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Logs::AccountPolicy",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AccountId",
+            "Description": "The account ID of the account where this policy was created. For example,   123456789012."
+        }
+    ]
+}

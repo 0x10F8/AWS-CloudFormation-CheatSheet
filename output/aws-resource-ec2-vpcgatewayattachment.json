@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EC2::VPCGatewayAttachment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the VPC gateway attachment.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>To attach both an Internet gateway and a VPN gateway to a VPC, you must specify\n               two separate AWS::EC2::VPCGatewayAttachment resources: </p><p>\n<a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_AttachVpnGateway.html\">AttachVpnGateway</a> in the <em>Amazon EC2 API\n                  Reference</em>\n</p><p>\n<a href=\"https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html\">Internet gateways</a>\n                  in the <em>Amazon VPC User Guide</em>\n</p><p></p>",
+    "GetAtt": []
+}

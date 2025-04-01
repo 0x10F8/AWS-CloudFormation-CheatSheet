@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Synthetics::Canary",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the canary, such as <code class=\"code\">MyCanary</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Code.SourceLocationArn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the Lambda layer where Synthetics stores the canary script code."
+        },
+        {
+            "Ref": "Id",
+            "Description": "For more information about using the Ref function, see Ref."
+        },
+        {
+            "Ref": "State",
+            "Description": "The ID of the canary."
+        }
+    ]
+}

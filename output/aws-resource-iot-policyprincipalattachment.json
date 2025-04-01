@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::IoT::PolicyPrincipalAttachment",
+    "Ref": "",
+    "GetAtt": []
+}

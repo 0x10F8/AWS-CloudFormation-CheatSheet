@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::IAM::ManagedPolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN.</p><p>In the following sample, the <code class=\"code\">Ref</code> function returns the ARN of the\n            <code class=\"code\">CreateTestDBPolicy</code> managed policy, such as\n            <code class=\"code\">arn:aws:iam::123456789012:policy/teststack-CreateTestDBPolicy-16M23YE3CS700</code>.</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"CreateTestDBPolicy\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AttachmentCount",
+            "Description": "The number of principal entities (users, groups, and roles) that the policy is attached  to."
+        },
+        {
+            "Ref": "CreateDate",
+            "Description": "The date and time, in ISO 8601 date-time format, when the policy was created."
+        },
+        {
+            "Ref": "DefaultVersionId",
+            "Description": "The identifier for the version of the policy that is set as the default (operative)  version."
+        },
+        {
+            "Ref": "IsAttachable",
+            "Description": "For more information about policy versions, see Versioning for managed policies in the IAM User Guide."
+        },
+        {
+            "Ref": "PermissionsBoundaryUsageCount",
+            "Description": "Specifies whether the policy can be attached to an IAM user, group, or role."
+        },
+        {
+            "Ref": "PolicyArn",
+            "Description": "The number of entities (users and roles) for which the policy is used as the permissions  boundary."
+        },
+        {
+            "Ref": "PolicyId",
+            "Description": "For more information about permissions boundaries, see Permissions boundaries for IAM identitiesin the IAM User Guide."
+        },
+        {
+            "Ref": "UpdateDate",
+            "Description": "The Amazon Resource Name (ARN) of the managed policy that you want information about."
+        }
+    ]
+}

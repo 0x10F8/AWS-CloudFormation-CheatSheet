@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::FMS::Policy",
+    "Ref": "<p>The <code class=\"code\">Ref</code> for this resource returns the <code class=\"code\">PolicyId</code>. </p><p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource physical ID, such as 1234a1a-a1b1-12a1-abcd-a123b123456.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the policy."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the policy."
+        }
+    ]
+}

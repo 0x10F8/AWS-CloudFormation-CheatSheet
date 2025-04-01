@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::EventSchemas::Schema",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic\n            function, <code class=\"code\">Ref</code> returns the ARN of the schema. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MySchema\" }</code>\n</p><p>Returns a value similar to the following:</p><p>\n<code class=\"code\">arn:aws:schemas:us-east-1:012345678901:schema/MyRegistry/MySchema</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "LastModified",
+            "Description": "The date and time that schema was modified."
+        },
+        {
+            "Ref": "SchemaArn",
+            "Description": "The ARN of the schema."
+        },
+        {
+            "Ref": "SchemaName",
+            "Description": "The name of the schema."
+        },
+        {
+            "Ref": "SchemaVersion",
+            "Description": "The version number of the schema."
+        },
+        {
+            "Ref": "VersionCreatedDate",
+            "Description": "The date the schema version was created."
+        }
+    ]
+}

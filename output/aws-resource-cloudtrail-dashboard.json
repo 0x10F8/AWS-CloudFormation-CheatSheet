@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::CloudTrail::Dashboard",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedTimestamp",
+            "Description": "The timestamp that shows when the dashboard was created."
+        },
+        {
+            "Ref": "DashboardArn",
+            "Description": "The ARN for the dashboard."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the dashboard."
+        },
+        {
+            "Ref": "Type",
+            "Description": "The type of dashboard."
+        },
+        {
+            "Ref": "UpdatedTimestamp",
+            "Description": "The timestamp that shows when the dashboard was updated."
+        }
+    ]
+}

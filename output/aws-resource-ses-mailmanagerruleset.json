@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SES::MailManagerRuleSet",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "RuleSetArn",
+            "Description": "The Amazon Resource Name (ARN) of the rule set resource."
+        },
+        {
+            "Ref": "RuleSetId",
+            "Description": "The identifier of the rule set."
+        }
+    ]
+}

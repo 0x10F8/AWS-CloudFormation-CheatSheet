@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::FraudDetector::Detector",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the primary identifier for the resource, which is the ARN.</p><p>Example: <code class=\"code\"><span>{</span>\"Ref\": \"arn:aws:frauddetector:us-west-2:123123123123:outcome/outcome_name\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The detector ARN."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "Timestamp of when detector was created."
+        },
+        {
+            "Ref": "DetectorVersionId",
+            "Description": "The name of the detector."
+        },
+        {
+            "Ref": "EventType.Arn",
+            "Description": "The detector ARN."
+        },
+        {
+            "Ref": "EventType.CreatedTime",
+            "Description": "Timestamp of when the detector was created."
+        },
+        {
+            "Ref": "EventType.LastUpdatedTime",
+            "Description": "Timestamp of when the detector was last updated."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "Timestamp of when detector was last updated."
+        }
+    ]
+}

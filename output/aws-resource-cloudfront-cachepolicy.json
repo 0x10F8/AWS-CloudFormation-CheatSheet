@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::CachePolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the cache policy ID. For example:\n            <code class=\"code\">2766f7b2-75c5-41c6-8f06-bf4303a2f2f5</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the cache policy. For example: 2766f7b2-75c5-41c6-8f06-bf4303a2f2f5."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The date and time when the cache policy was last modified."
+        }
+    ]
+}

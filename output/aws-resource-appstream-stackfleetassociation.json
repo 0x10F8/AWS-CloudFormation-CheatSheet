@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppStream::StackFleetAssociation",
+    "Ref": "",
+    "GetAtt": []
+}

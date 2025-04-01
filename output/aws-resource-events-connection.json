@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Events::Connection",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the connection that was created by the\n      request.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the connection that was created by the request."
+        },
+        {
+            "Ref": "AuthParameters.ConnectivityParameters.ResourceParameters.ResourceAssociationArn",
+            "Description": "For connections to private APIs, the Amazon Resource Name (ARN) of the resource association EventBridge created between the connection and the private API's resource configuration."
+        },
+        {
+            "Ref": "InvocationConnectivityParameters.ResourceParameters.ResourceAssociationArn",
+            "Description": "For more information, see  Managing service network resource associations for connections in the  Amazon EventBridge User Guide ."
+        },
+        {
+            "Ref": "SecretArn",
+            "Description": "For connections to private APIs, the Amazon Resource Name (ARN) of the resource association EventBridge created between the connection and the private API's resource configuration."
+        }
+    ]
+}

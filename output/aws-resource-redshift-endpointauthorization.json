@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::Redshift::EndpointAuthorization",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AllowedAllVPCs",
+            "Description": "Indicates whether all VPCs in the grantee account are allowed access to the cluster."
+        },
+        {
+            "Ref": "AllowedVPCs",
+            "Description": "The VPCs allowed access to the cluster."
+        },
+        {
+            "Ref": "AuthorizeTime",
+            "Description": "The time (UTC) when the authorization was created."
+        },
+        {
+            "Ref": "ClusterStatus",
+            "Description": "The status of the cluster."
+        },
+        {
+            "Ref": "EndpointCount",
+            "Description": "The number of Redshift-managed VPC endpoints created for the authorization."
+        },
+        {
+            "Ref": "Grantee",
+            "Description": "The AWS account ID of the grantee of the cluster."
+        },
+        {
+            "Ref": "Grantor",
+            "Description": "The AWS account ID of the cluster owner."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the authorization action."
+        }
+    ]
+}

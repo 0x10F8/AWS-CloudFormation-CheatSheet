@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppStream::ApplicationEntitlementAssociation",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the combination of the <code class=\"code\">StackName</code>,\n            <code class=\"code\">EntitlementName</code>,  and <code class=\"code\">ApplicationIdentifier</code>, such as\n            <code class=\"code\">abcdefStack|abcdefEntitlement|abcdefApplication</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": []
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::CodeCommit::Repository",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function,\n                <code class=\"code\">Ref</code> returns the repository ID. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "When you pass the logical ID of this resource, the function returns the Amazon Resource Name (ARN) of the repository."
+        },
+        {
+            "Ref": "CloneUrlHttp",
+            "Description": "When you pass the logical ID of this resource, the function returns the URL to use for cloning the repository over HTTPS."
+        },
+        {
+            "Ref": "CloneUrlSsh",
+            "Description": "When you pass the logical ID of this resource, the function returns the URL to use for cloning the repository over SSH."
+        },
+        {
+            "Ref": "Name",
+            "Description": "When you pass the logical ID of this resource, the function returns the repository's name."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ACMPCA::Certificate",
+    "Ref": "<p>This reference should not be used in CloudFormation templates. Instead, use\n                <code class=\"code\">AWS::ACMPCA::Certificate.Arn</code> to identify a certificate, and use\n                <code class=\"code\">AWS::ACMPCA::Certificate.CertificateAuthorityArn</code> to identify a\n            certificate authority.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the issued certificate."
+        },
+        {
+            "Ref": "Certificate",
+            "Description": "The issued Base64 PEM-encoded certificate."
+        }
+    ]
+}

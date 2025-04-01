@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::FSx::DataRepositoryAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the data repository association resource ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\":\"data_repository_association_logical_id\"}</code>\n</p><p>Returns <code class=\"code\">dra-0123456789abcdef6</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AssociationId",
+            "Description": "Returns the data repository association's system generated Association ID."
+        },
+        {
+            "Ref": "ResourceARN",
+            "Description": "Example: dra-abcdef0123456789d"
+        }
+    ]
+}

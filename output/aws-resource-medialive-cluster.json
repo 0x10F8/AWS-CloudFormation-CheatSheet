@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::MediaLive::Cluster",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ChannelIds",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "State",
+            "Description": "Property description not available."
+        }
+    ]
+}

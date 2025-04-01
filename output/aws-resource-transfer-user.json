@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Transfer::User",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the username, such as <code class=\"code\">transfer_user</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name associated with the user, in the form  arn:aws:transfer:region:account-id:user/server-id/username . An example of a user ARN is: arn:aws:transfer:us-east-1:123456789012:user/user1."
+        },
+        {
+            "Ref": "ServerId",
+            "Description": "The ID of the server to which the user is attached. An example ServerId is s-01234567890abcdef."
+        },
+        {
+            "Ref": "UserName",
+            "Description": "A unique string that identifies a Transfer Family user account associated with a server. An example UserName is transfer-user-1."
+        }
+    ]
+}

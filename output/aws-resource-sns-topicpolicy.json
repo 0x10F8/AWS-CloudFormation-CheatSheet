@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SNS::TopicPolicy",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The provider-assigned unique ID for this managed resource."
+        }
+    ]
+}

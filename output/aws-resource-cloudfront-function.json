@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::Function",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "FunctionARN",
+            "Description": "The ARN of the function. For example:"
+        },
+        {
+            "Ref": "FunctionMetadata.FunctionARN",
+            "Description": "arn:aws:cloudfront::123456789012:function/ExampleFunction."
+        }
+    ]
+}

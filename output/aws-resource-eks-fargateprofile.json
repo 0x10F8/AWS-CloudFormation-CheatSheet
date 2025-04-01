@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::EKS::FargateProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myFargateProfile\" }</code>\n</p><p>For the Fargate profile<code class=\"code\">myFargateProfile</code>, Ref returns the\n            physical resource ID of the Fargate profile. For example,\n                <code class=\"code\">&lt;cluster-name&gt;/&lt;Fargate_profile_name&gt;</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the cluster, such as arn:aws:eks:us-west-2:666666666666:fargateprofile/myCluster/myFargateProfile/1cb1a11a-1dc1-1d11-cf11-1111f11fa111."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Wisdom::AIAgent",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AIAgentArn",
+            "Description": "The Amazon Resource Name (ARN) of the AI agent."
+        },
+        {
+            "Ref": "AIAgentId",
+            "Description": "The identifier of the AI Agent."
+        },
+        {
+            "Ref": "AssistantArn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon Q in Connect assistant."
+        },
+        {
+            "Ref": "ModifiedTimeSeconds",
+            "Description": "Property description not available."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudTrail::Trail",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, <code class=\"code\">Ref</code> returns the resource name. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the CloudTrail trail, such as arn:aws:cloudtrail:us-east-2:123456789012:trail/myCloudTrail."
+        },
+        {
+            "Ref": "SnsTopicArn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the Amazon SNS topic that's associated with the CloudTrail trail,  such as arn:aws:sns:us-east-2:123456789012:mySNSTopic."
+        }
+    ]
+}

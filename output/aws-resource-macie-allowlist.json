@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Macie::AllowList",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the <code class=\"code\">AllowList</code>. For example,\n                <code class=\"code\"><span>{</span> \"Ref\": \"AllowList\" }</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the allow list."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the allow list."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the allow list, which indicates whether Amazon Macie can access and use the list's criteria. If the list's criteria specify a regular expression (Regex), this value is typically OK. Macie can compile the expression. If the list's criteria specify an Amazon S3 object (S3WordsList), possible values are:"
+        }
+    ]
+}

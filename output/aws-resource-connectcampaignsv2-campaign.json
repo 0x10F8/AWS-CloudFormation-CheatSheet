@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ConnectCampaignsV2::Campaign",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN)."
+        }
+    ]
+}

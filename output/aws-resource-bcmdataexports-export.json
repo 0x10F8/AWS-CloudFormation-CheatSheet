@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::BCMDataExports::Export",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ExportArn",
+            "Description": "The Amazon Resource Name (ARN) for this export."
+        }
+    ]
+}

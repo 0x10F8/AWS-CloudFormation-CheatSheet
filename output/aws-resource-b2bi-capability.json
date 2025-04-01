@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::B2BI::Capability",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CapabilityArn",
+            "Description": "Returns an Amazon Resource Name (ARN) for a specific AWS resource, such as a capability, partnership, profile, or transformer."
+        },
+        {
+            "Ref": "CapabilityId",
+            "Description": "Returns a system-assigned unique identifier for the capability."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "Returns a timestamp for creation date and time of the capability."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "Returns a timestamp that identifies the most recent date and time that the capability was modified."
+        }
+    ]
+}

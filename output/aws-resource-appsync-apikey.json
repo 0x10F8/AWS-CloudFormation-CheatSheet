@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AppSync::ApiKey",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::AppSync::ApiKey</code> resource to the intrinsic\n            <code class=\"code\">Ref</code> function, the function returns the ARN of the API key, such as\n            <code class=\"code\">arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/apikey/apikeya1bzhi</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApiKey",
+            "Description": "The API key."
+        },
+        {
+            "Ref": "ApiKeyId",
+            "Description": "The API key ID."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the API key, such as arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/apikey/apikeya1bzhi."
+        }
+    ]
+}

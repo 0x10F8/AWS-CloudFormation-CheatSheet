@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MediaLive::Multiplexprogram",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ChannelId",
+            "Description": "The unique ID of the channel."
+        }
+    ]
+}

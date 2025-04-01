@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::OpsWorksCM::Server",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the server's ARN, such as <code class=\"code\">arn:aws:OpsWorksCM:us-east-1:123456789012:server/server-a1bzhi</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the server, such as arn:aws:OpsWorksCM:us-east-1:123456789012:server/server-a1bzhi."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "A DNS name that can be used to access the engine. Example: myserver-asdfghjkl.us-east-1.opsworks.io."
+        },
+        {
+            "Ref": "ServerName",
+            "Description": "The name of the server."
+        }
+    ]
+}

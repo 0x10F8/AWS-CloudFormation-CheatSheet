@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Location::Tracker",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">Tracker</code> name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) for the tracker resource. Used when you need to specify a resource across all AWS."
+        },
+        {
+            "Ref": "CreateTime",
+            "Description": "Format example: arn:aws:geo:region:account-id:tracker/ExampleTracker"
+        },
+        {
+            "Ref": "TrackerArn",
+            "Description": "The timestamp for when the tracker resource was created in ISO 8601 format: YYYY-MM-DDThh:mm:ss.sssZ."
+        },
+        {
+            "Ref": "UpdateTime",
+            "Description": "Synonym for Arn. The Amazon Resource Name (ARN) for the tracker resource. Used when you need to specify a resource across all AWS."
+        }
+    ]
+}

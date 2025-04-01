@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Kinesis::StreamConsumer",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::Kinesis::StreamConsumer</code>\n            resource to the intrinsic Ref function, the function returns the consumer ARN. For\n            example ARN formats, see <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html#arns-syntax\">Example\n                ARNs</a>. </p><p>For more information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "ConsumerARN",
+            "Description": "When you register a consumer, Kinesis Data Streams generates an ARN for it. You need this ARN to be able to call SubscribeToShard."
+        },
+        {
+            "Ref": "ConsumerCreationTimestamp",
+            "Description": "If you delete a consumer and then create a new one with the same name, it won't have the same ARN. That's because consumer ARNs contain the creation timestamp. This is important to keep in mind if you have IAM policies that reference consumer ARNs."
+        },
+        {
+            "Ref": "ConsumerName",
+            "Description": "The time at which the consumer was created."
+        },
+        {
+            "Ref": "ConsumerStatus",
+            "Description": "The name you gave the consumer when you registered it."
+        },
+        {
+            "Ref": "StreamARN",
+            "Description": "A consumer can't read data while in the CREATING or DELETING states."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::ProvisioningTemplate",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the template name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyTemplate\" }</code>\n</p><p>For a stack named MyStack, a value similar to the following is returned:</p><p>\n<code class=\"code\">MyStack-MyTemplate-AB1CDEFGHIJK</code>\n</p>",
+    "GetAtt": [
+        {
+            "Ref": "TemplateArn",
+            "Description": "The ARN that identifies the provisioning template."
+        }
+    ]
+}

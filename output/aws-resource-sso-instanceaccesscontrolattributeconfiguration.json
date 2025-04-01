@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::SSO::InstanceAccessControlAttributeConfiguration",
+    "Ref": "<p>Specifies the IAM Identity Center identity store attributes to add to your ABAC\n         configuration. When using an external identity provider as an identity source, you can pass\n         attributes through the SAML assertion. Doing so provides an alternative to configuring\n         attributes from the IAM Identity Center identity store. If a SAML assertion passes any of\n         these attributes, IAM Identity Center will replace the attribute value with the value from\n         the IAM Identity Center identity store.</p><p></p><p>The following example enables ABAC in IAM Identity Center and creates a new\n               attribute key <code class=\"code\">CostCenter</code> that is mapped to the Value\n                  <code class=\"code\">\u00e2\u0080\u009c$<span>{</span>path:enterprise.costCenter}\u00e2\u0080\u009d</code> which is coming from your identity\n               source.</p>",
+    "GetAtt": []
+}

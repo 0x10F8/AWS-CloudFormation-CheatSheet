@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::DataSync::StorageSystem",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the on-premises storage system that you created. For example:</p><p>\n<code class=\"code\">arn:aws:datasync:us-east-1:111222333444:system/storage-system-abcdef01234567890</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ConnectivityStatus",
+            "Description": "Indicates whether your DataSync agent can connect to your on-premises storage system."
+        },
+        {
+            "Ref": "SecretsManagerArn",
+            "Description": "The ARN of the secret that stores your on-premises storage system's credentials. DataSync Discovery stores these credentials in AWS Secrets Manager."
+        },
+        {
+            "Ref": "StorageSystemArn",
+            "Description": "The ARN of the on-premises storage system that you're using with DataSync Discovery."
+        }
+    ]
+}

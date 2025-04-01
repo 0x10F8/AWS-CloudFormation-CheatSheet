@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::KendraRanking::ExecutionPlan",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the rescore execution plan ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"rescore-execution-plan-id\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the rescore   execution plan."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the rescore execution plan."
+        }
+    ]
+}

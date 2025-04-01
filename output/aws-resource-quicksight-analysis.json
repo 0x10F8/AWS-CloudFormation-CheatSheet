@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::QuickSight::Analysis",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the analysis."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time that the analysis was created."
+        },
+        {
+            "Ref": "DataSetArns",
+            "Description": "The ARNs of the datasets of the analysis."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time that the analysis was last updated."
+        }
+    ]
+}

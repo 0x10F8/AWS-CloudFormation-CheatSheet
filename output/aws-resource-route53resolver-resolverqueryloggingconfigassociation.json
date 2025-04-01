@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Route53Resolver::ResolverQueryLoggingConfigAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the configuration for DNS query logging.</p><p>For example:  <code class=\"code\"><span>{</span> \"Ref\": \"rqlca-1111222233334444\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The date and time that the VPC was associated with the query logging configuration, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "Error",
+            "Description": "If the value of Status is FAILED, the value of \t\t\t\tError indicates the cause:    DESTINATION_NOT_FOUND: The specified destination (for example, an Amazon S3 bucket) was deleted.   ACCESS_DENIED: Permissions don't allow sending logs to the destination.  If the value of Status is a value other than FAILED, Error is null."
+        },
+        {
+            "Ref": "ErrorMessage",
+            "Description": "Contains additional information about the error. If the value or Error is null, the value of ErrorMessage is also null."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the query logging association."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the specified query logging association. Valid values include the following:    CREATING: Resolver is creating an association between an Amazon Virtual Private Cloud (Amazon VPC) and a query logging configuration.   CREATED: The association between an Amazon VPC and a query logging configuration  was successfully created. Resolver is logging queries that originate in the specified VPC.   DELETING: Resolver is deleting this query logging association.   FAILED: Resolver either couldn't create or couldn't delete the query logging association."
+        }
+    ]
+}

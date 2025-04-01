@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::OpenSearchService::Application",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the domain. See Identifiers for IAM Entities  in Using AWS Identity and Access Management for more information."
+        },
+        {
+            "Ref": "Id",
+            "Description": "Unique identifier for an OpenSearch application."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Macie::FindingsFilter",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the <code class=\"code\">FindingsFilter</code>. For example,\n                <code class=\"code\"><span>{</span> \"Ref\": \"FindingsFilter\" }</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the findings filter."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the findings filter."
+        }
+    ]
+}

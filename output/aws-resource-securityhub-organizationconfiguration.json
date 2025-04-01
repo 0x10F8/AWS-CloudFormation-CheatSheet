@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::SecurityHub::OrganizationConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the organization configuration identifier, formatted as <code class=\"code\">AccountId/Region/securityhub-organization-configuration</code>. \n          For example, <code class=\"code\">123456789012/us-east-1/securityhub-organization-configuration</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "MemberAccountLimitReached",
+            "Description": "Whether the maximum number of allowed member accounts are already associated with the  Security Hub administrator account."
+        },
+        {
+            "Ref": "OrganizationConfigurationIdentifier",
+            "Description": "The organization configuration identifier, formatted as AccountId/Region/securityhub-organization-configuration.  For example, 123456789012/us-east-1/securityhub-organization-configuration."
+        },
+        {
+            "Ref": "Status",
+            "Description": "Describes whether central configuration could be enabled as the ConfigurationType for the  organization. If your ConfigurationType is local configuration, then the value of Status  is always ENABLED."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "Provides an explanation if the value of Status is equal to FAILED when ConfigurationType  is equal to CENTRAL."
+        }
+    ]
+}

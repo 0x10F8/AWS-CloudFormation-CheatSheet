@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::ElasticLoadBalancingV2::TargetGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the target group.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "LoadBalancerArns",
+            "Description": "The Amazon Resource Name (ARN) of the load balancer that routes traffic to this target group."
+        },
+        {
+            "Ref": "TargetGroupArn",
+            "Description": "The Amazon Resource Name (ARN) of the target group."
+        },
+        {
+            "Ref": "TargetGroupFullName",
+            "Description": "The full name of the target group. For example, targetgroup/my-target-group/cbf133c568e0d028."
+        },
+        {
+            "Ref": "TargetGroupName",
+            "Description": "The name of the target group. For example, my-target-group."
+        }
+    ]
+}

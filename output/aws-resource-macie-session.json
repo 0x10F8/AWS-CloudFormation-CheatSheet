@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Macie::Session",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the account ID for the AWS account in\n            which the Amazon Macie session is created. For example, <code class=\"code\"><span>{</span> \"Ref\":\n                \"Session\" }</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AwsAccountId",
+            "Description": "The account ID for the AWS account in which the Amazon Macie session is created."
+        },
+        {
+            "Ref": "ServiceRole",
+            "Description": "The Amazon Resource Name (ARN) of the service-linked role that allows Amazon Macie to monitor and analyze data in AWS resources for the account."
+        }
+    ]
+}

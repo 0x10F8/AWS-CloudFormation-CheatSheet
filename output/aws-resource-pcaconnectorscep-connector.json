@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::PCAConnectorSCEP::Connector",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ConnectorArn",
+            "Description": "The Amazon Resource Name (ARN) of the connector."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "The connector's HTTPS public SCEP URL."
+        },
+        {
+            "Ref": "Type",
+            "Description": "The connector type."
+        }
+    ]
+}

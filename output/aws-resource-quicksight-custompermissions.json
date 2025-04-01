@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::QuickSight::CustomPermissions",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the custom permissions profile."
+        }
+    ]
+}

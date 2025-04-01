@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::S3::StorageLens",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n      returns the S3 Storage Lens configuration Id, such as\n        <code class=\"code\">your-storage-lens-configuration-id</code>. For more information about using the Ref\n      function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "StorageLensConfiguration.StorageLensArn",
+            "Description": "This property contains the details of the ARN of the S3 Storage Lens configuration. This property is read-only."
+        }
+    ]
+}

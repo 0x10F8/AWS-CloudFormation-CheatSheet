@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ResourceGroups::Group",
+    "Ref": "<p>The name of the new resource group.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the new resource group."
+        }
+    ]
+}

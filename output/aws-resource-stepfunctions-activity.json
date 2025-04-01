@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::StepFunctions::Activity",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic\n         function, <code class=\"code\">Ref</code> returns the ARN of the created activity. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyActivity\" }</code>\n</p><p>Returns a value similar to the following:</p><p>\n<code class=\"code\">arn:aws:states:us-east-1:111122223333:activity:myActivity</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the ARN of the resource."
+        },
+        {
+            "Ref": "Name",
+            "Description": "Returns the name of the activity. For example:  { \"Fn::GetAtt\": [\"MyActivity\", \"Name\"] }  Returns a value similar to the following:  myActivity  For more information about using Fn::GetAtt, see Fn::GetAtt."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::ServiceDiscovery::Service",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the value of <code class=\"code\">Id</code> for the service, such as\n            <code class=\"code\">srv-e4anhexample0004</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the service."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the service."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name that you assigned to the service."
+        }
+    ]
+}

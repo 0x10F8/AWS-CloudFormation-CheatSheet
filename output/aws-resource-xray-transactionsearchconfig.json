@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::XRay::TransactionSearchConfig",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AccountId",
+            "Description": "Property description not available."
+        }
+    ]
+}

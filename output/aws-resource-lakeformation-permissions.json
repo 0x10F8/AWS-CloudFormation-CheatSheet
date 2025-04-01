@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::LakeFormation::Permissions",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "A unique identifier for the batch permissions request entry."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Connect::View",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ViewArn",
+            "Description": "The unqualified Amazon Resource Name (ARN) of the view."
+        },
+        {
+            "Ref": "ViewContentSha256",
+            "Description": "For example:"
+        },
+        {
+            "Ref": "ViewId",
+            "Description": "Indicates the checksum value of the latest published view content."
+        }
+    ]
+}

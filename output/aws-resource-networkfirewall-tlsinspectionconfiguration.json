@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::NetworkFirewall::TLSInspectionConfiguration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "TLSInspectionConfigurationArn",
+            "Description": "The Amazon Resource Name (ARN) of the TLS inspection configuration."
+        },
+        {
+            "Ref": "TLSInspectionConfigurationId",
+            "Description": "A unique identifier for the TLS inspection configuration. This ID is returned in the responses to create and list commands. You provide it to operations such as update and delete."
+        }
+    ]
+}

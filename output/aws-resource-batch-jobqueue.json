@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Batch::JobQueue",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the job queue ARN, such as <code class=\"code\">\n                     arn:aws:batch:<em>us-east-1</em>:<em>111122223333</em>:job-queue/<em>HighPriority</em>\n</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "JobQueueArn",
+            "Description": "Returns the job queue ARN, such as   arn:aws:batch:us-east-1:111122223333:job-queue/JobQueueName ."
+        }
+    ]
+}

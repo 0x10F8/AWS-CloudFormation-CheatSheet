@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Glue::Schema",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the schema."
+        },
+        {
+            "Ref": "InitialSchemaVersionId",
+            "Description": "Property description not available."
+        }
+    ]
+}

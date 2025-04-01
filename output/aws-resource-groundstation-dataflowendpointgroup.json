@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::GroundStation::DataflowEndpointGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the dataflow endpoint group. For example:\n        </p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"DataflowEndpointGroup\" }</code>\n</p><p>\n            For the Ground Station dataflow endpoint group, <code class=\"code\">Ref</code> returns the ARN of the dataflow endpoint group.\n        </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the dataflow endpoint group, such as arn:aws:groundstation:us-east-2:1234567890:dataflow-endpoint-group/9940bf3b-d2ba-427e-9906-842b5e5d2296."
+        },
+        {
+            "Ref": "Id",
+            "Description": "UUID of a dataflow endpoint group."
+        }
+    ]
+}

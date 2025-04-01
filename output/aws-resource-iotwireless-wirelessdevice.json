@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::IoTWireless::WirelessDevice",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the wireless device ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the wireless device created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the wireless device created."
+        },
+        {
+            "Ref": "ThingName",
+            "Description": "The name of the thing associated with the wireless device. The value is empty if a thing  isn't associated with the device."
+        }
+    ]
+}

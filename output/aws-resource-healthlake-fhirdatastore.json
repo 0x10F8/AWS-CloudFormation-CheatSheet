@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::HealthLake::FHIRDatastore",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DatastoreArn",
+            "Description": "The Data Store ARN is generated during the creation of the Data Store and can be found in the output from the initial Data Store creation request."
+        },
+        {
+            "Ref": "DatastoreEndpoint",
+            "Description": "The endpoint for the created Data Store."
+        },
+        {
+            "Ref": "DatastoreId",
+            "Description": "The Amazon generated Data Store id. This id is in the output from the initial Data Store creation call."
+        },
+        {
+            "Ref": "DatastoreStatus",
+            "Description": "The status of the FHIR Data Store. Possible statuses are \u00e2\u0080\u0098CREATING\u00e2\u0080\u0099, \u00e2\u0080\u0098ACTIVE\u00e2\u0080\u0099, \u00e2\u0080\u0098DELETING\u00e2\u0080\u0099, \u00e2\u0080\u0098DELETED\u00e2\u0080\u0099."
+        }
+    ]
+}

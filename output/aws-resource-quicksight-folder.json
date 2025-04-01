@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::QuickSight::Folder",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) for the folder."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time that the folder was created."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time that the folder was last updated."
+        }
+    ]
+}

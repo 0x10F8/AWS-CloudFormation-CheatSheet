@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ImageBuilder::Workflow",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the workflow resource."
+        }
+    ]
+}

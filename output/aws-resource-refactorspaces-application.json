@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::RefactorSpaces::Application",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a composite ID following this format:\n        <code class=\"code\">&lt;EnvironmentId&gt;|&lt;ApplicationId&gt;</code>, for example,\n        <code class=\"code\">env-1234654123|app-1234654123</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ApiGatewayId",
+            "Description": "The resource ID of the API Gateway for the proxy."
+        },
+        {
+            "Ref": "ApplicationIdentifier",
+            "Description": "The unique identifier of the application."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the application."
+        },
+        {
+            "Ref": "NlbArn",
+            "Description": "The Amazon Resource Name (ARN) of the Network Load Balancer."
+        },
+        {
+            "Ref": "NlbName",
+            "Description": "The name of the Network Load Balancer configured by the API Gateway proxy."
+        },
+        {
+            "Ref": "ProxyUrl",
+            "Description": "The endpoint URL of the Amazon API Gateway proxy."
+        },
+        {
+            "Ref": "StageName",
+            "Description": "The name of the API Gateway stage. The name defaults to prod."
+        },
+        {
+            "Ref": "VpcLinkId",
+            "Description": "The VpcLink ID of the API Gateway proxy."
+        }
+    ]
+}

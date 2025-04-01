@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::Route53Resolver::FirewallRuleGroupAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">FirewallRuleGroupAssociation</code> ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the firewall rule group association."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The date and time that the association was created, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "CreatorRequestId",
+            "Description": "A unique string defined by you to identify the request. This allows you to retry failed requests without the risk of running the operation twice. This can be any unique string, for example, a timestamp."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier for the association."
+        },
+        {
+            "Ref": "ManagedOwnerName",
+            "Description": "The owner of the association, used only for associations that are not managed by you. If you use AWS Firewall Manager to manage your firewallls from DNS Firewall, then this reports Firewall Manager as the managed owner."
+        },
+        {
+            "Ref": "ModificationTime",
+            "Description": "The date and time that the association was last modified, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the association."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "Additional information about the status of the response, if available."
+        }
+    ]
+}

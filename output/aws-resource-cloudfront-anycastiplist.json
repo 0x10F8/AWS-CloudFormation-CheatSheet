@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::AnycastIpList",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the Anycast IP list. For example:\n         <code class=\"code\">aip_7XdPQUqEXAMPLE283z455j</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ETag",
+            "Description": "A complex type that contains Tag key and Tag value."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the Anycast static IP list."
+        }
+    ]
+}

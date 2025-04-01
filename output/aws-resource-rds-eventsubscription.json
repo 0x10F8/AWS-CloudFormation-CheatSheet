@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::RDS::EventSubscription",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the RDS event subscription.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>The following example creates an event subscription for an existing database\n                    instance <code class=\"code\">db-instance-1</code> and a database with the logical ID\n                        <code class=\"code\">myDBInstance</code>, which is declared elsewhere in the same template.\n                </p>",
+    "GetAtt": []
+}

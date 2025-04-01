@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IoT::SoftwarePackageVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the software package name and package version. For\n         example:</p><p>Response:</p><p>For a stack named MyStack, a value that is similar to the following is returned:</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ErrorReason",
+            "Description": "Error reason for a package version failure during creation or update."
+        },
+        {
+            "Ref": "PackageVersionArn",
+            "Description": "The Amazon Resource Name (ARN) for the package."
+        },
+        {
+            "Ref": "SbomValidationStatus",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the package version. For more information, see Package version lifecycle."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::Distribution",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the CloudFront\n\t\t\tdistribution ID. For example: <code class=\"code\">E27LVI50CSW06W</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DomainName",
+            "Description": "The domain name of the resource, such as d111111abcdef8.cloudfront.net."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The distribution's identifier. For example: E1U5RQF7T870K0."
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "ResourceName": "AWS::Bedrock::Agent",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the agent base ID.</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myAgent\" }</code> could return the value <code class=\"code\">\"AGENT12345\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AgentArn",
+            "Description": "The Amazon Resource Name (ARN) of the agent."
+        },
+        {
+            "Ref": "AgentId",
+            "Description": "The unique identifier of the agent."
+        },
+        {
+            "Ref": "AgentStatus",
+            "Description": "The status of the agent and whether it is ready for use. The following statuses are possible:"
+        },
+        {
+            "Ref": "AgentVersion",
+            "Description": "CREATING \u00e2\u0080\u0093 The agent is being created."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "PREPARING \u00e2\u0080\u0093 The agent is being prepared."
+        },
+        {
+            "Ref": "FailureReasons",
+            "Description": "PREPARED \u00e2\u0080\u0093 The agent is prepared and ready to be invoked."
+        },
+        {
+            "Ref": "PreparedAt",
+            "Description": "NOT_PREPARED \u00e2\u0080\u0093 The agent has been created but not yet prepared."
+        },
+        {
+            "Ref": "RecommendedActions",
+            "Description": "FAILED \u00e2\u0080\u0093 The agent API operation failed."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "UPDATING \u00e2\u0080\u0093 The agent is being updated."
+        }
+    ]
+}

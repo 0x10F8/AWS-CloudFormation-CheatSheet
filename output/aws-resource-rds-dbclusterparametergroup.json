@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::RDS::DBClusterParameterGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the DB cluster parameter group.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>The following example creates a DB cluster parameter group for an Aurora MySQL DB\n               cluster and sets the <code class=\"code\">time_zone</code> and <code class=\"code\">character_set_database</code>\n               parameters: </p>",
+    "GetAtt": []
+}

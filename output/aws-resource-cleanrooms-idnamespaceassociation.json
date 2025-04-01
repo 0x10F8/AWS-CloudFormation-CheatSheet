@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::CleanRooms::IdNamespaceAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example: </p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"MyIdNamespaceAssociation\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the ID namespace association."
+        },
+        {
+            "Ref": "CollaborationArn",
+            "Description": "The Amazon Resource Name (ARN) of the collaboration that contains this ID namespace association."
+        },
+        {
+            "Ref": "CollaborationIdentifier",
+            "Description": "The unique identifier of the collaboration that contains this ID namespace association."
+        },
+        {
+            "Ref": "IdNamespaceAssociationIdentifier",
+            "Description": "The unique identifier of the ID namespace association that you want to retrieve."
+        },
+        {
+            "Ref": "MembershipArn",
+            "Description": "The Amazon Resource Name (ARN) of the membership resource for this ID namespace association."
+        }
+    ]
+}

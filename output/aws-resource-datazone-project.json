@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::DataZone::Project",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n         the <code class=\"code\">ProjectId</code> that uniquely identify the project. For example: <code class=\"code\"><span>{</span> \"Ref\":\n            \"MyProject\" }</code> for the resource with the logical ID <code class=\"code\">MyProject</code>,\n            <code class=\"code\">Ref</code> returns <code class=\"code\">DomainId|ProjectId</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when a project was created."
+        },
+        {
+            "Ref": "CreatedBy",
+            "Description": "The Amazon DataZone user who created the project."
+        },
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of a Amazon DataZone domain where the project exists."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of a project."
+        },
+        {
+            "Ref": "LastUpdatedAt",
+            "Description": "The timestamp of when the project was last updated."
+        }
+    ]
+}

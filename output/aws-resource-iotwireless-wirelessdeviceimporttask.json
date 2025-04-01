@@ -1,0 +1,46 @@
+{
+    "ResourceName": "AWS::IoTWireless::WirelessDeviceImportTask",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the wireless device import task.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN (Amazon Resource Name) of the import task."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The date and time at which the wireless device import task was created."
+        },
+        {
+            "Ref": "FailedImportedDevicesCount",
+            "Description": "The summary information of count of wireless devices that failed to onboard to the  import task."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The import task ID."
+        },
+        {
+            "Ref": "InitializedImportedDevicesCount",
+            "Description": "The summary information of count of wireless devices that are waiting for the control  log to be added to an import task."
+        },
+        {
+            "Ref": "OnboardedImportedDevicesCount",
+            "Description": "The summary information of count of wireless devices that have been onboarded to the  import task."
+        },
+        {
+            "Ref": "PendingImportedDevicesCount",
+            "Description": "The summary information of count of wireless devices that are waiting in the queue to be  onboarded to the import task."
+        },
+        {
+            "Ref": "Sidewalk.DeviceCreationFileList",
+            "Description": "List of Sidewalk devices that are added to the import task."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of a wireless device import task. The status can be  INITIALIZING, INITIALIZED, PENDING, COMPLETE, FAILED, or DELETING."
+        },
+        {
+            "Ref": "StatusReason",
+            "Description": "The reason that provides additional information about the import task status."
+        }
+    ]
+}

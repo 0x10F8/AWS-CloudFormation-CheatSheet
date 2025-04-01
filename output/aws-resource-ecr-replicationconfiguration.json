@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ECR::ReplicationConfiguration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "RegistryId",
+            "Description": "The account ID of the destination registry."
+        }
+    ]
+}

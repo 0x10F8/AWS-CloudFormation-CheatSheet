@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Omics::RunGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the details of this resource. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"RunGroup.CreationTime\" }</code>\n<code class=\"code\">Ref</code> returns the timestamp for a run group. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The run group's ARN."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "When the run group was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The run group's ID."
+        }
+    ]
+}

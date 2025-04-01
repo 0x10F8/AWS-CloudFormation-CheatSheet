@@ -1,0 +1,46 @@
+{
+    "ResourceName": "AWS::Route53Resolver::FirewallRuleGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returnsthe <code class=\"code\">FirewallRuleGroupId</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN (Amazon Resource Name) of the rule group."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The date and time that the rule group was created, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "CreatorRequestId",
+            "Description": "A unique string defined by you to identify the request. This allows you to retry failed requests without the risk of running the operation twice. This can be any unique string, for example, a timestamp."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the rule group."
+        },
+        {
+            "Ref": "ModificationTime",
+            "Description": "The date and time that the rule group was last modified, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The AWS account ID for the account that created the rule group. When a rule group is   shared with your account, this is the account that has shared the rule group with you."
+        },
+        {
+            "Ref": "RuleCount",
+            "Description": "The number of rules in the rule group."
+        },
+        {
+            "Ref": "ShareStatus",
+            "Description": "Whether the rule group is shared with other AWS accounts, or was shared with the current account by   another AWS account. Sharing is configured through AWS Resource Access Manager (AWS RAM)."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the domain list."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "Additional information about the status of the rule group, if available."
+        }
+    ]
+}

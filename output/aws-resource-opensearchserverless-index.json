@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::OpenSearchServerless::Index",
+    "Ref": "<p>The index name and the collection endpoint in the following format: index name|endpoint.\n         Here's an example:</p><p>1234TestIndex|12345678TestEndPoint.us-east-1.aoss.amazonaws.com.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Uuid",
+            "Description": "The unique identifier for the index."
+        }
+    ]
+}

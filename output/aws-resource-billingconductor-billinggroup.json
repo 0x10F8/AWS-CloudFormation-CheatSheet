@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::BillingConductor::BillingGroup",
+    "Ref": "<p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the created billing group."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The time the billing group was created."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The most recent time the billing group was modified."
+        },
+        {
+            "Ref": "Size",
+            "Description": "The number of accounts in the particular billing group."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The billing group status. Only one of the valid values can be used."
+        },
+        {
+            "Ref": "StatusReason",
+            "Description": "The reason why the billing group is in its current status."
+        }
+    ]
+}

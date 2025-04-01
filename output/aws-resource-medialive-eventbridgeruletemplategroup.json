@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::MediaLive::EventBridgeRuleTemplateGroup",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "An eventbridge rule template group's ARN (Amazon Resource Name)"
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The date and time of resource creation."
+        },
+        {
+            "Ref": "Id",
+            "Description": "An eventbridge rule template group's id. Amazon Web Services provided template groups have ids that start with <code>`aws-`</code>."
+        },
+        {
+            "Ref": "Identifier",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "The date and time of latest resource modification."
+        }
+    ]
+}

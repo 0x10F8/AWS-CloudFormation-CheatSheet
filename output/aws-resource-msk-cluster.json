@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MSK::Cluster",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the ARN of the created MSK cluster. For example, <code class=\"code\">arn:aws:kafka:us-east-1:123456789012:cluster/myCluster/abcd1234-abcd-dcba-4321-a1b2abcd9f9f-2</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the MSK cluster."
+        }
+    ]
+}

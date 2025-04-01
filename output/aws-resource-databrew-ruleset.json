@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::DataBrew::Ruleset",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n            function, Ref returns the resource name. For example, <code class=\"code\"><span>{</span> \"Ref\": \"myRuleset\"\n                }</code>.</p><p>For an AWS Glue DataBrew ruleset named <code class=\"code\">myRuleset</code>, <code class=\"code\">Ref</code>\n            returns the name of the ruleset.</p>",
+    "GetAtt": []
+}

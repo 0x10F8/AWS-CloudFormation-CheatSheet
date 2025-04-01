@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::KafkaConnect::CustomPlugin",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CustomPluginArn",
+            "Description": "The Amazon Resource Name (ARN) of the custom plugin."
+        },
+        {
+            "Ref": "Revision",
+            "Description": "The revision of the custom plugin."
+        }
+    ]
+}

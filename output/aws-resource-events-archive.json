@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Events::Archive",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the archive name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the archive created."
+        }
+    ]
+}

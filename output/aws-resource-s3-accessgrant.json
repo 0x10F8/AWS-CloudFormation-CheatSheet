@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::S3::AccessGrant",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns some information about your access grant.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AccessGrantArn",
+            "Description": "The ARN of the access grant."
+        },
+        {
+            "Ref": "AccessGrantId",
+            "Description": "The ID of the access grant. S3 Access Grants auto-generates this ID when you create the access grant."
+        },
+        {
+            "Ref": "GrantScope",
+            "Description": "The S3 path of the data to which you are granting access. It is the result of appending the Subprefix to the location scope."
+        }
+    ]
+}

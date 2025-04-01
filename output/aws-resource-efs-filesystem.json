@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::EFS::FileSystem",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the FileSystem ID. For example: </p><p>\n<code class=\"code\"><span>{</span>\"Ref\":\"logical_file_system_id\"}</code>\n</p><p>returns <code class=\"code\">fs-0123456789abcdef2</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the EFS file system."
+        },
+        {
+            "Ref": "FileSystemId",
+            "Description": "Example: arn:aws:elasticfilesystem:us-west-2:1111333322228888:file-system/fs-0123456789abcdef8"
+        }
+    ]
+}

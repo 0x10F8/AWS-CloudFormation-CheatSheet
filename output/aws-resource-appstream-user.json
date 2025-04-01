@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppStream::User",
+    "Ref": "",
+    "GetAtt": []
+}

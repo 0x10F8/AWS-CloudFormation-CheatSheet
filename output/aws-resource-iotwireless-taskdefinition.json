@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTWireless::TaskDefinition",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the task definition.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name of the resource."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the new wireless gateway task definition."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::Grafana::Workspace",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"Id\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTimestamp",
+            "Description": "The date that the workspace was created."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "Type: Timestamp"
+        },
+        {
+            "Ref": "GrafanaVersion",
+            "Description": "The URL that users can use to access the Grafana console in the workspace."
+        },
+        {
+            "Ref": "Id",
+            "Description": "Type: String"
+        },
+        {
+            "Ref": "ModificationTimestamp",
+            "Description": "Specifies the version of Grafana supported by this workspace."
+        },
+        {
+            "Ref": "SamlConfigurationStatus",
+            "Description": "Type: String"
+        },
+        {
+            "Ref": "SsoClientId",
+            "Description": "The unique ID of this workspace."
+        },
+        {
+            "Ref": "Status",
+            "Description": "Type: String"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::QBusiness::Retriever",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the application ID and retriever ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"ApplicationId|RetrieverId\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The Unix timestamp when the retriever was created."
+        },
+        {
+            "Ref": "RetrieverArn",
+            "Description": "The Amazon Resource Name (ARN) of the IAM role associated with the retriever."
+        },
+        {
+            "Ref": "RetrieverId",
+            "Description": "The identifier of the retriever used by your Amazon Q Business application."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of your retriever."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The Unix timestamp when the retriever was last updated."
+        }
+    ]
+}

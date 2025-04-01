@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::ACMPCA::Permission",
+    "Ref": "",
+    "GetAtt": []
+}

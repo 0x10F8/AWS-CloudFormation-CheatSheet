@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppStream::AppBlockBuilder",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n      <code class=\"code\">Ref</code> returns the <code class=\"code\">Name</code> of the app block builder, such as\n      <code class=\"code\">abcdefAppBlockBuilder</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the app block builder."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time when the app block builder was created."
+        }
+    ]
+}

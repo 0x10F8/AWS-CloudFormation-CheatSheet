@@ -1,0 +1,42 @@
+{
+    "ResourceName": "AWS::NetworkManager::TransitGatewayPeering",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">peeringId</code>. For example: <code class=\"code\">peering-01234ab1234a12a12</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CoreNetworkArn",
+            "Description": "The ARN of the core network."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp when the core network peering was created."
+        },
+        {
+            "Ref": "EdgeLocation",
+            "Description": "The edge location for the peer."
+        },
+        {
+            "Ref": "OwnerAccountId",
+            "Description": "The ID of the account owner."
+        },
+        {
+            "Ref": "PeeringId",
+            "Description": "The ID of the peering."
+        },
+        {
+            "Ref": "PeeringType",
+            "Description": "The peering type. This will be TRANSIT_GATEWAY."
+        },
+        {
+            "Ref": "ResourceArn",
+            "Description": "The ARN of the resource peered to a core network."
+        },
+        {
+            "Ref": "State",
+            "Description": "The current state of the peer. This can be CREATING | FAILED | AVAILABLE | DELETING."
+        },
+        {
+            "Ref": "TransitGatewayPeeringAttachmentId",
+            "Description": "The ID of the peering attachment."
+        }
+    ]
+}

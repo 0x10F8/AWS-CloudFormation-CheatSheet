@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Lightsail::Distribution",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AbleToUpdateBundle",
+            "Description": "Indicates whether you can update the distribution\u00e2\u0080\u0099s current bundle to another bundle."
+        },
+        {
+            "Ref": "DistributionArn",
+            "Description": "The Amazon Resource Name (ARN) of the distribution."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the distribution."
+        }
+    ]
+}

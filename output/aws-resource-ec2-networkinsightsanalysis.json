@@ -1,0 +1,50 @@
+{
+    "ResourceName": "AWS::EC2::NetworkInsightsAnalysis",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the network insights analysis.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AlternatePathHints",
+            "Description": "Potential intermediate components."
+        },
+        {
+            "Ref": "Explanations",
+            "Description": "The explanations. For more information, see Reachability Analyzer explanation codes."
+        },
+        {
+            "Ref": "ForwardPathComponents",
+            "Description": "The components in the path from source to destination."
+        },
+        {
+            "Ref": "NetworkInsightsAnalysisArn",
+            "Description": "The Amazon Resource Name (ARN) of the network insights analysis."
+        },
+        {
+            "Ref": "NetworkInsightsAnalysisId",
+            "Description": "The ID of the network insights analysis."
+        },
+        {
+            "Ref": "NetworkPathFound",
+            "Description": "Indicates whether the destination is reachable from the source."
+        },
+        {
+            "Ref": "ReturnPathComponents",
+            "Description": "The components in the path from destination to source."
+        },
+        {
+            "Ref": "StartDate",
+            "Description": "The time the analysis started."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the network insights analysis."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "The status message, if the status is failed."
+        },
+        {
+            "Ref": "SuggestedAccounts",
+            "Description": "The IDs of potential intermediate accounts."
+        }
+    ]
+}

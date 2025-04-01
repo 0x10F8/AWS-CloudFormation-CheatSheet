@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::BillingConductor::PricingPlan",
+    "Ref": "<p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the created pricing plan."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The time the pricing plan was created."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The most recent time the pricing plan was modified."
+        },
+        {
+            "Ref": "Size",
+            "Description": "The pricing rules count currently associated with this pricing plan list element."
+        }
+    ]
+}

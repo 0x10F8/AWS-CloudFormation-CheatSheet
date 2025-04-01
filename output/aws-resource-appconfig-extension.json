@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AppConfig::Extension",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns information about the extension.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The system-generated Amazon Resource Name (ARN) for the extension."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The system-generated ID of the extension."
+        },
+        {
+            "Ref": "VersionNumber",
+            "Description": "The extension version number."
+        }
+    ]
+}

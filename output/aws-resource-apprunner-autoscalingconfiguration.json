@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AppRunner::AutoScalingConfiguration",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AutoScalingConfigurationArn",
+            "Description": "The Amazon Resource Name (ARN) of this auto scaling configuration."
+        },
+        {
+            "Ref": "AutoScalingConfigurationRevision",
+            "Description": "The revision of this auto scaling configuration. It's unique among all the active configurations that share the same AutoScalingConfigurationName."
+        },
+        {
+            "Ref": "Latest",
+            "Description": "It's set to true for the configuration with the highest Revision among all configurations that share the same AutoScalingConfigurationName.  It's set to false otherwise. App Runner temporarily doubles the number of provisioned instances during deployments, to maintain the same capacity for both old and new code."
+        }
+    ]
+}

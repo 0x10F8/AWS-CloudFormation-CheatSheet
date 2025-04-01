@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::EC2::TransitGatewayConnect",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the transit gateway attachment. </p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The creation time."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the attachment."
+        },
+        {
+            "Ref": "TransitGatewayAttachmentId",
+            "Description": "The ID of the transit gateway attachment."
+        },
+        {
+            "Ref": "TransitGatewayId",
+            "Description": "The ID of the transit gateway."
+        }
+    ]
+}

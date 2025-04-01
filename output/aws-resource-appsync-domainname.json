@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::AppSync::DomainName",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::AppSync::DomainName</code> resource to the intrinsic\n            <code class=\"code\">Ref</code> function, the function returns the domain name.</p><p> For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "AppSyncDomainName",
+            "Description": "The domain name provided by AWS AppSync."
+        },
+        {
+            "Ref": "DomainName",
+            "Description": "The domain name."
+        },
+        {
+            "Ref": "DomainNameArn",
+            "Description": "The Amazon resource name (ARN) of the domain name."
+        },
+        {
+            "Ref": "HostedZoneId",
+            "Description": "The ID of your Amazon Route\u00c2\u00a053 hosted zone."
+        }
+    ]
+}

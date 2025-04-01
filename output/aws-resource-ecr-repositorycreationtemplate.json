@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ECR::RepositoryCreationTemplate",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The date and time, in JavaScript date format, when the repository creation template was created."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The date and time, in JavaScript date format, when the repository creation template was last updated."
+        }
+    ]
+}

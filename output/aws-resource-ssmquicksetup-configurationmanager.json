@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::SSMQuickSetup::ConfigurationManager",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the configuration manager.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The datetime stamp when the configuration manager was created."
+        },
+        {
+            "Ref": "LastModifiedAt",
+            "Description": "The datetime stamp when the configuration manager was last updated."
+        },
+        {
+            "Ref": "ManagerArn",
+            "Description": "The ARN of the Quick Setup configuration."
+        },
+        {
+            "Ref": "StatusSummaries",
+            "Description": "Summaries of the state of the configuration manager. These summaries include an aggregate of the statuses from the configuration definition associated with the configuration manager. This includes deployment statuses, association statuses, drift statuses, health checks, and more."
+        }
+    ]
+}

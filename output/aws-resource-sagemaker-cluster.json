@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::SageMaker::Cluster",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ClusterArn",
+            "Description": "The Amazon Resource Name (ARN) of the SageMaker HyperPod cluster."
+        },
+        {
+            "Ref": "ClusterStatus",
+            "Description": "The status of the SageMaker HyperPod cluster."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The time when the SageMaker HyperPod cluster is created."
+        },
+        {
+            "Ref": "FailureMessage",
+            "Description": "The failure message of the SageMaker HyperPod cluster."
+        }
+    ]
+}

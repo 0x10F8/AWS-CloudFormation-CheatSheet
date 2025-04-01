@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::EC2::IPAMPool",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IPAM pool ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the IPAM pool."
+        },
+        {
+            "Ref": "IpamArn",
+            "Description": "The ARN of the IPAM."
+        },
+        {
+            "Ref": "IpamPoolId",
+            "Description": "The ID of the IPAM pool."
+        },
+        {
+            "Ref": "IpamScopeArn",
+            "Description": "The ARN of the scope of the IPAM pool."
+        },
+        {
+            "Ref": "IpamScopeType",
+            "Description": "The scope of the IPAM."
+        },
+        {
+            "Ref": "PoolDepth",
+            "Description": "The depth of pools in your IPAM pool. The pool depth quota is 10."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the IPAM pool."
+        },
+        {
+            "Ref": "StateMessage",
+            "Description": "A message related to the failed creation of an IPAM pool."
+        }
+    ]
+}

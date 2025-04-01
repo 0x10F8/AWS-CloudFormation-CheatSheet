@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::CodeBuild::ReportGroup",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> \n            returns the ARN of the AWS CodeBuild report group, such as <code class=\"code\">arn:aws:codebuild:region:123456789012:report-group/myReportGroupName</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the AWS CodeBuild report group, such as arn:aws:codebuild:region:123456789012:report-group/myReportGroupName."
+        }
+    ]
+}

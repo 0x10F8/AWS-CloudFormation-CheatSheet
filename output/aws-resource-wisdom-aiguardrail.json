@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Wisdom::AIGuardrail",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AIGuardrailArn",
+            "Description": "The Amazon Resource Name (ARN) of the AI Guardrail."
+        },
+        {
+            "Ref": "AIGuardrailId",
+            "Description": "The identifier of the Amazon Q in Connect AI Guardrail."
+        },
+        {
+            "Ref": "AssistantArn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon Q in Connect assistant."
+        }
+    ]
+}

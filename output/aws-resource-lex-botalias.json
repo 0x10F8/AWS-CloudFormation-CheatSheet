@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Lex::BotAlias",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the bot alias."
+        },
+        {
+            "Ref": "BotAliasId",
+            "Description": "The unique identifier of the bot alias."
+        },
+        {
+            "Ref": "BotAliasStatus",
+            "Description": "The current status of the bot alias. When the status is Available  the alias is ready for use with your bot."
+        }
+    ]
+}

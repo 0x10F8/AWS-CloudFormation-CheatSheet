@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ResourceExplorer2::DefaultViewAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the identity of the principal that the view is now\n            associated with in the specified AWS Region. For example:</p><p>\n<code class=\"code\">123456789012</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AssociatedAwsPrincipal",
+            "Description": "The unique identifier of the principal for which the specified view was made the default for the AWS Region that contains the view. For example:  123456789012"
+        }
+    ]
+}

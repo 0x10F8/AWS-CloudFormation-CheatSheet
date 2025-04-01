@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::DMS::MigrationProject",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "MigrationProjectArn",
+            "Description": "The ARN string that uniquely identifies the migration project."
+        }
+    ]
+}

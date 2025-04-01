@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AppRunner::VpcIngressConnection",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DomainName",
+            "Description": "The domain name associated with the VPC Ingress Connection resource."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the VPC Ingress Connection.  The VPC Ingress Connection displays one of the following statuses: AVAILABLE, PENDING_CREATION, PENDING_UPDATE, PENDING_DELETION,FAILED_CREATION, FAILED_UPDATE, FAILED_DELETION, and DELETED.."
+        },
+        {
+            "Ref": "VpcIngressConnectionArn",
+            "Description": "The Amazon Resource Name (ARN) of the VPC Ingress Connection."
+        }
+    ]
+}

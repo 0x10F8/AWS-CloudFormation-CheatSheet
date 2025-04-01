@@ -1,0 +1,58 @@
+{
+    "ResourceName": "AWS::RedshiftServerless::Workgroup",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n    returns the WorkgroupName, such as <code class=\"code\">sample-workgroup.</code> For more\n    information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Workgroup.CreationDate",
+            "Description": "The creation date of the workgroup."
+        },
+        {
+            "Ref": "Workgroup.Endpoint.Address",
+            "Description": "The DNS address of the VPC endpoint."
+        },
+        {
+            "Ref": "Workgroup.Endpoint.Port",
+            "Description": "The custom port to use when connecting to a workgroup. Valid port ranges are 5431-5455 and 8191-8215. The default is 5439."
+        },
+        {
+            "Ref": "Workgroup.EnhancedVpcRouting",
+            "Description": "The value that specifies whether to enable enhanced virtual private cloud (VPC) routing, which forces Amazon Redshift Serverless to route traffic through your VPC."
+        },
+        {
+            "Ref": "Workgroup.NamespaceName",
+            "Description": "The namespace the workgroup is associated with."
+        },
+        {
+            "Ref": "Workgroup.PubliclyAccessible",
+            "Description": "A value that specifies whether the workgroup can be accessible from a public network."
+        },
+        {
+            "Ref": "Workgroup.SecurityGroupIds",
+            "Description": "An array of security group IDs to associate with the workgroup."
+        },
+        {
+            "Ref": "Workgroup.Status",
+            "Description": "The status of the workgroup."
+        },
+        {
+            "Ref": "Workgroup.SubnetIds",
+            "Description": "An array of subnet IDs the workgroup is associated with."
+        },
+        {
+            "Ref": "Workgroup.TrackName",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Workgroup.WorkgroupArn",
+            "Description": "The Amazon Resource Name (ARN) that links to the workgroup."
+        },
+        {
+            "Ref": "Workgroup.WorkgroupId",
+            "Description": "The unique identifier of the workgroup."
+        },
+        {
+            "Ref": "Workgroup.WorkgroupName",
+            "Description": "The name of the workgroup."
+        }
+    ]
+}

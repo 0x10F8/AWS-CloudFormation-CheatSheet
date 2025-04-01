@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::CleanRooms::Membership",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">MembershipId</code>, such as\n        <code class=\"code\">a1b2c3d4-5678-90ab-cdef-EXAMPLE11111</code>. For example: </p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyMembership\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the specified membership."
+        },
+        {
+            "Ref": "CollaborationArn",
+            "Description": "Example: arn:aws:cleanrooms:us-east-1:111122223333:membership/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111"
+        },
+        {
+            "Ref": "CollaborationCreatorAccountId",
+            "Description": "Returns the Amazon Resource Name (ARN) of the specified collaboration."
+        },
+        {
+            "Ref": "MembershipIdentifier",
+            "Description": "Example: arn:aws:cleanrooms:us-east-1:111122223333:collaboration/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111"
+        }
+    ]
+}

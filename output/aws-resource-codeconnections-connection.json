@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::CodeConnections::Connection",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ConnectionArn",
+            "Description": "The Amazon Resource Name (ARN) of the connection. The ARN is used as the connection reference when the connection is shared between AWS services."
+        },
+        {
+            "Ref": "ConnectionStatus",
+            "Description": "The ARN is never reused if the connection is deleted."
+        },
+        {
+            "Ref": "OwnerAccountId",
+            "Description": "The current status of the connection."
+        }
+    ]
+}

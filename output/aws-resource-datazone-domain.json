@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::DataZone::Domain",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the Amazon DataZone domain.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the Amazon DataZone domain."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "A timestamp of when a Amazon DataZone domain was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the Amazon DataZone domain."
+        },
+        {
+            "Ref": "LastUpdatedAt",
+            "Description": "A timestamp of when a Amazon DataZone domain was last updated."
+        },
+        {
+            "Ref": "ManagedAccountId",
+            "Description": "The identifier of the AWS account that manages the domain."
+        },
+        {
+            "Ref": "PortalUrl",
+            "Description": "The data portal URL for the Amazon DataZone domain."
+        },
+        {
+            "Ref": "RootDomainUnitId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the Amazon DataZone domain."
+        }
+    ]
+}

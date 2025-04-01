@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Bedrock::KnowledgeBase",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the knowledge base ID.</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myKnowledgeBase\" }</code> could return the value <code class=\"code\">\"KB12345678\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time the knowledge base was created."
+        },
+        {
+            "Ref": "FailureReasons",
+            "Description": "A list of reasons that the API operation on the knowledge base failed."
+        },
+        {
+            "Ref": "KnowledgeBaseArn",
+            "Description": "The Amazon Resource Name (ARN) of the knowledge base."
+        },
+        {
+            "Ref": "KnowledgeBaseId",
+            "Description": "The unique identifier for a knowledge base associated with the inline agent."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the knowledge base."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The time the knowledge base was last updated."
+        }
+    ]
+}

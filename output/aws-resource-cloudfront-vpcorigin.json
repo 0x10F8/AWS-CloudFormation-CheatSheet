@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::CloudFront::VpcOrigin",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The VPC origin ARN."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The VPC origin created time."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The VPC origin ID."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The VPC origin last modified time."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The VPC origin status."
+        }
+    ]
+}

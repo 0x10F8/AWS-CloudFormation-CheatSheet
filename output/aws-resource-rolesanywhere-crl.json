@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::RolesAnywhere::CRL",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n                  <code class=\"code\">CrlId</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CrlId",
+            "Description": "The unique primary identifier of the Crl"
+        }
+    ]
+}

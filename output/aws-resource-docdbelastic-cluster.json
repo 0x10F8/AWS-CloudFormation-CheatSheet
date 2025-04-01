@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::DocDBElastic::Cluster",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ClusterArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ClusterEndpoint",
+            "Description": "The URL used to connect to the elastic cluster."
+        }
+    ]
+}

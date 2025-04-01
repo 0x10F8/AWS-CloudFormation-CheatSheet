@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::SecurityHub::PolicyAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the association identifier, formatted as <code class=\"code\">TargetType/TargetId</code>. For example, \n<code class=\"code\">ACCOUNT/123456789012</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AssociationIdentifier",
+            "Description": "The association identifier, formatted as TargetType/TargetId. For example,  ACCOUNT/123456789012."
+        },
+        {
+            "Ref": "AssociationStatus",
+            "Description": "The current status of the association between the specified target and the configuration."
+        },
+        {
+            "Ref": "AssociationStatusMessage",
+            "Description": "The explanation for a FAILED value for AssociationStatus."
+        },
+        {
+            "Ref": "AssociationType",
+            "Description": "Indicates whether the association between the specified target and the configuration was directly applied by the  AWS Security Hub delegated administrator or inherited from a parent."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The date and time, in UTC and ISO 8601 format, that the configuration policy association was last updated."
+        }
+    ]
+}

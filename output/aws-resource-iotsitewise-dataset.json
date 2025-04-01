@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTSiteWise::Dataset",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DatasetArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "DatasetId",
+            "Description": "Property description not available."
+        }
+    ]
+}

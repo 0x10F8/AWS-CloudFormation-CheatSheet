@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::CUR::ReportDefinition",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns\n               </p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"ReportName\" }</code>\n</p><p>The name of the report that you want to create. The name must be unique, is case sensitive, and can't include spaces.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": []
+}

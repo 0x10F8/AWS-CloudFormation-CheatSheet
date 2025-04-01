@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::PCAConnectorAD::TemplateGroupAccessControlEntry",
+    "Ref": "",
+    "GetAtt": []
+}

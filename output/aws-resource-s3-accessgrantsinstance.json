@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::S3::AccessGrantsInstance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns some information about your S3 Access Grants instance.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AccessGrantsInstanceArn",
+            "Description": "The ARN of the S3 Access Grants instance."
+        },
+        {
+            "Ref": "AccessGrantsInstanceId",
+            "Description": "The ID of the S3 Access Grants instance. The ID is default. You can have one S3 Access Grants instance per Region per account."
+        }
+    ]
+}

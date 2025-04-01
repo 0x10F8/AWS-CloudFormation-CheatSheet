@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Redshift::EndpointAccess",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Address",
+            "Description": "The DNS address of the endpoint."
+        },
+        {
+            "Ref": "EndpointCreateTime",
+            "Description": "The time (UTC) that the endpoint was created."
+        },
+        {
+            "Ref": "EndpointStatus",
+            "Description": "The status of the endpoint."
+        },
+        {
+            "Ref": "Port",
+            "Description": "The port number on which the cluster accepts incoming connections."
+        },
+        {
+            "Ref": "VpcEndpoint.VpcEndpointId",
+            "Description": "The connection endpoint ID for connecting an Amazon Redshift cluster through the proxy."
+        },
+        {
+            "Ref": "VpcEndpoint.VpcId",
+            "Description": "The VPC identifier that the endpoint is associated."
+        },
+        {
+            "Ref": "VpcSecurityGroups",
+            "Description": "The security groups associated with the endpoint."
+        }
+    ]
+}

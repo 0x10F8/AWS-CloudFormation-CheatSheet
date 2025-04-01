@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppStream::Entitlement",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the combination of the <code class=\"code\">StackName</code> and\n            <code class=\"code\">Name</code>, such as <code class=\"code\">abcdefStack|abcdefEntitlement</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time when the entitlement was created."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The time when the entitlement was last modified."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SSM::Association",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AssociationId",
+            "Description": "The association ID."
+        }
+    ]
+}

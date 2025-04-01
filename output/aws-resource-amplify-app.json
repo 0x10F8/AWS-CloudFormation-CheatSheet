@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Amplify::App",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AppId",
+            "Description": "Unique Id for the Amplify App."
+        },
+        {
+            "Ref": "AppName",
+            "Description": "Name for the Amplify App."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "ARN for the Amplify App."
+        },
+        {
+            "Ref": "DefaultDomain",
+            "Description": "Default domain for the Amplify App."
+        }
+    ]
+}

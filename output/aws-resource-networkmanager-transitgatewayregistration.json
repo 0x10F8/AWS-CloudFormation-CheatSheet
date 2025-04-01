@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::NetworkManager::TransitGatewayRegistration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the global network and the ARN of the transit gateway. For example: <code class=\"code\">global-network-01231231231231231|arn:aws:ec2:us-west-2:123456789012:transit-gateway/tgw-123abc05e04123abc</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p></p><p>The following example registers a transit gateway in a global network.</p>",
+    "GetAtt": []
+}

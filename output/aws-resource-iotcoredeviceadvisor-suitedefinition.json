@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::IoTCoreDeviceAdvisor::SuiteDefinition",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, \n    <code class=\"code\">Ref</code> returns the Suite Definition name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "SuiteDefinitionArn",
+            "Description": "The Arn of the Suite Definition."
+        },
+        {
+            "Ref": "SuiteDefinitionId",
+            "Description": "The version of the Suite Definition."
+        },
+        {
+            "Ref": "SuiteDefinitionVersion",
+            "Description": "The ID of the Suite Definition."
+        }
+    ]
+}

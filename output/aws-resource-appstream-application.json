@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppStream::Application",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the <code class=\"code\">Arn</code> of the application, such as\n            <code class=\"code\">arn:aws:appstream:us-west-2:123456789123:application/abcdefg</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the application."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time when the application was created."
+        }
+    ]
+}

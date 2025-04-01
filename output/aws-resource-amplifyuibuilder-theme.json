@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AmplifyUIBuilder::Theme",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time that the theme was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID for the theme."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "The time that the theme was modified."
+        }
+    ]
+}

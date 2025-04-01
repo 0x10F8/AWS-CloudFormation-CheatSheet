@@ -1,0 +1,54 @@
+{
+    "ResourceName": "AWS::DataZone::Environment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n            <code class=\"code\">EnvironmentId</code>, which uniquely identifies the environment. For example:\n            <code class=\"code\"><span>{</span> \"Ref\": \"MyEnvironment\" }</code> for the resource with the logical ID\n            <code class=\"code\">MyEnvironment</code>, <code class=\"code\">Ref</code> returns\n         <code class=\"code\">DomainId|EnvironmentId</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AwsAccountId",
+            "Description": "The identifier of the AWS account in which an environment exists."
+        },
+        {
+            "Ref": "AwsAccountRegion",
+            "Description": "The AWS Region in which an environment exists."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the environment was created."
+        },
+        {
+            "Ref": "CreatedBy",
+            "Description": "The Amazon DataZone user who created the environment."
+        },
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of the Amazon DataZone domain in which the environment exists."
+        },
+        {
+            "Ref": "EnvironmentBlueprintId",
+            "Description": "The identifier of a blueprint with which an environment profile is created."
+        },
+        {
+            "Ref": "EnvironmentProfileId",
+            "Description": "The identifier of the environment profile with which the environment was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the environment."
+        },
+        {
+            "Ref": "ProjectId",
+            "Description": "The identifier of the project in which the environment exists."
+        },
+        {
+            "Ref": "Provider",
+            "Description": "The provider of the environment."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the environment."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp of when the environment was updated."
+        }
+    ]
+}

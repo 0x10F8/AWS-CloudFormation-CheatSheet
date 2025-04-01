@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AmplifyUIBuilder::Component",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time that the component was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique ID of the component."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "The time that the component was modified."
+        }
+    ]
+}

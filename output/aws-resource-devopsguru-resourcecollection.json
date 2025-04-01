@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::DevOpsGuru::ResourceCollection",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, \n\t\t\t<code class=\"code\">Ref</code> returns Amazon Resource Name (ARN) of the <code class=\"code\">ResourceCollection</code>.\n\t\t\t\n\t\t\tFor more information about using the <code class=\"code\">Ref</code> function, see \n\t\t\t<a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "ResourceCollectionType",
+            "Description": "The type of AWS resource collections to return. The one valid value is CLOUD_FORMATION for AWS CloudFormation stacks."
+        }
+    ]
+}

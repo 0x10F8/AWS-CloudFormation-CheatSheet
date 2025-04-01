@@ -1,0 +1,42 @@
+{
+    "ResourceName": "AWS::Timestream::ScheduledQuery",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the scheduled query ARN. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the scheduled query."
+        },
+        {
+            "Ref": "SQErrorReportConfiguration",
+            "Description": "The scheduled query error reporting configuration."
+        },
+        {
+            "Ref": "SQKmsKeyId",
+            "Description": "The KMS key used to encrypt the query resource, if a customer managed KMS key was provided."
+        },
+        {
+            "Ref": "SQName",
+            "Description": "The scheduled query name."
+        },
+        {
+            "Ref": "SQNotificationConfiguration",
+            "Description": "The scheduled query notification configuration."
+        },
+        {
+            "Ref": "SQQueryString",
+            "Description": "The scheduled query string.."
+        },
+        {
+            "Ref": "SQScheduleConfiguration",
+            "Description": "The scheduled query schedule configuration."
+        },
+        {
+            "Ref": "SQScheduledQueryExecutionRoleArn",
+            "Description": "The ARN of the IAM role that will be used by Timestream to run the query."
+        },
+        {
+            "Ref": "SQTargetConfiguration",
+            "Description": "The configuration for query output."
+        }
+    ]
+}

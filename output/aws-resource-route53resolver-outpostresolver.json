@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Route53Resolver::OutpostResolver",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns returns the <code class=\"code\">Id</code> of the Outpost Resolver.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN (Amazon Resource Name) for the Resolver on an Outpost."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The date and time that the Outpost Resolver was created, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "CreatorRequestId",
+            "Description": "A unique string that identifies the request that created the Resolver endpoint.  The CreatorRequestId allows failed requests to be retried without the risk of running the operation twice."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the Resolver on Outpost."
+        },
+        {
+            "Ref": "ModificationTime",
+            "Description": "The date and time that the Outpost Resolver was modified, in Unix time format and Coordinated Universal Time (UTC)."
+        },
+        {
+            "Ref": "Status",
+            "Description": "Status of the Resolver. Valid Values: CREATING | OPERATIONAL | UPDATING | DELETING | ACTION_NEEDED | FAILED_CREATION | FAILED_DELETION."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "A detailed description of the Resolver."
+        }
+    ]
+}

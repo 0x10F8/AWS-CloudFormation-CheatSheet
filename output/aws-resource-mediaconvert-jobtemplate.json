@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MediaConvert::JobTemplate",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::MediaConvert::JobTemplate</code>\n            resource to the intrinsic <code class=\"code\">Ref</code> function, the function returns the name of\n            the job template, such as <code class=\"code\">Streaming stack DASH</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the job template, such as arn:aws:mediaconvert:us-west-2:123456789012."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the job template, such as Streaming stack DASH."
+        }
+    ]
+}

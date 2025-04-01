@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::M2::Environment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the environment Amazon Resource Name (ARN), such as the\n         following:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \u00e2\u0080\u009cSampleEnv\u00e2\u0080\u009d }</code>\n</p><p>Returns a value similar to the following:</p><p>\n<code class=\"code\">arn:aws:m2:us-west-2:1234567890:env/y3ca6bhaife2bcvxar3lpivfou</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "EnvironmentArn",
+            "Description": "The Amazon Resource Name (ARN) of the runtime environment."
+        },
+        {
+            "Ref": "EnvironmentId",
+            "Description": "The unique identifier of the runtime environment."
+        }
+    ]
+}

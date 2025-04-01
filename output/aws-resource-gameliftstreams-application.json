@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::GameLiftStreams::Application",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns an <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns.html\">Amazon Resource Name (ARN)</a>\n         that uniquely identifies the application resource across all AWS Regions. For example:</p><p>\n<code class=\"code\">arn:aws:gameliftstreams:us-west-2:123456789012:application/a-9ZY8X7Wv6</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "An Amazon Resource Name (ARN)  that uniquely identifies the application resource across all AWS Regions. For example:"
+        },
+        {
+            "Ref": "Id",
+            "Description": "arn:aws:gameliftstreams:us-west-2:123456789012:application/a-9ZY8X7Wv6."
+        }
+    ]
+}

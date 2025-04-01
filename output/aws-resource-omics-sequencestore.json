@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::Omics::SequenceStore",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the details of this resource. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"SequenceStore.CreationTime\" }</code>\n<code class=\"code\">Ref</code> returns the timestamp for when the sequence store was created. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The store's ARN."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "When the store was created."
+        },
+        {
+            "Ref": "S3AccessPointArn",
+            "Description": "This is ARN of the access point associated with the S3 bucket storing read sets."
+        },
+        {
+            "Ref": "S3Uri",
+            "Description": "The S3 URI of the sequence store."
+        },
+        {
+            "Ref": "SequenceStoreId",
+            "Description": "The store's ID."
+        },
+        {
+            "Ref": "Status",
+            "Description": "Status of the sequence store."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "The status message of the sequence store."
+        },
+        {
+            "Ref": "UpdateTime",
+            "Description": "The last-updated time of the Sequence Store."
+        }
+    ]
+}

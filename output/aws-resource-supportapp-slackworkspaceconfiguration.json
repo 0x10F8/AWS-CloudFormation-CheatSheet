@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::SupportApp::SlackWorkspaceConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the Slack workspace, such as\n                <code class=\"code\">T012ABCDEFG</code>.</p><p>For the AWS Support App Slack workspace configuration, <code class=\"code\">Ref</code>\n            returns the value of the Slack workspace ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p>The following examples can help you create AWS Support App resources using\n                    CloudFormation.</p><p>Use this template to create a Slack workspace configuration for your account\n                    or your organization. You must replace the Slack workspace ID.</p>",
+    "GetAtt": []
+}

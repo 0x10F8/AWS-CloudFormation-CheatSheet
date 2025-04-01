@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::EC2::NetworkInterface",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the network interface.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The ID of the network interface."
+        },
+        {
+            "Ref": "PrimaryIpv6Address",
+            "Description": "The primary IPv6 address of the network interface."
+        },
+        {
+            "Ref": "PrimaryPrivateIpAddress",
+            "Description": "The primary private IP address of the network interface. For example, 10.0.0.192."
+        },
+        {
+            "Ref": "SecondaryPrivateIpAddresses",
+            "Description": "The secondary private IP addresses of the network interface. For example, [\"10.0.0.161\", \"10.0.0.162\", \"10.0.0.163\"]."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the VPC."
+        }
+    ]
+}

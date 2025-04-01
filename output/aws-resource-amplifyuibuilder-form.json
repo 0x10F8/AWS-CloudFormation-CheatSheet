@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::AmplifyUIBuilder::Form",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The ID for the form."
+        }
+    ]
+}

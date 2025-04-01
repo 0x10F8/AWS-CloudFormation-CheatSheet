@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EntityResolution::IdMappingWorkflow",
+    "Ref": "",
+    "GetAtt": []
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::NetworkManager::Device",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IDs of the global network and device. For example: <code class=\"code\">global-network-01231231231231231|device-07f6fd08867abc123</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time that the device was created."
+        },
+        {
+            "Ref": "DeviceArn",
+            "Description": "The ARN of the device. For example, arn:aws:networkmanager::123456789012:device/global-network-01231231231231231/device-07f6fd08867abc123."
+        },
+        {
+            "Ref": "DeviceId",
+            "Description": "The ID of the device. For example, device-07f6fd08867abc123."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the device."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::AppRunner::VpcConnector",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "VpcConnectorArn",
+            "Description": "The Amazon Resource Name (ARN) of this VPC connector."
+        },
+        {
+            "Ref": "VpcConnectorRevision",
+            "Description": "The revision of this VPC connector. It's unique among all the active connectors (\"Status\": \"ACTIVE\") that share the same Name."
+        }
+    ]
+}

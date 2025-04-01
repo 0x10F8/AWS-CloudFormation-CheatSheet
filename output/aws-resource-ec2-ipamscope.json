@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::EC2::IPAMScope",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IPAM scope ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the scope."
+        },
+        {
+            "Ref": "IpamArn",
+            "Description": "The ARN of an IPAM."
+        },
+        {
+            "Ref": "IpamScopeId",
+            "Description": "The ID of an IPAM scope."
+        },
+        {
+            "Ref": "IpamScopeType",
+            "Description": "The type of the scope."
+        },
+        {
+            "Ref": "IsDefault",
+            "Description": "Defines if the scope is the default scope or not."
+        },
+        {
+            "Ref": "PoolCount",
+            "Description": "The number of pools in a scope."
+        }
+    ]
+}

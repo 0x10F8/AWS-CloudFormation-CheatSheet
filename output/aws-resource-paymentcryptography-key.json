@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::PaymentCryptography::Key",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "KeyIdentifier",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "KeyOrigin",
+            "Description": "The source of the key material. For keys created within AWS Payment Cryptography, the value is AWS_PAYMENT_CRYPTOGRAPHY. For keys imported into AWS Payment Cryptography, the value is EXTERNAL."
+        },
+        {
+            "Ref": "KeyState",
+            "Description": "The state of key that is being created or deleted."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::MediaLive::Input",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the MediaLive id of the input.</p><p>For example: <code class=\"code\"><span>{</span> \"Ref\": \"myInput\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the MediaLive input. For example: arn:aws:medialive:us-west-1:111122223333:medialive:input:1234567. MediaLive creates this ARN when it creates the input."
+        },
+        {
+            "Ref": "Destinations",
+            "Description": "For a push input, the the destination or destinations for the input. The destinations are the URLs of locations on MediaLive where the upstream system pushes the content to, for this input. MediaLive creates these addresses when it creates the input."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique ID for the device."
+        },
+        {
+            "Ref": "Sources",
+            "Description": "For a pull input, the source or sources for the input. The sources are the URLs of locations on the upstream system where MediaLive pulls the content from, for this input. You included these URLs in the create request."
+        }
+    ]
+}

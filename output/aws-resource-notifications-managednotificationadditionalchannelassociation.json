@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Notifications::ManagedNotificationAdditionalChannelAssociation",
+    "Ref": "<p>\n         When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the configuration created.\n      </p>",
+    "GetAtt": []
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::DeviceFarm::InstanceProfile",
+    "Ref": "<p>Not supported for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the instance profile. See Amazon resource names in the General Reference guide."
+        }
+    ]
+}

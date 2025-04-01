@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Timestream::InfluxDBInstance",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the DB instance"
+        },
+        {
+            "Ref": "AvailabilityZone",
+            "Description": "The Availability Zone in which the DB instance resides."
+        },
+        {
+            "Ref": "Endpoint",
+            "Description": "The endpoint used to connect to InfluxDB. The default InfluxDB port is 8086."
+        },
+        {
+            "Ref": "Id",
+            "Description": "A service-generated unique identifier"
+        },
+        {
+            "Ref": "InfluxAuthParametersSecretArn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon Secrets Manager secret containing the initial InfluxDB authorization parameters. The secret value is a JSON formatted key-value pair holding InfluxDB authorization values: organization, bucket, username, and password."
+        },
+        {
+            "Ref": "SecondaryAvailabilityZone",
+            "Description": "Describes an Availability Zone in which the InfluxDB instance is located"
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the DB instance.  Valid Values: CREATING | AVAILABLE | DELETING | MODIFYING | UPDATING | DELETED | FAILED"
+        }
+    ]
+}

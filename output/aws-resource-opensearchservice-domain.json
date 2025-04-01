@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::OpenSearchService::Domain",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n      returns the resource name, such as <code class=\"code\">mystack-abc1d2efg3h4.</code> For more\n      information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AdvancedSecurityOptions.AnonymousAuthDisableDate",
+            "Description": "Date and time when the migration period will be disabled. Only necessary when enabling fine-grained access control on an existing domain."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the CloudFormation stack."
+        },
+        {
+            "Ref": "DomainArn",
+            "Description": "The Amazon Resource Name (ARN) of the domain. See Identifiers for IAM Entities  in Using AWS Identity and Access Management for more information."
+        },
+        {
+            "Ref": "DomainEndpoint",
+            "Description": "The domain-specific endpoint used for requests to the OpenSearch APIs, such as search-mystack-1ab2cdefghij-ab1c2deckoyb3hofw7wpqa3cm.us-west-1.es.amazonaws.com."
+        },
+        {
+            "Ref": "DomainEndpointV2",
+            "Description": "If IPAddressType to set to dualstack, a version 2 domain endpoint is provisioned.  This endpoint functions like a normal endpoint, except that it works with both IPv4 and IPv6 IP addresses.  Normal endpoints work only with IPv4 IP addresses."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The resource ID. For example, 123456789012/my-domain."
+        },
+        {
+            "Ref": "IdentityCenterOptions.IdentityCenterApplicationARN",
+            "Description": "The Amazon Resource Name (ARN) of the domain. See Identifiers for IAM Entities  in Using AWS Identity and Access Management for more information."
+        },
+        {
+            "Ref": "IdentityCenterOptions.IdentityStoreId",
+            "Description": "Property description not available."
+        }
+    ]
+}

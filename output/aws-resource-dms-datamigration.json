@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::DMS::DataMigration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DataMigrationArn",
+            "Description": "The Amazon Resource Name (ARN) that identifies this replication."
+        },
+        {
+            "Ref": "DataMigrationCreateTime",
+            "Description": "The UTC time when DMS created the data migration."
+        }
+    ]
+}

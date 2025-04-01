@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ECS::Cluster",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name.</p><p>In the following example, the <code class=\"code\">Ref</code> function returns the name of the\n            <code class=\"code\">MyECSCluster</code> cluster, such as\n            <code class=\"code\">MyStack-MyECSCluster-NT5EUXTNTXXD</code>.</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyECSCluster\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon ECS cluster, such as arn:aws:ecs:us-east-2:123456789012:cluster/MyECSCluster."
+        }
+    ]
+}

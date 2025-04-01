@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::AppConfig::ExtensionAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns information about the extension association.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the extension defined in the association."
+        },
+        {
+            "Ref": "ExtensionArn",
+            "Description": "The ARN of the extension defined in the association."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The system-generated ID for the association."
+        },
+        {
+            "Ref": "ResourceArn",
+            "Description": "The ARNs of applications, configuration profiles, or environments defined in the association."
+        }
+    ]
+}

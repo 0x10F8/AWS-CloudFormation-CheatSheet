@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::AppMesh::Route",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myRoute\" }</code>\n</p><p>When you pass the logical ID of an <code class=\"code\">AWS::AppMesh::Route</code> resource to the\n         intrinsic Ref function, the function returns the route ARN, such as\n               <code class=\"code\">arn:aws:appmesh:<em>us-east-1</em>:<em>555555555555</em>:route/<em>myRoute</em>\n</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The full Amazon Resource Name (ARN) for the route."
+        },
+        {
+            "Ref": "MeshName",
+            "Description": "The name of the service mesh that the route resides in."
+        },
+        {
+            "Ref": "MeshOwner",
+            "Description": "The AWS IAM account ID of the service mesh owner. If the account ID is  not your own, then it's the ID of the account that shared the mesh with your account. For  more information about mesh sharing, see Working with Shared Meshes."
+        },
+        {
+            "Ref": "ResourceOwner",
+            "Description": "The AWS IAM account ID of the resource owner. If the account ID is not  your own, then it's the ID of the mesh owner or of another account that the mesh is shared  with. For more information about mesh sharing, see Working with Shared Meshes."
+        },
+        {
+            "Ref": "RouteName",
+            "Description": "The name of the route."
+        },
+        {
+            "Ref": "Uid",
+            "Description": "The unique identifier for the route."
+        },
+        {
+            "Ref": "VirtualRouterName",
+            "Description": "The name of the virtual router that the route is associated with."
+        }
+    ]
+}

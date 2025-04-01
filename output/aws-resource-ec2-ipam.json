@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::EC2::IPAM",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the IPAM ID.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the IPAM."
+        },
+        {
+            "Ref": "DefaultResourceDiscoveryAssociationId",
+            "Description": "The ID of the default resource discovery association."
+        },
+        {
+            "Ref": "DefaultResourceDiscoveryId",
+            "Description": "The ID of the default resource discovery."
+        },
+        {
+            "Ref": "IpamId",
+            "Description": "The ID of the IPAM."
+        },
+        {
+            "Ref": "PrivateDefaultScopeId",
+            "Description": "The ID of the default private scope."
+        },
+        {
+            "Ref": "PublicDefaultScopeId",
+            "Description": "The ID of the default public scope."
+        },
+        {
+            "Ref": "ResourceDiscoveryAssociationCount",
+            "Description": "The number of resource discovery associations."
+        },
+        {
+            "Ref": "ScopeCount",
+            "Description": "The number of scopes."
+        }
+    ]
+}

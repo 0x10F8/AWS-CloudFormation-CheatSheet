@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Lex::Bot",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the bot."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the bot."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::ControlTower::LandingZone",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <b>LandingZoneIdentifier</b>. For example:</p><p>\n<code class=\"code\">\"LandingZoneIdentifier\": \"arn:aws:controltower:us-west-2:123456789012:landingzone/1A2B3C4D5E6F7G8H</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the landing zone."
+        },
+        {
+            "Ref": "DriftStatus",
+            "Description": "The drift status of the landing zone."
+        },
+        {
+            "Ref": "LandingZoneIdentifier",
+            "Description": "The unique identifier of the landing zone."
+        },
+        {
+            "Ref": "LatestAvailableVersion",
+            "Description": "The latest available version of the landing zone."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The landing zone deployment status. One of ACTIVE, PROCESSING, FAILED."
+        }
+    ]
+}

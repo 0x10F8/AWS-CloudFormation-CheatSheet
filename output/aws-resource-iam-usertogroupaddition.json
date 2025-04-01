@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IAM::UserToGroupAddition",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code> returns the resource name.</p><p>For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyUserToGroupAddition\" }</code>\n</p><p>For the <code class=\"code\">AWS::IAM::UserToGroupAddition</code> resource with the logical ID\n            <code class=\"code\">MyUserToGroupAddition</code>, <code class=\"code\">Ref</code> will return the AWS resource name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The stable and unique string identifying the group. For more information about IDs, see IAM identifiers in the IAM User Guide."
+        }
+    ]
+}

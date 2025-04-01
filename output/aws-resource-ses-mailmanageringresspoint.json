@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::SES::MailManagerIngressPoint",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ARecord",
+            "Description": "The DNS A Record that identifies your ingress endpoint. Configure your DNS Mail Exchange (MX) record with this value to route emails to Mail Manager."
+        },
+        {
+            "Ref": "IngressPointArn",
+            "Description": "The Amazon Resource Name (ARN) of the ingress endpoint resource."
+        },
+        {
+            "Ref": "IngressPointId",
+            "Description": "The identifier of the ingress endpoint resource."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the ingress endpoint resource."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IoT::FleetMetric",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the fleet metric name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationDate",
+            "Description": "The time the fleet metric was created."
+        },
+        {
+            "Ref": "LastModifiedDate",
+            "Description": "The time the fleet metric was last modified."
+        },
+        {
+            "Ref": "MetricArn",
+            "Description": "The Amazon Resource Name (ARN) of the fleet metric."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The fleet metric version."
+        }
+    ]
+}

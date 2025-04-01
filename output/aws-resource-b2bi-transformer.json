@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::B2BI::Transformer",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "Returns a timestamp indicating when the transformer was created. For example,  2023-07-20T19:58:44.624Z."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "Returns a timestamp representing the date and time for the most recent change for the transformer object."
+        },
+        {
+            "Ref": "TransformerArn",
+            "Description": "Returns an Amazon Resource Name (ARN) for a specific transformer."
+        },
+        {
+            "Ref": "TransformerId",
+            "Description": "The system-assigned unique identifier for the transformer."
+        }
+    ]
+}

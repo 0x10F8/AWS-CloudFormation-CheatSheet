@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IVS::RecordingConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the recording-configuration ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myRecordingConfiguration\" }</code>\n</p><p>For the Amazon IVS recording configuration\n                <code class=\"code\">myRecordingConfiguration</code>, <code class=\"code\">Ref</code> returns the\n            recording-configuration ARN.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The recording configuration ARN. For example: arn:aws:ivs:us-west-2:123456789012:recording-configuration/abcdABCDefgh"
+        },
+        {
+            "Ref": "State",
+            "Description": "Indicates the current state of the recording configuration. When the state is ACTIVE, the configuration is ready to record a channel stream. Valid values: CREATING | CREATE_FAILED | ACTIVE."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EC2::SecurityGroupVpcAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a concatenation of the security group ID and VPC ID in the format <code class=\"code\">sg-id|vpc-id</code>. Example:<code class=\"code\">sg-a1b2c3d4e5a6b7d8e|vpc-a1b2c3d4e5a6b7d8e</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "State",
+            "Description": "The association's state."
+        },
+        {
+            "Ref": "StateReason",
+            "Description": "The association's state reason."
+        },
+        {
+            "Ref": "VpcOwnerId",
+            "Description": "The AWS account ID of the owner of the VPC."
+        }
+    ]
+}

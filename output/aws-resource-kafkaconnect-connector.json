@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::KafkaConnect::Connector",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ConnectorArn",
+            "Description": "The Amazon Resource Name (ARN) of the newly created connector."
+        }
+    ]
+}

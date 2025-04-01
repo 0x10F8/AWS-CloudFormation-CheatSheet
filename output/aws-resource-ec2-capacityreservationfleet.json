@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::EC2::CapacityReservationFleet",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ID, such as\n         <code class=\"code\">crf-abcdef01234567890</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CapacityReservationFleetId",
+            "Description": "The ID of the Capacity Reservation Fleet."
+        }
+    ]
+}

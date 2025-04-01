@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SupportApp::AccountAlias",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AccountAliasResourceId",
+            "Description": "The AccountAlias resource type has an attribute AccountAliasResourceId. You can use this attribute to identify the resource. The AccountAliasResourceId will be AccountAlias_for_accountId. In this example, AccountAlias_for_ is the prefix and accountId is your AWS account number, such as AccountAlias_for_123456789012."
+        }
+    ]
+}

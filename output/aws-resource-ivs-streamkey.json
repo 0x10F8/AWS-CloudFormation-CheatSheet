@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IVS::StreamKey",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myStreamKey\" }</code>\n</p><p>For the Amazon IVS stream key <code class=\"code\">myStreamKey</code>,\n                <code class=\"code\">Ref</code> returns the stream key ARN.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The stream-key ARN. For example: arn:aws:ivs:us-west-2:123456789012:stream-key/g1H2I3j4k5L6"
+        },
+        {
+            "Ref": "Value",
+            "Description": "The stream-key value. For example: sk_us-west-2_abcdABCDefgh_567890abcdef"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Lambda::EventInvokeConfig",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p><p></p><p>Error handling and destination configuration for a version of a function. Node.js function and version are\n          included.</p>",
+    "GetAtt": []
+}

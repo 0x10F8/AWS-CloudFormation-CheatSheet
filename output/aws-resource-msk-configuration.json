@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::MSK::Configuration",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic function, it returns the MSK configuration.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the configuration."
+        },
+        {
+            "Ref": "LatestRevision.CreationTime",
+            "Description": "The time when the configuration revision was created."
+        },
+        {
+            "Ref": "LatestRevision.Description",
+            "Description": "The description of the configuration revision."
+        },
+        {
+            "Ref": "LatestRevision.Revision",
+            "Description": "The revision number."
+        }
+    ]
+}

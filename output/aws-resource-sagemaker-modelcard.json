@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::SageMaker::ModelCard",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the model card name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedBy.DomainId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "LastModifiedBy.UserProfileArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ModelCardArn",
+            "Description": "The Amazon Resource Number (ARN) of the model card. For example, arn:aws:sagemaker:us-west-2:012345678901:modelcard/examplemodelcard."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Glue::UsageProfile",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedOn",
+            "Description": "The date and time when the usage profile was created."
+        }
+    ]
+}

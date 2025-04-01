@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SSMContacts::ContactChannel",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the resource, such as\n            <code class=\"code\">arn:aws:ssm-contacts:us-west-2:123456789012:contact-channel/contactalias/cec1bb12-34f5-6789-a1ee-e1ca2345d6f7</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the ContactChannel resource."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IoTFleetWise::StateTemplate",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the state template."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "The time the state template was created, in seconds since epoch (January 1, 1970 at midnight UTC time)."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique ID of the state template."
+        },
+        {
+            "Ref": "LastModificationTime",
+            "Description": "The time the state template was last updated, in seconds since epoch (January 1, 1970 at midnight UTC time)."
+        }
+    ]
+}

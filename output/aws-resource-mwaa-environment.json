@@ -1,0 +1,46 @@
+{
+    "ResourceName": "AWS::MWAA::Environment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the environment details.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN for the Amazon MWAA environment."
+        },
+        {
+            "Ref": "CeleryExecutorQueue",
+            "Description": "The queue ARN for the environment's Celery Executor. Amazon MWAA uses a Celery Executor to distribute tasks across multiple workers. When you create an environment in a shared VPC, you must provide access to the Celery Executor queue from your VPC."
+        },
+        {
+            "Ref": "DatabaseVpcEndpointService",
+            "Description": "The VPC endpoint for the environment's Amazon RDS database."
+        },
+        {
+            "Ref": "LoggingConfiguration.DagProcessingLogs.CloudWatchLogGroupArn",
+            "Description": "The ARN for the CloudWatch Logs group where the Apache Airflow DAG processing logs are published."
+        },
+        {
+            "Ref": "LoggingConfiguration.SchedulerLogs.CloudWatchLogGroupArn",
+            "Description": "The ARN for the CloudWatch Logs group where the Apache Airflow Scheduler logs are published."
+        },
+        {
+            "Ref": "LoggingConfiguration.TaskLogs.CloudWatchLogGroupArn",
+            "Description": "The ARN for the CloudWatch Logs group where the Apache Airflow task logs are published."
+        },
+        {
+            "Ref": "LoggingConfiguration.WebserverLogs.CloudWatchLogGroupArn",
+            "Description": "The ARN for the CloudWatch Logs group where the Apache Airflow Web server logs are published."
+        },
+        {
+            "Ref": "LoggingConfiguration.WorkerLogs.CloudWatchLogGroupArn",
+            "Description": "The ARN for the CloudWatch Logs group where the Apache Airflow Worker logs are published."
+        },
+        {
+            "Ref": "WebserverUrl",
+            "Description": "The URL of your Apache Airflow UI."
+        },
+        {
+            "Ref": "WebserverVpcEndpointService",
+            "Description": "The VPC endpoint for the environment's web server."
+        }
+    ]
+}

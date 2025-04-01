@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::CloudFormation::ModuleVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the module version.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the module."
+        },
+        {
+            "Ref": "Description",
+            "Description": "The description of the module."
+        },
+        {
+            "Ref": "DocumentationUrl",
+            "Description": "The URL of a page providing detailed documentation for this module."
+        },
+        {
+            "Ref": "IsDefaultVersion",
+            "Description": "Whether the specified module version is set as the default version."
+        },
+        {
+            "Ref": "Schema",
+            "Description": "This applies only to private extensions you have registered in your account, and  extensions published by AWS. For public third-party extensions, whether they  are activated in your account, CloudFormation returns null."
+        },
+        {
+            "Ref": "TimeCreated",
+            "Description": "The schema that defines the module."
+        },
+        {
+            "Ref": "VersionId",
+            "Description": "When the specified private module version was registered or activated in your  account."
+        },
+        {
+            "Ref": "Visibility",
+            "Description": "The ID of this version of the module."
+        }
+    ]
+}

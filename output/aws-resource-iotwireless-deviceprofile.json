@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTWireless::DeviceProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the device profile ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the device profile created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the device profile created."
+        }
+    ]
+}

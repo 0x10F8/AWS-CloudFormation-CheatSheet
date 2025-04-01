@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::RoleAlias",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the role alias name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "RoleAliasArn",
+            "Description": "The role alias ARN."
+        }
+    ]
+}

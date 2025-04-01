@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EC2::CarrierGateway",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the carrier gateway ID. For example:\n            <code class=\"code\">cagw-05a8da9a199afb1c7</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CarrierGatewayId",
+            "Description": "The ID of the carrier gateway."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The AWS account ID of the owner of the carrier gateway."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the carrier gateway."
+        }
+    ]
+}

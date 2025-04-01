@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::DataZone::GroupProfile",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n            <code class=\"code\">GroupProfileId</code> that uniquely identify the group profile. For example:\n            <code class=\"code\"><span>{</span> \"Ref\": \"MyGroupProfile\" }</code> for the resource with the logical ID\n            <code class=\"code\">MyGroupProfile</code>, <code class=\"code\">Ref</code> returns\n            <code class=\"code\">DomainId|GroupProfileId</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DomainId",
+            "Description": "The identifier of the Amazon DataZone domain in which a group profile exists."
+        },
+        {
+            "Ref": "GroupName",
+            "Description": "The name of a group profile."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of a group profile."
+        }
+    ]
+}

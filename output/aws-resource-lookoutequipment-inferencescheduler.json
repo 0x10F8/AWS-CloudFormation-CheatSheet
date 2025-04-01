@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::LookoutEquipment::InferenceScheduler",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "InferenceSchedulerArn",
+            "Description": "The Amazon Resource Name (ARN) of the inference scheduler being created."
+        }
+    ]
+}

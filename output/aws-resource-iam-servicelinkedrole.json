@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IAM::ServiceLinkedRole",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">RoleName</code> created for the service-linked role.\n         The <code class=\"code\">CustomSuffix</code> is appended to the service-provided prefix with an underscore\n         followed by the <code class=\"code\">CustomSuffix</code> to form the complete role name. For example,\n            <code class=\"code\">AWSServiceRoleForAutoScaling</code> or\n            <code class=\"code\">AWSServiceRoleForAutoScaling_TestSuffix</code> if a <code class=\"code\">CustomSuffix</code> is\n         specified.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "RoleName",
+            "Description": "Returns the friendly name that identifies the role. For example, AWSServiceRoleForAutoScaling or AWSServiceRoleForAutoScaling_TestSuffix if a CustomSuffix is  specified."
+        }
+    ]
+}

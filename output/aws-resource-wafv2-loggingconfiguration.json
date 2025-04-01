@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::WAFv2::LoggingConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the web ACL. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ManagedByFirewallManager",
+            "Description": "Indicates whether the logging configuration was created by AWS Firewall Manager, as  part of an AWS WAF policy configuration. If true, only Firewall Manager can modify or delete the configuration."
+        }
+    ]
+}

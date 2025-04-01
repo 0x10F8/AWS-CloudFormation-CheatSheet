@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::CloudTrail::EventDataStore",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, <code class=\"code\">Ref</code> returns the resource name. </p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedTimestamp",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the time stamp of the creation of the event data store, such as 1248496624."
+        },
+        {
+            "Ref": "EventDataStoreArn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the CloudTrail event data store, such as  arn:aws:cloudtrail:us-east-1:12345678910:eventdatastore/EXAMPLE-f852-4e8f-8bd1-bcf6cEXAMPLE."
+        },
+        {
+            "Ref": "Status",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the status of the event data store, such as ENABLED."
+        },
+        {
+            "Ref": "UpdatedTimestamp",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the time stamp that updates were made to an event data store, such as 1598296624."
+        }
+    ]
+}

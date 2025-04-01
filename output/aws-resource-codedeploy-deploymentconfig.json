@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::CodeDeploy::DeploymentConfig",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::CodeDeploy::DeploymentConfig</code> resource\n      to the intrinsic <code class=\"code\">Ref</code> function, the function returns the deployment configuration\n      name, such as <code class=\"code\">mydeploymentconfig-a123d0d1</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p><p></p><p>The following example requires at least 75% of the fleet to be healthy. For example,\n          if you had a fleet of four instances, the deployment proceeds one instance at a\n          time.</p>",
+    "GetAtt": []
+}

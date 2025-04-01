@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MediaConvert::Queue",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::MediaConvert::Queue</code> resource to\n            the intrinsic <code class=\"code\">Ref</code> function, the function returns the name of the queue,\n            such as <code class=\"code\">Queue 2</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the queue, such as arn:aws:mediaconvert:us-west-2:123456789012."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the queue, such as Queue 2."
+        }
+    ]
+}

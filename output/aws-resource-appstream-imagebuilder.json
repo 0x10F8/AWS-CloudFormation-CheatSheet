@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::AppStream::ImageBuilder",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "StreamingUrl",
+            "Description": "The URL to start an image builder streaming session, returned as a string."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::PCAConnectorAD::DirectoryRegistration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DirectoryRegistrationArn",
+            "Description": "The Amazon Resource Name (ARN) that was returned when you called CreateDirectoryRegistration ."
+        }
+    ]
+}

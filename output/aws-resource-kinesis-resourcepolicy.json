@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Kinesis::ResourcePolicy",
+    "Ref": "<p></p><p>This policy allows Account12345 to perform the <code class=\"code\">DescribeStreamSummary</code>,\n                        <code class=\"code\">ListShards</code>, <code class=\"code\">PutRecord</code>, and <code class=\"code\">PutRecords</code>\n                    operations on the specified stream <code class=\"code\">datastreamABC</code>.</p>",
+    "GetAtt": []
+}

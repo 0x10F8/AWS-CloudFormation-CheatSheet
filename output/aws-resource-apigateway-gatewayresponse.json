@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ApiGateway::GatewayResponse",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The ID for the gateway response. For example: abc123."
+        }
+    ]
+}

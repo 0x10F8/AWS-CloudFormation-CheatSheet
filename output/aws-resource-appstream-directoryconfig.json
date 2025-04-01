@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::AppStream::DirectoryConfig",
+    "Ref": "",
+    "GetAtt": []
+}

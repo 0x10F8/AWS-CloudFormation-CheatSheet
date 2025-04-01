@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::Deadline::Fleet",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the fleet.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) assigned to the fleet."
+        },
+        {
+            "Ref": "FleetId",
+            "Description": "The fleet ID."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the fleet."
+        },
+        {
+            "Ref": "WorkerCount",
+            "Description": "The number of workers in the fleet summary."
+        }
+    ]
+}

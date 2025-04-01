@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::WorkSpacesWeb::Portal",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function,\n            <code class=\"code\">Ref</code> returns the resource's Amazon Resource Name (ARN).</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "BrowserType",
+            "Description": "The browser that users see when using a streaming session."
+        },
+        {
+            "Ref": "CreationDate",
+            "Description": "The creation date of the web portal."
+        },
+        {
+            "Ref": "PortalArn",
+            "Description": "The ARN of the web portal."
+        },
+        {
+            "Ref": "PortalEndpoint",
+            "Description": "The endpoint URL of the web portal that users access in order to start streaming sessions."
+        },
+        {
+            "Ref": "PortalStatus",
+            "Description": "The status of the web portal."
+        },
+        {
+            "Ref": "RendererType",
+            "Description": "The renderer that is used in streaming sessions."
+        },
+        {
+            "Ref": "ServiceProviderSamlMetadata",
+            "Description": "The SAML metadata of the service provider."
+        },
+        {
+            "Ref": "StatusReason",
+            "Description": "A message that explains why the web portal is in its current status."
+        }
+    ]
+}

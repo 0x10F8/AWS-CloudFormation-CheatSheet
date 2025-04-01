@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CustomerProfiles::SegmentDefinition",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "When the segment definition was created."
+        },
+        {
+            "Ref": "SegmentDefinitionArn",
+            "Description": "The arn of the segment definition."
+        }
+    ]
+}

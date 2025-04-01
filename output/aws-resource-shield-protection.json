@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Shield::Protection",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN (Amazon Resource Name) of the protection. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ProtectionArn",
+            "Description": "The ARN (Amazon Resource Name) of the new protection."
+        },
+        {
+            "Ref": "ProtectionId",
+            "Description": "The ID of the new protection."
+        }
+    ]
+}

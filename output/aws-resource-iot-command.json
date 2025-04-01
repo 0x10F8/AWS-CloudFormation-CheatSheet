@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::Command",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CommandArn",
+            "Description": "The Amazon Resource Name (ARN) of the command."
+        }
+    ]
+}

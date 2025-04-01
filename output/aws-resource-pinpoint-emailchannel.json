@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Pinpoint::EmailChannel",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the unique identifier (<code class=\"code\">ApplicationId</code>) for\n            the Amazon Pinpoint application that the channel is associated with.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "(Deprecated) An identifier for the email channel. This property is retained only for backward compatibility."
+        }
+    ]
+}

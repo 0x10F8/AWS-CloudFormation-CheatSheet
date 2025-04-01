@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::AppConfig::Environment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the environment ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "EnvironmentId",
+            "Description": "The environment ID."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SageMaker::MlflowTrackingServer",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "TrackingServerArn",
+            "Description": "Property description not available."
+        }
+    ]
+}

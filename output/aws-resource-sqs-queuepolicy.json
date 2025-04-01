@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SQS::QueuePolicy",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The provider-assigned unique ID for this managed resource."
+        }
+    ]
+}

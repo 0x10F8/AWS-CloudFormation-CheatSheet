@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Redshift::Integration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreateTime",
+            "Description": "The time (UTC) when the integration was created."
+        },
+        {
+            "Ref": "IntegrationArn",
+            "Description": "The Amazon Resource Name (ARN) of the integration."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MediaPackage::Asset",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the asset.</p><p>For example: <code class=\"code\"><span>{</span> \"Ref\": \"myAsset\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) for the asset. You can get this from the response to any request to the asset."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The date and time that the asset was initially submitted for ingest."
+        }
+    ]
+}

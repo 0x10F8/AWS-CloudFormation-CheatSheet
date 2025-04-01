@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::CloudFrontOriginAccessIdentity",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the origin access identity, such as\n   \t\t<code class=\"code\">E15MNIMTCFKK4C</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The ID for the origin access identity, for example, E74FTE3AJFJ256A."
+        },
+        {
+            "Ref": "S3CanonicalUserId",
+            "Description": "The Amazon S3 canonical user ID for the origin access identity, used when  \t\tgiving the origin access identity read permission to an object in Amazon S3. For  \t\texample:  \t\tb970b42360b81c8ddbd79d2f5df0069ba9033c8a79655752abe380cd6d63ba8bcf23384d568fcf89fc49700b5e11a0fd."
+        }
+    ]
+}

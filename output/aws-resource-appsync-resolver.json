@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::AppSync::Resolver",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::AppSync::Resolver</code> resource to the intrinsic\n            <code class=\"code\">Ref</code> function, the function returns the ARN of the Resolver, such as\n            <code class=\"code\">arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/types/typename/resolvers/resolvername</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "FieldName",
+            "Description": "The GraphQL field on a type that invokes the resolver."
+        },
+        {
+            "Ref": "ResolverArn",
+            "Description": "ARN of the resolver, such as arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/types/typename/resolvers/resolvername."
+        },
+        {
+            "Ref": "TypeName",
+            "Description": "The GraphQL type that invokes this resolver."
+        }
+    ]
+}

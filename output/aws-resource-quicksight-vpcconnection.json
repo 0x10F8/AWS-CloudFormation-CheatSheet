@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::QuickSight::VPCConnection",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the VPC connection."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time that the VPC connection was created."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time that the VPC connection was last updated."
+        },
+        {
+            "Ref": "NetworkInterfaces",
+            "Description": "A list of network interfaces."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The HTTP status of the request."
+        },
+        {
+            "Ref": "VPCId",
+            "Description": "The Amazon EC2 VPC ID associated with the VPC connection."
+        }
+    ]
+}

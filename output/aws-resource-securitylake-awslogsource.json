@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::SecurityLake::AwsLogSource",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">ref</code> function, <code class=\"code\">ref</code> returns the <code class=\"code\">AwsLogSource</code> name. For example, <code class=\"code\">VPC_FLOW</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p><p>After deploying Security Lake, use this example to add AWS log sources.</p>",
+    "GetAtt": []
+}

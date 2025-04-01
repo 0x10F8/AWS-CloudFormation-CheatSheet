@@ -1,0 +1,42 @@
+{
+    "ResourceName": "AWS::Bedrock::PromptVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Number (ARN) of the prompt version.</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myPromptVersion\" }</code> could return the value <code class=\"code\">\"\"arn:aws:bedrock:us-east-1:123456789012:prompt/PROMPT12345:1\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the prompt or the prompt version (if you specified a version in the request)."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time at which the prompt was created."
+        },
+        {
+            "Ref": "CustomerEncryptionKeyArn",
+            "Description": "The Amazon Resource Name (ARN) of the KMS key that the prompt version is encrypted with."
+        },
+        {
+            "Ref": "DefaultVariant",
+            "Description": "The name of the default variant for the prompt. This value must match the name field in the relevant PromptVariant object."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the prompt."
+        },
+        {
+            "Ref": "PromptId",
+            "Description": "The unique identifier of the prompt."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The time at which the prompt was last updated."
+        },
+        {
+            "Ref": "Variants",
+            "Description": "A list of objects, each containing details about a variant of the prompt."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The version of the prompt that this summary applies to."
+        }
+    ]
+}

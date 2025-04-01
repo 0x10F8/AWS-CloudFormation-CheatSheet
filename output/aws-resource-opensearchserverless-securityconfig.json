@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::OpenSearchServerless::SecurityConfig",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the name of the ID of the security configuration. For\n         more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IamIdentityCenterOptions.ApplicationArn",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "IamIdentityCenterOptions.ApplicationDescription",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "IamIdentityCenterOptions.ApplicationName",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the security configuration. For example, saml/123456789012/myprovider."
+        }
+    ]
+}

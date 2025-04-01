@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EC2::LaunchTemplate",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the launch template, for example,\n            <code class=\"code\">lt-01238c059e3466abc</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DefaultVersionNumber",
+            "Description": "The default version of the launch template, such as 2."
+        },
+        {
+            "Ref": "LatestVersionNumber",
+            "Description": "The default version of a launch template cannot be specified in AWS CloudFormation. The default version can be set in the Amazon EC2 console or by using the modify-launch-template AWS CLI command."
+        },
+        {
+            "Ref": "LaunchTemplateId",
+            "Description": "The latest version of the launch template, such as 5."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::CloudFormation::PublicTypeVersion",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Number (ARN) assigned to the public\n         extension upon publication. For example: </p><p>\n<code class=\"code\"><span>{</span> \"Ref\":\n            \"arn:aws:cloudformation:us-west-2::type/resource/2a33349e7e606a8ad2e30e3c84521f93123456/My-Extension/2.1.3\"\n            }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "PublicTypeArn",
+            "Description": "The Amazon Resource Number (ARN) assigned to the public extension upon  publication."
+        },
+        {
+            "Ref": "PublisherId",
+            "Description": "The publisher ID of the extension publisher."
+        },
+        {
+            "Ref": "TypeVersionArn",
+            "Description": "This applies only to public third-party extensions. For private registered extensions, and extensions provided by AWS, CloudFormation returns null."
+        }
+    ]
+}

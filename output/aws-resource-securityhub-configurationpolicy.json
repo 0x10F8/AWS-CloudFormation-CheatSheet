@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::SecurityHub::ConfigurationPolicy",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the configuration policy. For example, <code class=\"code\">arn:aws:securityhub:us-east-1:123456789012:configuration-policy/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the configuration policy."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The universally unique identifier (UUID) of the configuration policy. A self-managed configuration has no UUID. The  \tidentifier of a self-managed configuration is SELF_MANAGED_SECURITY_HUB."
+        },
+        {
+            "Ref": "ServiceEnabled",
+            "Description": "Indicates whether the service that the configuration policy applies to is enabled in the policy."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The date and time, in UTC and ISO 8601 format, that the configuration policy was last updated."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Events::Rule",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns event rule ID, such as\n        <code class=\"code\">mystack-ScheduledRule-ABCDEFGHIJK</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the rule, such as arn:aws:events:us-east-2:123456789012:rule/example."
+        }
+    ]
+}

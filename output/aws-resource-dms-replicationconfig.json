@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::DMS::ReplicationConfig",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ReplicationConfigArn",
+            "Description": "The Amazon Resource Name (ARN) of this AWS DMS Serverless replication  configuration."
+        }
+    ]
+}

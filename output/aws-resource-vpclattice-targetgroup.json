@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::VpcLattice::TargetGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the target group.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the target group."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The date and time that the target group was created, specified in ISO-8601 format."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the target group."
+        },
+        {
+            "Ref": "LastUpdatedAt",
+            "Description": "The date and time that the target group was last updated, specified in ISO-8601 format."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The operation's status. You can retry the operation if the status is CREATE_FAILED. However, if you retry it while the status is CREATE_IN_PROGRESS, there is no change in the status."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Route53Resolver::ResolverDNSSECConfig",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"rdsc-689d45d1ae623bf3\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The primary identifier of this ResolverDNSSECConfig resource. For example: rdsc-689d45d1ae623bf3."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The AWS account of the owner. For example: 111122223333."
+        },
+        {
+            "Ref": "ValidationStatus",
+            "Description": "Thecurrent status of this ResolverDNSSECConfig resource. For example: Enabled."
+        }
+    ]
+}

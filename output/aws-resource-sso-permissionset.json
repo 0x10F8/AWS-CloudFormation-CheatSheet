@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SSO::PermissionSet",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a generated ID, such as\n            <code class=\"code\">permission-arn|sso-instance-arn</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "PermissionSetArn",
+            "Description": "The permission set ARN of the permission set, such as arn:aws:sso:::permissionSet/ins-instanceid/ps-permissionsetid."
+        }
+    ]
+}

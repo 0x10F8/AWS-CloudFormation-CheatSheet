@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IVS::IngestConfiguration",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ingest configuration ARN. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myIngestConfiguration\" }</code>\n</p><p>For the Amazon IVS ingest configuration\n                <code class=\"code\">myIngestConfiguration</code>, <code class=\"code\">Ref</code> returns the ingest configuration\n            ARN.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ingest-configuration ARN. For example:  \t arn:aws:ivs:us-west-2:123456789012:ingest-configuration/abcdABCDefgh"
+        },
+        {
+            "Ref": "ParticipantId",
+            "Description": "ID of the participant within the stage. For example: abCDEf12GHIj"
+        },
+        {
+            "Ref": "State",
+            "Description": "State of the ingest configuration. It is ACTIVE if a publisher currently is publishing to  \tthe stage associated with the ingest configuration. Valid values: ACTIVE | INACTIVE."
+        },
+        {
+            "Ref": "StreamKey",
+            "Description": "Ingest-key value for the RTMP(S) protocol. For example: skSKABCDefgh"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::OpenSearchServerless::Collection",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n         function, <code class=\"code\">Ref</code> returns the collection ID. For more information about using the\n            <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the collection. For example, arn:aws:aoss:us-east-1:123456789012:collection/07tjusf2h91cunochc."
+        },
+        {
+            "Ref": "CollectionEndpoint",
+            "Description": "Collection-specific endpoint used to submit index, search, and data upload requests to  an OpenSearch Serverless collection. For example, https://07tjusf2h91cunochc.us-east-1.aoss.amazonaws.com."
+        },
+        {
+            "Ref": "DashboardEndpoint",
+            "Description": "The collection-specific endpoint used to access OpenSearch Dashboards. For example, https://07tjusf2h91cunochc.us-east-1.aoss.amazonaws.com/_dashboards."
+        },
+        {
+            "Ref": "Id",
+            "Description": "A unique identifier for the collection. For example,  07tjusf2h91cunochc."
+        }
+    ]
+}

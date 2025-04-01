@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::GameLift::Script",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ScriptId</code>, such as\n        <code class=\"code\">script-1111aaaa-22bb-33cc-44dd-5555eeee66ff</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The unique Amazon Resource Name (ARN) for the script."
+        },
+        {
+            "Ref": "CreationTime",
+            "Description": "A time stamp indicating when this data object was created. Format is a number expressed in Unix time as milliseconds (for example \"1469498468.057\")."
+        },
+        {
+            "Ref": "Id",
+            "Description": "A unique identifier for a Realtime script."
+        },
+        {
+            "Ref": "SizeOnDisk",
+            "Description": "The file size of the uploaded Realtime script, expressed in bytes. When files are uploaded from an S3 location, this value remains at \"0\"."
+        }
+    ]
+}

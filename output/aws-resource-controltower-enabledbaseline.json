@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ControlTower::EnabledBaseline",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "EnabledBaselineIdentifier",
+            "Description": "Property description not available."
+        }
+    ]
+}

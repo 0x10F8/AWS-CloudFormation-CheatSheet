@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ServiceDiscovery::Instance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the value of <code class=\"code\">Id</code> for the instance, such as\n            <code class=\"code\">i-abcd1234</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "InstanceId",
+            "Description": "The ID of an instance that matches the values that you specified in the request."
+        }
+    ]
+}

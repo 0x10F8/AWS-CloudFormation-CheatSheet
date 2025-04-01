@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::IoTSiteWise::Portal",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">PortalId</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "PortalArn",
+            "Description": "The ARN of the portal, which has the following format."
+        },
+        {
+            "Ref": "PortalClientId",
+            "Description": "arn:${Partition}:iotsitewise:${Region}:${Account}:portal/${PortalId}"
+        },
+        {
+            "Ref": "PortalId",
+            "Description": "For more information about using the Ref function, see Ref."
+        },
+        {
+            "Ref": "PortalStartUrl",
+            "Description": "The IAM Identity Center application generated client ID (used with IAM Identity Center  APIs)."
+        }
+    ]
+}

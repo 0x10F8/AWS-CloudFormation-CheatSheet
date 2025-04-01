@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Logs::Integration",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "IntegrationStatus",
+            "Description": "The current status of this integration."
+        }
+    ]
+}

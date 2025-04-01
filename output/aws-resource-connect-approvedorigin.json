@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::Connect::ApprovedOrigin",
+    "Ref": "<p></p><p>The following example specifies an Approved Origin for an Amazon Connect\n               instance.</p>",
+    "GetAtt": []
+}

@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Greengrass::Group",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the group, such as\n            <code class=\"code\">1234a5b6-78cd-901e-2fgh-3i45j6k178l9</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the Group, such as arn:aws:greengrass:us-east-1:123456789012:/greengrass/definition/groups/1234a5b6-78cd-901e-2fgh-3i45j6k178l9."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the Group, such as 1234a5b6-78cd-901e-2fgh-3i45j6k178l9."
+        },
+        {
+            "Ref": "LatestVersionArn",
+            "Description": "The ARN of the last GroupVersion that was added to the Group,  such as arn:aws:greengrass:us-east-1:123456789012:/greengrass/definition/groups/1234a5b6-78cd-901e-2fgh-3i45j6k178l9/versions/9876ac30-4bdb-4f9d-95af-b5fdb66be1a2."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the Group, such as MyGroup."
+        },
+        {
+            "Ref": "RoleArn",
+            "Description": "The ARN of the IAM role that's attached to the Group, such  as arn:aws:iam::123456789012:role/role-name."
+        },
+        {
+            "Ref": "RoleAttachedAt",
+            "Description": "The time (in milliseconds since the epoch) when the group role was attached to the Group."
+        }
+    ]
+}

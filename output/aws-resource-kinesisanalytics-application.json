@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::KinesisAnalytics::Application",
+    "Ref": "",
+    "GetAtt": []
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SES::MailManagerAddonSubscription",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AddonSubscriptionArn",
+            "Description": "The Amazon Resource Name (ARN) of the Add On subscription."
+        },
+        {
+            "Ref": "AddonSubscriptionId",
+            "Description": "The unique ID of the Add On subscription."
+        }
+    ]
+}

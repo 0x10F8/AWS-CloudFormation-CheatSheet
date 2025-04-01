@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Backup::ReportPlan",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ReportPlanArn",
+            "Description": "The Amazon Resource Name (ARN) of your report plan."
+        }
+    ]
+}

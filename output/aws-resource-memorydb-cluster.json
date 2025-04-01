@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::MemoryDB::Cluster",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ARN",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the cluster,   such as arn:aws:memorydb:us-east-1:123456789012:cluster/my-cluster"
+        },
+        {
+            "Ref": "ClusterEndpoint.Address",
+            "Description": "The address of the cluster's configuration endpoint."
+        },
+        {
+            "Ref": "ClusterEndpoint.Port",
+            "Description": "The port used by the cluster configuration endpoint."
+        },
+        {
+            "Ref": "ParameterGroupStatus",
+            "Description": "The status of the parameter group used by the cluster, for example active or applying."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the cluster. For example, 'available', 'updating' or 'creating'."
+        }
+    ]
+}

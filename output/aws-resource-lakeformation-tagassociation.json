@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::LakeFormation::TagAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a combination of the <code class=\"code\">ResourceIdentifier</code> and <code class=\"code\">TagsIdentifier</code> seperated with a pipe.\n      </p><p>For example: <code class=\"code\"><span>{</span>\"Catalog\":null,\"Database\":<span>{</span>\"CatalogId\":null,\"Name\":\"ExampleDbName\"},\"Table\":null,\"TableWithColumns\":null}|[<span>{</span>\"CatalogId\":null,\"TagKey\":\"tagKey1\",\"TagValues\":null}]</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ResourceIdentifier",
+            "Description": "Json encoding of the input resource."
+        },
+        {
+            "Ref": "TagsIdentifier",
+            "Description": "Database:{\"Catalog\":null,\"Database\":{\"CatalogId\":\"123456789012\",\"Name\":\"ExampleDbName\"},\"Table\":null,\"TableWithColumns\":null}"
+        }
+    ]
+}

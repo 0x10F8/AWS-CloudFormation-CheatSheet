@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::IoT::CustomMetric",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the custom metric name.</p>",
+    "GetAtt": [
+        {
+            "Ref": "MetricArn",
+            "Description": "The Amazon Resource Number (ARN) of the custom metric; for example,  arn:aws-partition:iot:region:accountId:custommetric/metricName ."
+        }
+    ]
+}

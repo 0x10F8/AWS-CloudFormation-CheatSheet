@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Route53::CidrCollection",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">CidrCollection</code> ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "\"The Amazon resource name (ARN) to uniquely identify the AWS resource."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The UUID of the CIDR collection."
+        }
+    ]
+}

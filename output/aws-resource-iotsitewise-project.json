@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTSiteWise::Project",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ProjectId</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ProjectArn",
+            "Description": "The ARN of the project, which has the following format."
+        },
+        {
+            "Ref": "ProjectId",
+            "Description": "arn:${Partition}:iotsitewise:${Region}:${Account}:project/${ProjectId}"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::DynamoDB::GlobalTable",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the table name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the DynamoDB table, such as arn:aws:dynamodb:us-east-2:123456789012:table/myDynamoDBTable. The ARN  returned is that of the replica in the region the stack is deployed to."
+        },
+        {
+            "Ref": "StreamArn",
+            "Description": "The ARN of the DynamoDB stream, such as arn:aws:dynamodb:us-east-1:123456789012:table/testddbstack-myDynamoDBTable-012A1SL7SMP5Q/stream/2015-11-30T20:10:00.000.  The StreamArn returned is that of the replica in the region the stack is  deployed to."
+        },
+        {
+            "Ref": "TableId",
+            "Description": "You must specify the StreamSpecification property to use this attribute."
+        }
+    ]
+}

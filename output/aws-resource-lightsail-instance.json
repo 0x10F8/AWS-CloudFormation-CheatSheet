@@ -1,0 +1,70 @@
+{
+    "ResourceName": "AWS::Lightsail::Instance",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Hardware.CpuCount",
+            "Description": "The number of vCPUs the instance has."
+        },
+        {
+            "Ref": "Hardware.RamSizeInGb",
+            "Description": "The amount of RAM in GB on the instance (for example, 1.0)."
+        },
+        {
+            "Ref": "InstanceArn",
+            "Description": "The Amazon Resource Name (ARN) of the instance (for example, arn:aws:lightsail:us-east-2:123456789101:Instance/244ad76f-8aad-4741-809f-12345EXAMPLE)."
+        },
+        {
+            "Ref": "Ipv6Addresses",
+            "Description": "The IPv6 addresses of the instance."
+        },
+        {
+            "Ref": "IsStaticIp",
+            "Description": "A Boolean value indicating whether the instance has a static IP assigned to it."
+        },
+        {
+            "Ref": "Location.AvailabilityZone",
+            "Description": "The AWS Region and Availability Zone where the instance is  located."
+        },
+        {
+            "Ref": "Location.RegionName",
+            "Description": "The AWS Region of the instance."
+        },
+        {
+            "Ref": "Networking.MonthlyTransfer.GbPerMonthAllocated",
+            "Description": "The amount of allocated monthly data transfer (in GB) for an instance."
+        },
+        {
+            "Ref": "PrivateIpAddress",
+            "Description": "The private IP address of the instance."
+        },
+        {
+            "Ref": "PublicIpAddress",
+            "Description": "The public IP address of the instance."
+        },
+        {
+            "Ref": "ResourceType",
+            "Description": "The resource type of the instance (for example, Instance)."
+        },
+        {
+            "Ref": "SshKeyName",
+            "Description": "The name of the SSH key pair used by the instance."
+        },
+        {
+            "Ref": "State.Code",
+            "Description": "The status code of the instance."
+        },
+        {
+            "Ref": "State.Name",
+            "Description": "The state of the instance (for example, running or  pending)."
+        },
+        {
+            "Ref": "SupportCode",
+            "Description": "The support code of the instance."
+        },
+        {
+            "Ref": "UserName",
+            "Description": "Include this code in your email to support when you have questions about an instance or  another resource in Lightsail. This code helps our support team to look up  your Lightsail information."
+        }
+    ]
+}

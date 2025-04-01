@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::ImageBuilder::Image",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ARN, such as\n\t\t\t<code class=\"code\">arn:aws:imagebuilder:us-west-2:123456789012:image/my-example-image</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the image. For example, arn:aws:imagebuilder:us-west-2:123456789012:image/mybasicrecipe/2019.12.03/1."
+        },
+        {
+            "Ref": "ImageId",
+            "Description": "Returns the AMI ID of the Amazon EC2 AMI in the Region in which you are using Image  Builder. Values are returned only for AMIs, and not for container images."
+        },
+        {
+            "Ref": "ImageUri",
+            "Description": "Returns the URI for a container image created in the context Region. Values are returned only for  \t\t\tcontainer images, and not for AMIs."
+        },
+        {
+            "Ref": "Name",
+            "Description": "Returns the name of the image."
+        }
+    ]
+}

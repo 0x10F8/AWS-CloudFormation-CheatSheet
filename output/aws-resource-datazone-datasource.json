@@ -1,0 +1,50 @@
+{
+    "ResourceName": "AWS::DataZone::DataSource",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a string containing pipe-separated <code class=\"code\">DomainId</code> and\n         the <code class=\"code\">DataSourceId</code>, which uniquely identifies the data source. For example:\n            <code class=\"code\"><span>{</span> \"Ref\": \"MyDataSource\" }</code> for the resource with the logical ID\n            <code class=\"code\">MyDataSource</code>, <code class=\"code\">Ref</code> returns <code class=\"code\">DomainId|DataSourceId</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ConnectionId",
+            "Description": "The connection ID that's part of the data source summary."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp of when the data source was created."
+        },
+        {
+            "Ref": "DomainId",
+            "Description": "The ID of the Amazon DataZone domain in which the data source exists."
+        },
+        {
+            "Ref": "EnvironmentId",
+            "Description": "The ID of the environment in which the data source exists."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The identifier of the data source run."
+        },
+        {
+            "Ref": "LastRunAssetCount",
+            "Description": "The count of the assets created during the last data source run."
+        },
+        {
+            "Ref": "LastRunAt",
+            "Description": "The timestamp of when the data source run was last performed."
+        },
+        {
+            "Ref": "LastRunStatus",
+            "Description": "The status of the last data source run."
+        },
+        {
+            "Ref": "ProjectId",
+            "Description": "The project ID included in the data source run activity."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of the data source."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp of when the data source was updated."
+        }
+    ]
+}

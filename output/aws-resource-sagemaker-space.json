@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SageMaker::Space",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the domain that the space is associated with and the name of the space.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "SpaceArn",
+            "Description": "The space's Amazon Resource Name (ARN)."
+        },
+        {
+            "Ref": "Url",
+            "Description": "Returns the URL of the space. If the space is created with AWS IAM Identity Center (Successor to AWS Single Sign-On) authentication, users can navigate to the URL after appending the respective redirect parameter for the application type to be federated through AWS IAM Identity Center.  The following application types are supported:   Studio Classic: &redirect=JupyterServer   JupyterLab: &redirect=JupyterLab   Code Editor, based on Code-OSS, Visual Studio Code - Open Source: &redirect=CodeEditor"
+        }
+    ]
+}

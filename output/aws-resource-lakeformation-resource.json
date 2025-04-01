@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::LakeFormation::Resource",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "An identifier for the catalog resource."
+        }
+    ]
+}

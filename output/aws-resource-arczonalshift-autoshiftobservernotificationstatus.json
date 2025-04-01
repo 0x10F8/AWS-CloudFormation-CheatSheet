@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ARCZonalShift::AutoshiftObserverNotificationStatus",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "AccountId",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Region",
+            "Description": "Property description not available."
+        }
+    ]
+}

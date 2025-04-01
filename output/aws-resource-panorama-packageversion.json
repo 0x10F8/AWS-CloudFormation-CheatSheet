@@ -1,0 +1,30 @@
+{
+    "ResourceName": "AWS::Panorama::PackageVersion",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "IsLatestPatch",
+            "Description": "Whether the package version is the latest version."
+        },
+        {
+            "Ref": "PackageArn",
+            "Description": "The package version's ARN."
+        },
+        {
+            "Ref": "PackageName",
+            "Description": "The package version's name."
+        },
+        {
+            "Ref": "RegisteredTime",
+            "Description": "The package version's registered time."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The package version's status."
+        },
+        {
+            "Ref": "StatusDescription",
+            "Description": "The package version's status description."
+        }
+    ]
+}

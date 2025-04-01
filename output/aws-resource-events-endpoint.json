@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Events::Endpoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns Endpoint ID, such as\n      <code class=\"code\">mystack-Endpoint-ABCDEFGHIJK</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the endpoint."
+        },
+        {
+            "Ref": "EndpointId",
+            "Description": "The ID of the endpoint."
+        },
+        {
+            "Ref": "EndpointUrl",
+            "Description": "The URL of the endpoint."
+        },
+        {
+            "Ref": "State",
+            "Description": "The main Region of the endpoint."
+        },
+        {
+            "Ref": "StateReason",
+            "Description": "The reason the endpoint is in its current state."
+        }
+    ]
+}

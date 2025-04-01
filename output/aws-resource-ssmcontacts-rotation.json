@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SSMContacts::Rotation",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the Rotation resource."
+        }
+    ]
+}

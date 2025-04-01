@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Redshift::ClusterSecurityGroupIngress",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "Specifies an inbound (ingress) rule for an Amazon Redshift security group."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MemoryDB::User",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the user,   such as arn:aws:memorydb:us-east-1:123456789012:user/user1"
+        },
+        {
+            "Ref": "Status",
+            "Description": "Indicates the user status."
+        }
+    ]
+}

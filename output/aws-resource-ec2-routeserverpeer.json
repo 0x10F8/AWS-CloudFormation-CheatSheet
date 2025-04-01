@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::EC2::RouteServerPeer",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the peer ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the route server peer."
+        },
+        {
+            "Ref": "EndpointEniAddress",
+            "Description": "The IP address of the Elastic network interface for the route server endpoint."
+        },
+        {
+            "Ref": "EndpointEniId",
+            "Description": "The ID of the Elastic network interface for the route server endpoint."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the route server peer."
+        },
+        {
+            "Ref": "RouteServerId",
+            "Description": "The ID of the route server associated with this peer."
+        },
+        {
+            "Ref": "SubnetId",
+            "Description": "The ID of the subnet containing the route server peer."
+        },
+        {
+            "Ref": "VpcId",
+            "Description": "The ID of the VPC containing the route server peer."
+        }
+    ]
+}

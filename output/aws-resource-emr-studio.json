@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::EMR::Studio",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ID. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"es-EXAMPLE12345678XXXXXXXXXXX\" }</code>\n</p><p>Ref returns the ID of the Amazon EMR Studio.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the Amazon EMR Studio. For example: arn:aws:elasticmapreduce:us-east-1:653XXXXXXXXX:studio/es-EXAMPLE12345678XXXXXXXXXXX."
+        },
+        {
+            "Ref": "StudioId",
+            "Description": "The ID of the Amazon EMR Studio. For example: es-EXAMPLE12345678XXXXXXXXXXX."
+        },
+        {
+            "Ref": "Url",
+            "Description": "The unique access URL of the Amazon EMR Studio. For example: https://es-EXAMPLE12345678XXXXXXXXXXX.emrstudio-prod.us-east-1.amazonaws.com."
+        }
+    ]
+}

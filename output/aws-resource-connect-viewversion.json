@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Connect::ViewVersion",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Version",
+            "Description": "Current version of the view."
+        },
+        {
+            "Ref": "ViewVersionArn",
+            "Description": "The Amazon Resource Name (ARN) of the view version."
+        }
+    ]
+}

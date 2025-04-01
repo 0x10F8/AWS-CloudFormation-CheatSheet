@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::QBusiness::Index",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the application ID and index ID. For example:</p><p>\n<code class=\"code\"><span>{</span>\"Ref\": \"ApplicationId|IndexId\"}</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "The Unix timestamp when the index was created."
+        },
+        {
+            "Ref": "IndexArn",
+            "Description": "The Amazon Resource Name (ARN) of an Amazon Q Business index."
+        },
+        {
+            "Ref": "IndexId",
+            "Description": "The identifier for the index."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the index. When the status is ACTIVE, the index is ready."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The Unix timestamp when the index was last updated."
+        }
+    ]
+}

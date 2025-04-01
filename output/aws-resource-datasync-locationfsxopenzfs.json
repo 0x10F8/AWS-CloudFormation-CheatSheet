@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::DataSync::LocationFSxOpenZFS",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the location resource ARN. For example:</p><p>\n<code class=\"code\">arn:aws:datasync:us-east-2:111222333444:location/loc-07db7abfc326c50s3</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "LocationArn",
+            "Description": "The ARN of the specified FSx for OpenZFS file system location."
+        },
+        {
+            "Ref": "LocationUri",
+            "Description": "The URI of the specified FSx for OpenZFS file system location."
+        }
+    ]
+}

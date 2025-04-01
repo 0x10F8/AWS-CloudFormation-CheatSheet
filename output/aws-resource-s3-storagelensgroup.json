@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::S3::StorageLensGroup",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n      returns the S3 Storage Lens group name. For more information about using the Ref function, see\n        <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "StorageLensGroupArn",
+            "Description": "Property description not available."
+        }
+    ]
+}

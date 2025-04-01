@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::AppSync::FunctionConfiguration",
+    "Ref": "<p>When you pass the logical ID of an <code class=\"code\">AWS::AppSync::FunctionConfiguration</code> resource to the\n         intrinsic <code class=\"code\">Ref</code> function, the function returns the ARN of the FunctionConfiguration, such as\n            <code class=\"code\">arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/functions/functionid</code>. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DataSourceName",
+            "Description": "The name of data source this function will attach."
+        },
+        {
+            "Ref": "FunctionArn",
+            "Description": "ARN of the function, such as arn:aws:appsync:us-east-1:123456789012:apis/graphqlapiid/functions/functionId."
+        },
+        {
+            "Ref": "FunctionId",
+            "Description": "The unique ID of this function."
+        },
+        {
+            "Ref": "Name",
+            "Description": "The name of the function."
+        }
+    ]
+}

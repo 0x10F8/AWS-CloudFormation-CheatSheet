@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::CodeArtifact::PackageGroup",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the package group."
+        }
+    ]
+}

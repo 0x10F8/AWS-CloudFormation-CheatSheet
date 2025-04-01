@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Macie::CustomDataIdentifier",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the <code class=\"code\">CustomDataIdentifier</code>. For\n            example, <code class=\"code\"><span>{</span> \"Ref\": \"CustomDataIdentifier\" }</code>\n</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the custom data identifier."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier for the custom data identifier."
+        }
+    ]
+}

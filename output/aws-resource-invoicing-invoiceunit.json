@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Invoicing::InvoiceUnit",
+    "Ref": "<p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "InvoiceUnitArn",
+            "Description": "The ARN to identify an invoice unit. This information can't be modified or deleted."
+        },
+        {
+            "Ref": "LastModified",
+            "Description": "The last time the invoice unit was updated. This is important to determine the version of invoice unit configuration used to create the invoices. Any invoice created after this modified time will use this invoice unit configuration."
+        }
+    ]
+}

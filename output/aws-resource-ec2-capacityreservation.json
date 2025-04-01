@@ -1,0 +1,66 @@
+{
+    "ResourceName": "AWS::EC2::CapacityReservation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource ID, such as\n         <code class=\"code\">cr-1234ab5cd6789e0f1</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AvailabilityZone",
+            "Description": "Returns the Availability Zone in which the capacity is reserved. For example: us-east-1a."
+        },
+        {
+            "Ref": "AvailableInstanceCount",
+            "Description": "Returns the remaining capacity, which indicates the number of instances that can be  launched in the Capacity Reservation. For example: 9."
+        },
+        {
+            "Ref": "CapacityAllocationSet",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "CapacityReservationArn",
+            "Description": "The Amazon Resource Name (ARN) of the Capacity Reservation."
+        },
+        {
+            "Ref": "CapacityReservationFleetId",
+            "Description": "The ID of the Capacity Reservation Fleet to which the Capacity Reservation belongs. \t\t\tOnly valid for Capacity Reservations that were created by a Capacity Reservation \t\t\tFleet."
+        },
+        {
+            "Ref": "CreateDate",
+            "Description": "The date and time at which the Capacity Reservation was created."
+        },
+        {
+            "Ref": "DeliveryPreference",
+            "Description": "The delivery method for a future-dated Capacity Reservation. incremental  \t\t\tindicates that the requested capacity is delivered in addition to any running instances  \t\t\tand reserved capacity that you have in your account at the requested date and time."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the Capacity Reservation."
+        },
+        {
+            "Ref": "InstanceType",
+            "Description": "Returns the type of instance for which the capacity is reserved. For example: m4.large."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The ID of the AWS account that owns the Capacity Reservation."
+        },
+        {
+            "Ref": "ReservationType",
+            "Description": "The type of Capacity Reservation."
+        },
+        {
+            "Ref": "StartDate",
+            "Description": "The date and time at which the Capacity Reservation was started."
+        },
+        {
+            "Ref": "State",
+            "Description": "The current state of the Capacity Reservation. A Capacity Reservation can be in one of \t\t\tthe following states:"
+        },
+        {
+            "Ref": "Tenancy",
+            "Description": "active - The capacity is available for use."
+        },
+        {
+            "Ref": "TotalInstanceCount",
+            "Description": "expired - The Capacity Reservation expired automatically at the date and time  \t\tspecified in your reservation request. The reserved capacity is no longer available for your use."
+        }
+    ]
+}

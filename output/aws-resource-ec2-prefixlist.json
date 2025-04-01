@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::EC2::PrefixList",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the prefix list.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the prefix list. For example, arn:aws:ec2:us-east-1:123456789012:prefix-list/pl-0123123123123abcd."
+        },
+        {
+            "Ref": "OwnerId",
+            "Description": "The ID of the owner of the prefix list. For example, 123456789012."
+        },
+        {
+            "Ref": "PrefixListId",
+            "Description": "The ID of the prefix list. For example, pl-0123123123123abcd."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The version of the prefix list. For example, 1."
+        }
+    ]
+}

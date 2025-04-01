@@ -1,0 +1,46 @@
+{
+    "ResourceName": "AWS::RDS::DBInstance",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the DB instance name.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CertificateDetails.CAIdentifier",
+            "Description": "The CA identifier of the CA certificate used for the DB instance's server certificate."
+        },
+        {
+            "Ref": "CertificateDetails.ValidTill",
+            "Description": "The expiration date of the DB instance\u00e2\u0080\u0099s server certificate."
+        },
+        {
+            "Ref": "DatabaseInsightsMode",
+            "Description": "The mode of Database Insights that is enabled for the instance."
+        },
+        {
+            "Ref": "DBInstanceArn",
+            "Description": "The Amazon Resource Name (ARN) for the DB instance."
+        },
+        {
+            "Ref": "DbiResourceId",
+            "Description": "The AWS Region-unique, immutable identifier for the DB instance.   This identifier is found in AWS CloudTrail log entries whenever the AWS KMS key for the DB instance is accessed."
+        },
+        {
+            "Ref": "DBSystemId",
+            "Description": "The Oracle system ID (Oracle SID) for a container database (CDB).   The Oracle SID is also the name of the CDB. This setting is valid for RDS Custom only."
+        },
+        {
+            "Ref": "Endpoint.Address",
+            "Description": "The connection endpoint for the database. For example: mystack-mydb-1apw1j4phylrk.cg034hpkmmjt.us-east-2.rds.amazonaws.com  For Aurora Serverless DB clusters, the connection endpoint only applies to the DB cluster."
+        },
+        {
+            "Ref": "Endpoint.HostedZoneId",
+            "Description": "The ID that Amazon Route 53 assigns when you create a hosted zone."
+        },
+        {
+            "Ref": "Endpoint.Port",
+            "Description": "The port number on which the database accepts connections. For example: 3306"
+        },
+        {
+            "Ref": "MasterUserSecret.SecretArn",
+            "Description": "The Amazon Resource Name (ARN) of the secret. This parameter is a return value that you can retrieve using the Fn::GetAtt   intrinsic function. For more information, see Return values."
+        }
+    ]
+}

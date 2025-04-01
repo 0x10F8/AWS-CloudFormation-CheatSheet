@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::EC2::NetworkPerformanceMetricSubscription",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">primaryIdentifier</code> property, which consists of \n            the following properties: <code class=\"code\">source</code>, <code class=\"code\">destination</code>, <code class=\"code\">metric</code>, \n            and <code class=\"code\">statistic</code>, with each value separated by a pipe (|). For example, \n            <code class=\"code\"><span>{</span> \"Ref\": \"us-east-1|us-east-2|aggregate-latency|p50\" }</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": []
+}

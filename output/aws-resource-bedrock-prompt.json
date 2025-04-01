@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::Bedrock::Prompt",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Number (ARN) of the prompt.</p><p>For example, <code class=\"code\"><span>{</span> \"Ref\": \"myPrompt\" }</code> could return the value <code class=\"code\">\"arn:aws:bedrock:us-east-1:123456789012:prompt/PROMPT12345\"</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the prompt or the prompt version (if you specified a version in the request)."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The time at which the prompt was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The unique identifier of the prompt."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The time at which the prompt was last updated."
+        },
+        {
+            "Ref": "Version",
+            "Description": "The version of the prompt that this summary applies to."
+        }
+    ]
+}

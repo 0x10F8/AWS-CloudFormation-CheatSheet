@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::IoTWireless::MulticastGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the multicast group.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the multicast group."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the multicast group."
+        },
+        {
+            "Ref": "LoRaWAN.NumberOfDevicesInGroup",
+            "Description": "The number of devices that are associated to the multicast group."
+        },
+        {
+            "Ref": "LoRaWAN.NumberOfDevicesRequested",
+            "Description": "The number of devices that are requested to be associated with the multicast  group."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The status of a multicast group."
+        }
+    ]
+}

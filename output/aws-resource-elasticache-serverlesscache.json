@@ -1,0 +1,38 @@
+{
+    "ResourceName": "AWS::ElastiCache::ServerlessCache",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "ARN",
+            "Description": "The Amazon Resource Name (ARN) of the serverless cache."
+        },
+        {
+            "Ref": "CreateTime",
+            "Description": "When the serverless cache was created."
+        },
+        {
+            "Ref": "Endpoint.Address",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Endpoint.Port",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "FullEngineVersion",
+            "Description": "The name and version number of the engine the serverless cache is compatible with."
+        },
+        {
+            "Ref": "ReaderEndpoint.Address",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "ReaderEndpoint.Port",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the serverless cache. The allowed values are CREATING, AVAILABLE, DELETING, CREATE-FAILED and MODIFYING."
+        }
+    ]
+}

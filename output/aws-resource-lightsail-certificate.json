@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Lightsail::Certificate",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CertificateArn",
+            "Description": "The Amazon Resource Name (ARN) of the certificate."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The validation status of the certificate."
+        }
+    ]
+}

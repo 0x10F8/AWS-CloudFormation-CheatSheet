@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::IoTWireless::WirelessGateway",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the wireless gateway ID.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the wireless gateway created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The ID of the wireless gateway created."
+        }
+    ]
+}

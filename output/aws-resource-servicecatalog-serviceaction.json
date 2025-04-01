@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::ServiceCatalog::ServiceAction",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The self-service action identifier. For example, act-fs7abcd89wxyz."
+        }
+    ]
+}

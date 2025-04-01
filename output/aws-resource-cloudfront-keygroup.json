@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CloudFront::KeyGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ID of the key group. For example:\n                <code class=\"code\">e9fcd3cf-f3f4-4b61-bd85-9ba9e091b309</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The identifier for the key group."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The date and time when the key group was last modified."
+        }
+    ]
+}

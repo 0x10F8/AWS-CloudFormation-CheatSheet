@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Synthetics::Group",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the group.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The Id of the group."
+        }
+    ]
+}

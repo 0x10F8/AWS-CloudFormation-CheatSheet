@@ -1,0 +1,54 @@
+{
+    "ResourceName": "AWS::NetworkManager::VpcAttachment",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">AttachmentId</code>. For example, <code class=\"code\"><span>{</span> \"Ref: \"attachment-00067e74104d33769\" }</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AttachmentId",
+            "Description": "The ID of the VPC attachment."
+        },
+        {
+            "Ref": "AttachmentPolicyRuleNumber",
+            "Description": "The policy rule number associated with the attachment."
+        },
+        {
+            "Ref": "AttachmentType",
+            "Description": "The type of attachment. This will be VPC."
+        },
+        {
+            "Ref": "CoreNetworkArn",
+            "Description": "The ARN of the core network."
+        },
+        {
+            "Ref": "CreatedAt",
+            "Description": "The timestamp when the VPC attachment was created."
+        },
+        {
+            "Ref": "EdgeLocation",
+            "Description": "The Region where the core network edge is located."
+        },
+        {
+            "Ref": "NetworkFunctionGroupName",
+            "Description": "The name of the network function group."
+        },
+        {
+            "Ref": "OwnerAccountId",
+            "Description": "The ID of the VPC attachment owner."
+        },
+        {
+            "Ref": "ResourceArn",
+            "Description": "The resource ARN for the VPC attachment."
+        },
+        {
+            "Ref": "SegmentName",
+            "Description": "The name of the attachment's segment."
+        },
+        {
+            "Ref": "State",
+            "Description": "The state of the attachment. This can be: REJECTED | PENDING_ATTACHMENT_ACCEPTANCE | CREATING | FAILED | AVAILABLE | UPDATING |PENDING_NETWORK_UPDATE | PENDING_TAG_ACCEPTANCE | DELETING."
+        },
+        {
+            "Ref": "UpdatedAt",
+            "Description": "The timestamp when the VPC attachment was last updated."
+        }
+    ]
+}

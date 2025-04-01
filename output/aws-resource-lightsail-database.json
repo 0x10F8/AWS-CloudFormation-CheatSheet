@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Lightsail::Database",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns a unique identifier for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "DatabaseArn",
+            "Description": "The Amazon Resource Name (ARN) of the database (for example, arn:aws:lightsail:us-east-2:123456789101:RelationalDatabase/244ad76f-8aad-4741-809f-12345EXAMPLE)."
+        }
+    ]
+}

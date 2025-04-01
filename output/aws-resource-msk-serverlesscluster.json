@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MSK::ServerlessCluster",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic function, it returns the ARN of the created MSK cluster.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the MSK cluster."
+        }
+    ]
+}

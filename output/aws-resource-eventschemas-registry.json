@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::EventSchemas::Registry",
+    "Ref": "<p>When you provide the logical ID of this resource to the <code class=\"code\">Ref</code> intrinsic\n            function, <code class=\"code\">Ref</code> returns the ARN of the schema. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"MyRegistry\" }</code>\n</p><p>Returns a value similar to the following:</p><p>\n<code class=\"code\">arn:aws:schemas:us-east-1:012345678901:registry/MyRegistry</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "RegistryArn",
+            "Description": "The ARN of the registry."
+        },
+        {
+            "Ref": "RegistryName",
+            "Description": "The name of the registry."
+        }
+    ]
+}

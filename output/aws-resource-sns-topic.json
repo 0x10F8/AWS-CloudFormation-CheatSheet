@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::SNS::Topic",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the topic ARN, for example:\n            <code class=\"code\">arn:aws:sns:us-east-1:123456789012:mystack-mytopic-NZJ5JSMVGFIE</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "TopicArn",
+            "Description": "Returns the ARN of an Amazon SNS topic."
+        },
+        {
+            "Ref": "TopicName",
+            "Description": "Returns the name of an Amazon SNS topic."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Transfer::Profile",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name associated with the profile, in the form    arn:aws:transfer:region:account-id:profile/profile-id/."
+        },
+        {
+            "Ref": "ProfileId",
+            "Description": "The unique identifier for the AS2 profile, returned after the API call succeeds."
+        }
+    ]
+}

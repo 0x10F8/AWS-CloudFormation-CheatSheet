@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::DeviceFarm::VPCEConfiguration",
+    "Ref": "<p>Not supported for this resource.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the VPC endpoint. See Amazon resource names in the General Reference guide."
+        }
+    ]
+}

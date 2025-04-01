@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::QuickSight::Template",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the template."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time this template was created."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time this template was last updated."
+        }
+    ]
+}

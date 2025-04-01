@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::Omics::VariantStore",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the details of this resource. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"VariantStore.Status\" }</code>\n</p><p>For the Amazon Omics resource<code class=\"code\">VariantStore.Status</code>, <code class=\"code\">Ref</code> returns\n      the status of the variant store.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "When the store was created."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The store's ID."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The store's status."
+        },
+        {
+            "Ref": "StatusMessage",
+            "Description": "The store's status message."
+        },
+        {
+            "Ref": "StoreArn",
+            "Description": "The store's ARN."
+        },
+        {
+            "Ref": "StoreSizeBytes",
+            "Description": "The store's size in bytes."
+        },
+        {
+            "Ref": "UpdateTime",
+            "Description": "When the store was updated."
+        }
+    ]
+}

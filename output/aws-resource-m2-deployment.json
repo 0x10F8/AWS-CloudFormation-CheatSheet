@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::M2::Deployment",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "DeploymentId",
+            "Description": "The unique identifier of the deployment."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the deployment."
+        }
+    ]
+}

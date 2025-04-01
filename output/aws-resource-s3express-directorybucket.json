@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::S3Express::DirectoryBucket",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the bucket name.</p><p>Example: <code class=\"code\">\n<em>bucket_base_name</em>--<em>usw2-az1</em>--x-s3</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the specified bucket. Example:  arn:aws:s3express:us-west-2:account_id:bucket/bucket_base_name--usw2-az1--x-s3"
+        },
+        {
+            "Ref": "AvailabilityZoneName",
+            "Description": "Returns the code for the Availability Zone or the Local Zone where the directory bucket was created. Example value for an Availability Zone code: us-east-1f  NoteAn Availability Zone code might not represent the same physical location for different AWS accounts. For more information, see Availability Zones and Regions in the Amazon S3 User  Guide."
+        }
+    ]
+}

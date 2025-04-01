@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::KinesisFirehose::DeliveryStream",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, Ref\n         returns the delivery stream name, such as\n         <code class=\"code\">mystack-deliverystream-1ABCD2EF3GHIJ</code>. </p><p>For more information about using the Ref function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the delivery stream, such as arn:aws:firehose:us-east-2:123456789012:deliverystream/delivery-stream-name."
+        }
+    ]
+}

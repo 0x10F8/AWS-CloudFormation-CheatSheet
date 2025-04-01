@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::CleanRooms::ConfiguredTableAssociation",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the <code class=\"code\">ConfiguredTableAssociation</code> and the ID of the\n      Membership. For example:\n        <code class=\"code\">c1baf760-935e-4b2d-b36e-af8daaeb6e48|81a97460-2c40-46ce-a2fd-4ccda7398b2c</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Returns the Amazon Resource Name (ARN) of the specified configured table association."
+        },
+        {
+            "Ref": "ConfiguredTableAssociationIdentifier",
+            "Description": "Example: arn:aws:cleanrooms:us-east-1:111122223333:configuredtable/a1b2c3d4-5678-90ab-cdef-EXAMPLE33333"
+        }
+    ]
+}

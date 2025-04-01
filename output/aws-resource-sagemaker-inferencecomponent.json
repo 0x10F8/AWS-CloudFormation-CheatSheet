@@ -1,0 +1,34 @@
+{
+    "ResourceName": "AWS::SageMaker::InferenceComponent",
+    "Ref": "<p>\u2028When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of the inference component.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "CreationTime",
+            "Description": "The time when the inference component was created."
+        },
+        {
+            "Ref": "FailureReason",
+            "Description": "Property description not available."
+        },
+        {
+            "Ref": "InferenceComponentArn",
+            "Description": "The Amazon Resource Name (ARN) of the inference component."
+        },
+        {
+            "Ref": "InferenceComponentStatus",
+            "Description": "The status of the inference component."
+        },
+        {
+            "Ref": "LastModifiedTime",
+            "Description": "The time when the inference component was last updated."
+        },
+        {
+            "Ref": "RuntimeConfig.CurrentCopyCount",
+            "Description": "The number of runtime copies of the model container that are currently deployed."
+        },
+        {
+            "Ref": "RuntimeConfig.DesiredCopyCount",
+            "Description": "The number of runtime copies of the model container that you requested to deploy with  the inference component."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::SecurityHub::ProductSubscription",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the Amazon Resource Name (ARN) of your subscription to the product to enable integrations \nfor. For example, <code class=\"code\">arn:aws:securityhub:us-east-1:123456789012:product-subscription/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ProductSubscriptionArn",
+            "Description": "The ARN of your subscription to the product to enable integrations for."
+        }
+    ]
+}

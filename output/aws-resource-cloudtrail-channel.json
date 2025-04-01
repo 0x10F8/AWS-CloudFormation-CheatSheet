@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::CloudTrail::Channel",
+    "Ref": "<p>When the logical ID of this resource is provided to the Ref intrinsic function, \n         <code class=\"code\">Ref</code> returns the resource name. </p>",
+    "GetAtt": [
+        {
+            "Ref": "ChannelArn",
+            "Description": "When you pass the logical ID of this resource to the intrinsic Ref function, Ref returns the ARN of the CloudTrail channel,   such as arn:aws:cloudtrail:us-east-2:123456789012:channel/01234567890."
+        }
+    ]
+}

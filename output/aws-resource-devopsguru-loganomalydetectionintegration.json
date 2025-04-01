@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::DevOpsGuru::LogAnomalyDetectionIntegration",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, \n\t\t\t<code class=\"code\">Ref</code> returns the user account ID.\n\t\t\t\n\t\t\tFor more information about using the <code class=\"code\">Ref</code> function, see \n\t\t\t<a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "AccountId",
+            "Description": "The account ID associated with the integration of DevOps Guru with CloudWatch log groups for log anomaly detection."
+        }
+    ]
+}

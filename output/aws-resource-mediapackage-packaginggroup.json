@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::MediaPackage::PackagingGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the name of the packaging group.</p><p>For example: <code class=\"code\"><span>{</span> \"Ref\": \"myPackagingGroup\" }</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) for the packaging group. You can get this from the response to any request to the packaging group."
+        },
+        {
+            "Ref": "DomainName",
+            "Description": "The URL for the assets in the PackagingGroup."
+        }
+    ]
+}

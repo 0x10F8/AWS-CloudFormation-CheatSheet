@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::ElasticLoadBalancingV2::TrustStore",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "NumberOfCaCertificates",
+            "Description": "The number of ca certificates in the trust store."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The current status of the trust store."
+        },
+        {
+            "Ref": "TrustStoreArn",
+            "Description": "The Amazon Resource Name (ARN) of the trust store."
+        }
+    ]
+}

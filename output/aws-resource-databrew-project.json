@@ -1,0 +1,5 @@
+{
+    "ResourceName": "AWS::DataBrew::Project",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code>\n            function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myProject\" }</code>\n</p><p>For an AWS Glue DataBrew project named <code class=\"code\">myProject</code>,\n                <code class=\"code\">Ref</code> returns the name of the project. </p><p></p><p>The following examples create new DataBrew projects.</p>",
+    "GetAtt": []
+}

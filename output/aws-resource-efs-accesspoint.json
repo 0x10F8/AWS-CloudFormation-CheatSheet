@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::EFS::AccessPoint",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the AccessPoint ID. For example: </p><p>\n<code class=\"code\"><span>{</span>\"Ref\":\"access_point-logical_id\"}</code> returns</p><p>\n<code class=\"code\">fsap-0123456789abcdef0</code>\n</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "AccessPointId",
+            "Description": "The ID of the EFS access point."
+        },
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the access point."
+        }
+    ]
+}

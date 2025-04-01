@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::PCS::Queue",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN, such as\n      <code class=\"code\">\n                     arn:aws:pcs:us-east-1:111122223333:cluster/pcs_hta14wrehh/queue/pcs_nhrw94erov</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The unique Amazon Resource Name (ARN) of the queue."
+        },
+        {
+            "Ref": "ErrorInfo",
+            "Description": "The list of errors that occurred during queue provisioning."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The generated unique ID of the queue."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The provisioning status of the queue. The provisioning status doesn't indicate the overall health of the queue."
+        }
+    ]
+}

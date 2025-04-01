@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Oam::Link",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN of the link. For example, \n      <code class=\"code\">arn:aws:oam:us-west-1:111111111111:link:abcd1234-a123-456a-a12b-a123b456c789</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The ARN of the link. For example, arn:aws:oam:us-west-1:111111111111:link:abcd1234-a123-456a-a12b-a123b456c789"
+        },
+        {
+            "Ref": "Label",
+            "Description": "The friendly human-readable name used to identify this source account when it is viewed from the monitoring account. For example, my-account1."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::PCS::Cluster",
+    "Ref": "<p>When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the ARN, such as \n      <code class=\"code\">\n                     arn:aws:pcs:us-east-1:111122223333:cluster/pcs_i7x3yr1hgm</code>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The unique Amazon Resource Name (ARN) of the cluster."
+        },
+        {
+            "Ref": "Endpoints",
+            "Description": "The list of endpoints available for interaction with the scheduler."
+        },
+        {
+            "Ref": "ErrorInfo",
+            "Description": "The list of errors that occurred during cluster provisioning."
+        },
+        {
+            "Ref": "Id",
+            "Description": "The generated unique ID of the cluster."
+        },
+        {
+            "Ref": "Status",
+            "Description": "The provisioning status of the cluster. The provisioning status doesn't indicate the overall health of the cluster."
+        }
+    ]
+}

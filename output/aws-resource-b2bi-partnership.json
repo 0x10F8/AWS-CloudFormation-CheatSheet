@@ -1,0 +1,26 @@
+{
+    "ResourceName": "AWS::B2BI::Partnership",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "CreatedAt",
+            "Description": "Returns a timestamp for creation date and time of the partnership."
+        },
+        {
+            "Ref": "ModifiedAt",
+            "Description": "Returns a timestamp that identifies the most recent date and time that the partnership was modified."
+        },
+        {
+            "Ref": "PartnershipArn",
+            "Description": "Returns an Amazon Resource Name (ARN) for a specific AWS resource, such as a capability, partnership, profile, or transformer."
+        },
+        {
+            "Ref": "PartnershipId",
+            "Description": "Returns the unique, system-generated identifier for a partnership."
+        },
+        {
+            "Ref": "TradingPartnerId",
+            "Description": "Returns the unique, system-generated identifier for a trading partner."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ResourceName": "AWS::QuickSight::Dashboard",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the dashboard."
+        },
+        {
+            "Ref": "CreatedTime",
+            "Description": "The time this dashboard version was created."
+        },
+        {
+            "Ref": "LastPublishedTime",
+            "Description": "The time that the dashboard was last published."
+        },
+        {
+            "Ref": "LastUpdatedTime",
+            "Description": "The time that the dashboard was last updated."
+        }
+    ]
+}

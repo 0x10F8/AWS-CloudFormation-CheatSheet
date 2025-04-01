@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::Redshift::ClusterSubnetGroup",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the resource name. For example:</p><p>\n<code class=\"code\"><span>{</span> \"Ref\": \"myClusterSubnetGroup\" }</code>\n</p><p>For the Amazon Redshift subnet group <code class=\"code\">myClusterSubnetGroup</code>, Ref returns\n            the name of the cluster subnet group.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "ClusterSubnetGroupName",
+            "Description": "The name of the cluster subnet group."
+        }
+    ]
+}

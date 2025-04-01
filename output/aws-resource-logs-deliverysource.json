@@ -1,0 +1,18 @@
+{
+    "ResourceName": "AWS::Logs::DeliverySource",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) that uniquely identifies this delivery source."
+        },
+        {
+            "Ref": "ResourceArns",
+            "Description": "This array contains the ARN of the AWS resource that sends logs and is represented by  this delivery source. Currently, only one ARN can be in the array."
+        },
+        {
+            "Ref": "Service",
+            "Description": "The AWS service that is sending logs."
+        }
+    ]
+}

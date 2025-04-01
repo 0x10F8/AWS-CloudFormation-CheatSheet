@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::ElastiCache::UserGroup",
+    "Ref": "<p>When the logical ID of this resource is provided to the <code class=\"code\">Ref</code> intrinsic function, <code class=\"code\">Ref</code>\n   returns the resource name. </p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\">Ref</a>. </p>",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "The Amazon Resource Name (ARN) of the user group."
+        },
+        {
+            "Ref": "Status",
+            "Description": "Indicates user group status. Can be \"creating\", \"active\", \"modifying\", \"deleting\"."
+        }
+    ]
+}

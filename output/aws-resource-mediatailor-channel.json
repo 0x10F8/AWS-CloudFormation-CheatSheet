@@ -1,0 +1,10 @@
+{
+    "ResourceName": "AWS::MediaTailor::Channel",
+    "Ref": "",
+    "GetAtt": [
+        {
+            "Ref": "Arn",
+            "Description": "Property description not available."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ResourceName": "AWS::Route53::HostedZone",
+    "Ref": "<p>\n                  When you pass the logical ID of this resource to the intrinsic <code class=\"code\">Ref</code> function, <code class=\"code\">Ref</code> returns the hosted zone ID, such as <code class=\"code\">Z23ABC4XYZL05B</code>.</p><p>For more information about using the <code class=\"code\">Ref</code> function, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html\"><code class=\"code\">Ref</code></a>.</p>",
+    "GetAtt": [
+        {
+            "Ref": "Id",
+            "Description": "The ID that Amazon Route 53 assigned to the hosted zone when you created it."
+        },
+        {
+            "Ref": "NameServers",
+            "Description": "Returns the set of name servers for the specific hosted zone. For example: ns1.example.com. This attribute is not supported for private hosted zones."
+        }
+    ]
+}
