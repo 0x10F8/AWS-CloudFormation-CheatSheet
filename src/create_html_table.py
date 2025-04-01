@@ -72,7 +72,7 @@ def create_html_table(output_dir):
     """
 
     # Write the HTML table to a file
-    with open("deployment/index.html", 'w', encoding="utf8") as f:
+    with open("docs/index.html", 'w', encoding="utf8") as f:
         f.write(html_table)
 
 if __name__ == "__main__":
