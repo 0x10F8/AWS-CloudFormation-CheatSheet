@@ -4,11 +4,11 @@
     "GetAtt": [
         {
             "Ref": "Arn",
-            "Description": "An Amazon Resource Name (ARN)  that uniquely identifies the application resource across all AWS Regions. For example:"
+            "Description": "An Amazon Resource Name (ARN)  that uniquely identifies the application resource across all AWS Regions. For example:  arn:aws:gameliftstreams:us-west-2:123456789012:application/a-9ZY8X7Wv6."
         },
         {
             "Ref": "Id",
-            "Description": "arn:aws:gameliftstreams:us-west-2:123456789012:application/a-9ZY8X7Wv6."
+            "Description": "An ID that uniquely identifies the application resource. For example: a-9ZY8X7Wv6."
         }
     ]
 }
