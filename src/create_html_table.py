@@ -1,5 +1,6 @@
 import os 
 import json
+import re
 
 # iterate through json files in output directory
 # and create an HTML table with the contents of each file
@@ -27,6 +28,12 @@ def create_html_table(output_dir):
                 text-align: center;
                 font-size: 2.5em;
             }
+            td,th {
+                padding: 5px;
+                border-bottom: 1px solid #ddd;
+                word-wrap: break-word;
+                max-width: 400px;
+            }
         </style>
     </head>
     <body>
@@ -49,7 +56,13 @@ def create_html_table(output_dir):
             with open(file_path, 'r') as f:
                 data = json.load(f)
                 resource_name = data.get("ResourceName")
-                ref = data.get("Ref", "N/A")
+                ref = data.get("Ref", "")
+                if ref is not None:
+                    ref_find = re.findall(r"<p>(.+?)</p>", ref, re.DOTALL)
+                    if ref_find:
+                        ref = ref_find[0].replace("\n", "").strip()
+                    else:
+                        ref = "N/A"
                 getatt = "N/A"
                 if "GetAtt" in data:
                     # If GetAtt is a list of dictionaries, extract the Ref and Description
